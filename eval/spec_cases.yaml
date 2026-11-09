@@ -1,0 +1,37 @@
+# Expected outcomes copied from the spec (CLAUDE.md section 13), written by Vasudev before the build.
+# Only what the spec states is checked; fields the spec leaves open are not scored.
+# Ticket IDs live here and in tests only, never in logic.
+#
+# Fields: category, action, team (one name or a list of allowed names), secondary_team, risk,
+#         send_mode, kb (article id that must appear), reply_contains, reply_excludes (case-insensitive),
+#         no_duration (true: reply must contain no "N days" style duration), missing (field in missing_fields)
+
+cases:
+  # ---------------- threats
+  - {ticket: T-0002, note: "Data leak, going to police", action: escalate, team: [Security, Legal], risk: Critical, send_mode: do_not_send}
+  - {ticket: T-0021, note: "Complained to RBI", action: escalate, team: Legal, risk: Critical, send_mode: do_not_send}
+  - {ticket: T-0060, note: "Someone logged in and changed the bank account", action: escalate, team: Security, risk: Critical, send_mode: do_not_send}
+  - {ticket: T-0138, note: "Staff asked for a commission", action: escalate, team: Legal, risk: Critical, send_mode: do_not_send}
+  - {ticket: T-0027, note: "Risk review hold plus legal notice: threat rule wins", action: escalate, team: Legal, risk: Critical, send_mode: do_not_send}
+
+  # ---------------- settlements
+  - {ticket: T-0001, note: "Bank account mismatch hold", action: auto_resolve, kb: KB-05}
+  - {ticket: T-0083, note: "Risk review hold, reason never shared", action: escalate, team: Risk Ops, reply_excludes: [risk, review, fraud]}
+  - {ticket: T-0063, note: "Chargeback reserve hold", action: escalate, team: Risk Ops}
+  - {ticket: T-0079, note: "KYC pending hold", action: auto_resolve, kb: KB-04}
+  - {ticket: T-0039, note: "Delayed: share the system date only", action: auto_resolve, reply_contains: ["02 Oct 2026"]}
+  - {ticket: T-0107, note: "Delayed, merchant wants it today", reply_contains: ["02 Oct 2026"], reply_excludes: [today]}
+  - {ticket: T-0150, note: "Settled, Rs 63,000 pending, need today", reply_contains: ["28 Sep 2026", "63,000"], reply_excludes: [today]}
+  - {ticket: T-0013, note: "Vague 'Settlement issue' answered from the record", action: auto_resolve, category: Settlement}
+
+  # ---------------- payments and API
+  - {ticket: T-0004, note: "UPI failing, 91.5% success rate", action: auto_resolve, kb: KB-06}
+  - {ticket: T-0103, note: "UPI failing, 76.3% success rate", action: escalate, team: Payments Ops, risk: High}
+  - {ticket: T-0113, note: "Authentication failed from an 84.0% merchant (keyword trap)", category: API & Integration, action: auto_resolve, kb: KB-14}
+  - {ticket: T-0052, note: "SIGNATURE_MISMATCH (keyword trap)", category: API & Integration, action: auto_resolve, kb: KB-12}
+
+  # ---------------- refunds, fees, missing info
+  - {ticket: T-0015, note: "Refund Rs 2,50,000", action: escalate, team: Refund Ops, no_duration: true}
+  - {ticket: T-0019, note: "Refund Rs 12,000, 3 days old", action: auto_resolve, reply_contains: ["5-7 business days"]}
+  - {ticket: T-0003, note: "Fee waiver request", action: escalate, team: Account Manager, reply_excludes: [waived, approved]}
+  - {ticket: T-0041, note: "'Payment problem. Fix urgently.' with no ID", action: ask_info, missing: merchant_id}

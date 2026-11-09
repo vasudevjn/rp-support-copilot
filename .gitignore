@@ -4,3 +4,9 @@
 __pycache__/
 *.egg-info/
 .pytest_cache/
+# Kept local, not part of the submission repo
+CLAUDE.md
+HANDOFF.md
+FULL.md
+Razorpay_Campus_AI_Buildathon_Student_Brief.pdf
+.claude/
