@@ -1,0 +1,1874 @@
+{
+ "04a02cf30f26a56096fa87e5": {
+  "message": "Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1041",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1041 says money was deducted from their account for a dispute without any notice and asks for an explanation.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "0529d841dc44a355d9987c89": {
+  "message": "KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1055",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1055 asks which documents are required for KYC besides PAN and address proof.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "063617250946f994b74404b7": {
+  "message": "Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1047",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "08d786a6815cfb2004f6abdc": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1041",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant reports payments failing at checkout and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "0a8e9715ba9f70a505b8286b": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1060",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1060) asks when the settlement will arrive, saying nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "0c9d7cd32f2dd28ebe024d8d": {
+  "message": "Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1030",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer has raised a chargeback and asks what to do and how much time they have to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "0f1d2762b827a9d5a2881c9f": {
+  "message": "Customer disputed a payment with the bank and funds were debited from my account. How do I fight this? M1049",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a customer disputed a payment with the bank, funds were debited from their account, and asks how to contest the dispute.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "0fc1d4368c461dcf1a40ee03": {
+  "message": "I want to change my registered email and mobile number on the account. How? M1060",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks how to change the registered email and mobile number on their account (merchant reference M1060).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "1041a8492b0f670754cd1f9b": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1058",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1058 reports payments failing at checkout and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "10810ce26d6c2bde7a3dc780": {
+  "message": "Refund of Rs 1,299 to my customer was initiated 8 days ago. Customer is asking where the money is. Payment ID pay_L6DCLEWDD45TRV. M1025",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a Rs 1,299 refund to their customer was initiated 8 days ago, the customer has not received the money, and asks for its status (payment ID pay_L6DCLEWDD45TRV).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "10c9af6c85d5799d0cb52f47": {
+  "message": "Mujhe lag raha hai ek customer chargeback karega, kya aap rok sakte ho? M1035",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (ID M1035) expects a customer may file a chargeback and asks if Razorpay can prevent it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "118f4d458c582387aad46092": {
+  "message": "Orders created successfully but payments page times out for ~5% of users. Logs attached, request IDs available on call. M1046",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that orders are created successfully but the payments page times out for about 5% of users, and says logs are attached and request IDs are available on a call.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "13921001d4c122a585346b51": {
+  "message": "Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1031",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer has raised a chargeback and asks what to do and how much time they have to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "1543db76fe4e57d89e6965e1": {
+  "message": "Payment problem. Fix urgently.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant reports an unspecified payment problem and asks for an urgent fix without giving any details.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "16af7d3c674eddb708c7817d": {
+  "message": "Please tell me the status of refund for pay_JXPRKE87BC2CGG, amount Rs 250,000, started 6 days back. M1009",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 250,000 for payment pay_JXPRKE87BC2CGG that was started 6 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "170831259785294aea29b69a": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1038",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks why their payout was put on hold, says their business is stalled, and requests release of the funds (reference M1038).",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "1837e529e3dec08436d4ef32": {
+  "message": "Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1012",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (MID M1012) says their settlement has not arrived for several days and asks what the problem is.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "19008cf3e24aba5dd126904d": {
+  "message": "KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1030",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks which documents are required for KYC besides PAN and address proof, and mentions the reference M1030.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "190663c0e2127735ba1a2a6b": {
+  "message": "Customers ke payments fail ho rahe hain, card aur UPI dono pe. Sales ruk gayi hai. M1017",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant reports that customer payments are failing on both card and UPI, which has stopped their sales.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "19ffdb33ac577d6e61dadab8": {
+  "message": "Mera paisa kaha hai??",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "Hinglish",
+   "summary": "Merchant asks where their money is, without specifying whether it concerns a settlement, refund or other payment.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "1a2b09fd41a45f29709a23db": {
+  "message": "My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1023",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says payouts have been stopped for a few days with a hold shown on the dashboard and asks for the hold to be released.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "1b3528ce09ea4c8f67d5267e": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1008",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks why their payout was put on hold, says business is stalled, and requests release of the funds (reference M1008).",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "1bac1ac9fff5cba8b86852e8": {
+  "message": "Money not received",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant says they have not received money, but gives no details on whether it is a settlement, refund or other payment.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "1d525f030d9ab1a7c150f1d1": {
+  "message": "Please tell me the status of refund for pay_DGRN9FSMT9DNQM, amount Rs 18,500, started 7 days back. M1003",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 18,500 for payment pay_DGRN9FSMT9DNQM, which was started 7 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "1df95a8c3fef7ddd9a038323": {
+  "message": "Customer ka refund Rs 1,299 abhi tak nahi mila, 7 din ho gaye. pay_EQ5D93P8CXP9QB. M1025",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer's refund of Rs 1,299 for payment pay_EQ5D93P8CXP9QB has not been received after 7 days.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "1e020da6be9a62274ff813dc": {
+  "message": "Your MDR is too high compared to what a competitor offered me. Reduce my rates to 1.5% immediately or I will move. M1049",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says the MDR is higher than a competitor's offer and asks for rates to be reduced to 1.5% immediately, otherwise they will switch providers.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "1fc6f931277a084244c45506": {
+  "message": "I need the GST invoice for September fees. Where do I download it? M1045",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks where to download the GST invoice for September fees.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "215e8683c26bbefc72a7f05c": {
+  "message": "Our checkout intermittently shows a blank popup for some users on Android only. No error code anywhere. M1008",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1008 reports that the checkout popup intermittently appears blank for some Android users, with no error code shown.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "225827b73e8375f630a32488": {
+  "message": "Customer ka refund Rs 26,000 abhi tak nahi mila, 6 din ho gaye. pay_Z5G7ZQMS8K5H7V. M1048",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer's refund of Rs 26,000 for payment pay_Z5G7ZQMS8K5H7V has not been received after 6 days.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "2402042f38ba1f3dcfdd1862": {
+  "message": "Authentication failed error on my live site. Works fine on my laptop. M1044",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1044 reports an 'Authentication failed' error on their live site while the integration works on their laptop.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "2417e11ab70c4c98ffd290ff": {
+  "message": "I want to change my registered email and mobile number on the account. How? M1048",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks how to change the registered email and mobile number on their account (merchant reference M1048).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "24cb82b86d1b2494c216f630": {
+  "message": "Which documents are needed for KYC verification? I have a proprietorship. M1036",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant with a proprietorship (ID M1036) asks which documents are required for KYC verification.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "26fe0b168ad32c204988fad5": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1017",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1017 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "2adc4b8c4a4f7373f33892f1": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1021",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1021 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "2b3c606f93c8095e80963f17": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1045",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1045 asks when the settlement will arrive since nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "2bd60693ef355f26218b7c3f": {
+  "message": "Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1049",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says their settlement has not arrived for several days and asks what the problem is (MID M1049).",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "2d6cb1c612e3d68a3fd09b63": {
+  "message": "Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1059",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant received a chargeback from a customer and asks what to do and how much time they have to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "2ddf1a926edb064be74d3657": {
+  "message": "Customer disputed a payment with the bank and funds were debited from my account. How do I fight this? M1045",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1045) says a customer disputed a payment with the bank, funds were debited from their account, and asks how to contest the dispute.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "2e0354042ea73860d2a22a00": {
+  "message": "Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1013",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "2fe19095aaf4afda48926b9e": {
+  "message": "Please tell me the status of refund for pay_5G8TS3T2W63P7B, amount Rs 120,000, started 2 days back. M1042",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a Rs 120,000 refund for payment pay_5G8TS3T2W63P7B that was initiated 2 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "307750eab220a2bdc8865827": {
+  "message": "Please send my fee invoice for the quarter, accounts team needs it. M1055",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1055) requests the fee invoice for the quarter because their accounts team needs it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "32ec1dee1b3e61b73162a99b": {
+  "message": "Why was I charged 2.1% on cards? The sales team told me 1.8%. Please correct and refund the difference. M1057",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says they were charged 2.1% on card payments instead of the 1.8% quoted by sales and asks for correction and a refund of the difference.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "35409196016a2aafd7f4e3c8": {
+  "message": "Please check my case and revert.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant asks support to check their case and respond, without specifying any issue or details.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "3633f7f5b7f2dd92591f796a": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1057",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1057 asks when their settlement will arrive, saying nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "3e11339eb825561723c8f05a": {
+  "message": "We see random 502 errors from your order API on production for the last 2 hours, no pattern. M1018",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1018 reports random 502 errors from the order API on production for the last 2 hours with no clear pattern.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "3e7ae9da485dfb20c68b9b43": {
+  "message": "Production traffic is getting rate-limited even though we are far below documented limits. M1004",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1004 reports that production API traffic is being rate-limited even though usage is well below the documented limits.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "3ec73b8947512d297cd52cfb": {
+  "message": "One of your employees asked me for a commission to release my settlement. I have a recording. Explain. M1056",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Legal / Security",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant alleges a Razorpay employee asked for a commission to release their settlement, says they have a recording, and demands an explanation.",
+   "threat_type": "bribery",
+   "tone": "angry"
+  }
+ },
+ "3ec8180c81dac38dc19dc97a": {
+  "message": "Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1047.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that settlements for the last few days have not reached their bank account and asks support to check (Merchant ID M1047).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "416d59e067c1162f336302a3": {
+  "message": "Please tell me the status of refund for pay_PWUVL55KZVFPBV, amount Rs 3,999, started 7 days back. M1006",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 3,999 for payment pay_PWUVL55KZVFPBV, which was started 7 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "43863d6eabc1f322b7e3603b": {
+  "message": "Settlement issue M1019",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant reports a settlement issue and references M1019 but gives no details about the problem.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "445329fce7e2502f7308ad5d": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1020",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1020 asks why their payout was put on hold, says their business has stopped, and requests it be released.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "45a84b1808a4c14eebcd2c89": {
+  "message": "Getting BAD_REQUEST_ERROR: order amount mismatch when I create a payment. Amount is 499. M1006",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1006 receives a BAD_REQUEST_ERROR for order amount mismatch when creating a payment with an amount of 499.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "45df976340dcdcb9e3ccb49f": {
+  "message": "Refund of Rs 7,500 to my customer was initiated 9 days ago. Customer is asking where the money is. Payment ID pay_MQV5K93DLJK5YA. M1001",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a Rs 7,500 refund for payment pay_MQV5K93DLJK5YA was initiated 9 days ago and the customer has not received the money.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "46b31ffcf785364fd8fff81f": {
+  "message": "Customers ke payments fail ho rahe hain, card aur UPI dono pe. Sales ruk gayi hai. M1019",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant reports that customer payments are failing on both card and UPI, which has halted their sales.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "47a529ba4a76a4034445b18f": {
+  "message": "Mere customers ka data leak hua hai tumhari wajah se. Main police me jaa raha hu. M1015",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Legal / Security",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1015) claims their customers' data has leaked because of Razorpay and says they are going to the police.",
+   "threat_type": "data_leak",
+   "tone": "angry"
+  }
+ },
+ "47ab568bb4e8b315ab404ebb": {
+  "message": "Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1059",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says their settlement has not been received for several days and asks what the problem is (MID M1059).",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "4a4cf76c40b19cc6f97f8fc5": {
+  "message": "KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1050",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks which documents are required for KYC besides PAN and address proof, and mentions reference M1050.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "4af551ef93db5f4f34347b80": {
+  "message": "Refund of Rs 2,450 to my customer was initiated 8 days ago. Customer is asking where the money is. Payment ID pay_C8PRWEA2DEG8QV. M1005",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a refund of Rs 2,450 to their customer was initiated 8 days ago, the customer has not received it, and asks for its status (payment ID pay_C8PRWEA2DEG8QV).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "4c720a91010f9027e48314a8": {
+  "message": "Settlement of around Rs 63,000 is still pending and my supplier payments are stuck. Need this today. M1002",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1002 says a settlement of around Rs 63,000 is still pending, is blocking supplier payments, and asks for it to be resolved today.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "4d3dcc9fda27a874774b8b99": {
+  "message": "Customer ka refund Rs 12,000 abhi tak nahi mila, 3 din ho gaye. pay_NPQNDM4PXUUM2N. M1042",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer's refund of Rs 12,000 for payment pay_NPQNDM4PXUUM2N has not been received after 3 days.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "4f43b01d8cc1698976d6448a": {
+  "message": "Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1027.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1027 reports that settlements for the last few days have not reached their bank account and asks support to check.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "4f8d1af75bb2558b4d41328c": {
+  "message": "Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1020",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1020) says money was deducted from their account for a dispute without any notice and asks for an explanation.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "57b6b46bf1cf40787338687f": {
+  "message": "Please send my fee invoice for the quarter, accounts team needs it. M1022",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1022) asks for the fee invoice for the quarter because their accounts team needs it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "590ad10acbc6db8b5e4a3248": {
+  "message": "Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1058",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1058 reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "5d62188927571f2ed5b6ddb8": {
+  "message": "I want to change my registered email and mobile number on the account. How? M1032",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks how to change the registered email and mobile number on their account (merchant ID M1032 mentioned).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "62bdbc92b4fdb2aa7c9369ee": {
+  "message": "My customers' card details were visible in an email you sent me. This is a data leak. I am reporting to the authorities. M1016",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Legal / Security",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1016) says customers' card details were visible in an email from Razorpay, calls it a data leak, and says they will report it to the authorities.",
+   "threat_type": "data_leak",
+   "tone": "angry"
+  }
+ },
+ "729f975206f09bd6793dec62": {
+  "message": "Please tell me the status of refund for pay_34VM92SASN6M8H, amount Rs 3,999, started 10 days back. M1034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a Rs 3,999 refund for payment pay_34VM92SASN6M8H that was started 10 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "752e2f5c74a6155dda6544a5": {
+  "message": "I need the GST invoice for September fees. Where do I download it? M1052",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks where to download the GST invoice for September fees.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "75dd1a539b988d636916ee0e": {
+  "message": "Aap log fraud kar rahe ho, mera paisa rok ke baithe ho. Consumer forum me complaint karunga. M1037",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1037 accuses Razorpay of fraud for withholding their money and threatens to file a consumer forum complaint.",
+   "threat_type": "fraud_allegation",
+   "tone": "angry"
+  }
+ },
+ "765bcf7bd0916fb2046131fe": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1049",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1049 reports payments failing at checkout and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "772cf80acf98a9b679f0d74b": {
+  "message": "I have complained to RBI about delays on my account. Expect a notice from them. M1021",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1021 says they have complained to RBI about delays on their account and expects a notice from the regulator.",
+   "threat_type": "regulator",
+   "tone": "angry"
+  }
+ },
+ "795f1d327e3ccf724e2ef5d9": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1052",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1052 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "7b155d729331aea3496b0383": {
+  "message": "Getting BAD_REQUEST_ERROR: order amount mismatch when I create a payment. Amount is 499. M1033",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1033 gets a BAD_REQUEST_ERROR for order amount mismatch when creating a payment with an amount of 499.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "7b7b9fb83c1c3bd6fa82fa06": {
+  "message": "I got a chargeback notice for one of my orders. What should I do and by when? M1037",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant received a chargeback notice for an order and asks what steps to take and the deadline for responding.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "7c8d8fd5e707a90fbabde43b": {
+  "message": "Payment success seems very low this week compared to last month. Is something wrong at your end? M1058",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1058 reports that payment success rates this week appear much lower than last month and asks if there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "7ca741a66eb1e7e23c683d06": {
+  "message": "Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1003.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1003 reports that settlements from the last few days have not reached their bank account and asks support to check.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "7dc13d77d2c8406e4efb6ce0": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1042",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1042 reports that a customer's money was deducted while the order shows as failed, and says this keeps recurring.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "83e818b79cb20c970f3563f2": {
+  "message": "Why has my payout not come? No one has told me anything. Merchant M1009",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1009 says their payout has not arrived and that no one has given them any update.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "8701e266cdedd467223da6c4": {
+  "message": "Someone has logged into my dashboard and changed my bank account. I did not do this. URGENT. M1059",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Legal / Security",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1059) reports that an unknown person logged into their dashboard and changed the bank account without their authorization, and asks for urgent help.",
+   "threat_type": "account_takeover",
+   "tone": "frustrated"
+  }
+ },
+ "87b08471b2314c58017f2657": {
+  "message": "I got a chargeback notice for one of my orders. What should I do and by when? M1010",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "87bbb422e28edefc95d5eb5c": {
+  "message": "Refund of Rs 900,000 to my customer was initiated 4 days ago. Customer is asking where the money is. Payment ID pay_33BT5HJWBKJN39. M1034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a Rs 900,000 refund to their customer was initiated 4 days ago and has not reached the customer, and asks for its status for payment pay_33BT5HJWBKJN39.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "88cc60c701a66264a6bb50ef": {
+  "message": "You froze my account without notice. Which law allows this? Reply in writing or my lawyer will. M1021",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1021) says their account was frozen without notice, asks which law permits this, and demands a written reply or their lawyer will act.",
+   "threat_type": "legal_threat",
+   "tone": "angry"
+  }
+ },
+ "8a57ccdf9a324aa67ad28eb3": {
+  "message": "I want to change my registered email and mobile number on the account. How? M1055",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (ID M1055) asks how to change the registered email and mobile number on their account.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8af672dc9e7d4e5c095b2e25": {
+  "message": "I want to change my registered email and mobile number on the account. How? M1050",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (ID M1050) asks how to change the registered email and mobile number on their account.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8b76bc160d9b4fc92d77817d": {
+  "message": "I want a fee waiver for this month as my sales were low. Please approve. M1034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1034 requests a fee waiver for this month because their sales were low.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8bcd3ba31f20f5a8844368d3": {
+  "message": "My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1024",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says payouts have been stopped for a few days, mentions a hold shown on the dashboard, and asks for it to be released.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8cf28320cad73f358beb5e79": {
+  "message": "GST invoice dashboard me nahi dikh raha, kaha milega? M1057",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1057 cannot find their GST invoice on the dashboard and asks where to get it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8e4b1b9c91a1f6a2caf474a4": {
+  "message": "Payment success seems very low this week compared to last month. Is something wrong at your end? M1042",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1042 reports that payment success rates have been noticeably lower this week than last month and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "8f8d3320b690ac77b6935cca": {
+  "message": "Webhooks are not reaching my server since yesterday. M1045",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that webhooks have not been reaching their server since yesterday and provides merchant ID M1045.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "90a7e194d83c0734ab25aa6c": {
+  "message": "Close my account and send all the money now, I don't want any more dealings with Razorpay. M1052",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1052 wants their account closed and all remaining money sent immediately, as they no longer wish to work with Razorpay.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "9126e78744c410d18b432949": {
+  "message": "Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1047",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1047 says money was deducted from their account for a dispute without any notice and asks for an explanation.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "92ac1e7dcb656d355dab88a9": {
+  "message": "Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1040",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1040 says their settlement has not been received for many days and asks what the problem is.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "92ac8d0a74de5d41451c58e1": {
+  "message": "Why has my payout not come? No one has told me anything. Merchant M1001",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1001 says their payout has not arrived and that no one has given them any update.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "934995b3325f5461455f97e0": {
+  "message": "I need the GST invoice for September fees. Where do I download it? M1041",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1041 asks where to download the GST invoice for September fees.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "942c787857f85eef04eef66b": {
+  "message": "Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1007",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant received a chargeback from a customer and asks what to do and how much time they have to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "96cad8e42fe9c514a1db57a4": {
+  "message": "Humne company ka naam change kiya hai, account me kaise update karein? M1040",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1040) asks how to update the company name in their account after changing it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "9a30b23fea667c8eb5581be4": {
+  "message": "I will post this on Twitter and LinkedIn tagging your CEO and the press if this is not fixed in 24 hours. M1009",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant M1009 threatens to post on Twitter and LinkedIn and tag the CEO and press if an unspecified issue is not fixed within 24 hours.",
+   "threat_type": "media_threat",
+   "tone": "angry"
+  }
+ },
+ "9c5bb191c964f8819ef9752c": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1013",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1013 asks why their payout was put on hold, says their business has stopped, and requests that it be released.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "9ea9fcc2b57cb87825a2b6d2": {
+  "message": "I got a chargeback notice for one of my orders. What should I do and by when? M1049",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "9f3e905261d9ac8fff6e33cf": {
+  "message": "Authentication failed error on my live site. Works fine on my laptop. M1021",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1021) reports an 'Authentication failed' error on their live site while the integration works on their laptop.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "a3c2db137903b238dab38476": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1053",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1053 reports payments failing at checkout and asks if there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "a3d8db667c550389d3314864": {
+  "message": "Settlement of around Rs 54,000 is still pending and my supplier payments are stuck. Need this today. M1028",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1028 reports a pending settlement of around Rs 54,000 that is holding up supplier payments and asks for it to be resolved today.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "a4740035e8994f0473b1dd1e": {
+  "message": "Please tell me the status of refund for pay_PPCYSPMF5V3J33, amount Rs 12,000, started 3 days back. M1005",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a Rs 12,000 refund for payment pay_PPCYSPMF5V3J33 that was started 3 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "a8c1090c656f48457d06049a": {
+  "message": "Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1056",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1056 says money was deducted from their account for a dispute without any notice and asks for an explanation.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "ab4b5c1013dd148a65d46056": {
+  "message": "Not working. Please help.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant says something is not working and asks for help, but does not say what the problem is.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "b71417dc59a6b8e78ec39709": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1011",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1011 reports that customers are repeatedly debited while the order shows as failed.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "b7cb8fdb9b3b4c77678f8a7f": {
+  "message": "Refund of Rs 12,000 to my customer was initiated 4 days ago. Customer is asking where the money is. Payment ID pay_ADQCNC9MXJHLCT. M1034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a Rs 12,000 refund for a customer (payment ID pay_ADQCNC9MXJHLCT) was initiated 4 days ago and the customer has not received the money.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "bbfa9f0bcd03b6b93195f5fc": {
+  "message": "Refund of Rs 499 to my customer was initiated 3 days ago. Customer is asking where the money is. Payment ID pay_FY78TDVSVKDPD9. M1024",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant says a Rs 499 refund to their customer was initiated 3 days ago and the customer has not received the money, and asks for its status (payment ID pay_FY78TDVSVKDPD9).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "c09581de0734e9a7e4b49e27": {
+  "message": "Please tell me the status of refund for pay_5RD758JHHG9QXD, amount Rs 150,000, started 9 days back. M1013",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 150,000 for payment pay_5RD758JHHG9QXD, initiated 9 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "c2e9baa8417e778988dfa818": {
+  "message": "Webhooks are not reaching my server since yesterday. M1048",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1048 reports that webhooks have not been reaching their server since yesterday.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "c6098841b7876330e2f01135": {
+  "message": "Please tell me the status of refund for pay_E9TA2K7T4Q7PEW, amount Rs 1,299, started 8 days back. M1004",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 1,299 for payment pay_E9TA2K7T4Q7PEW that was started 8 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "cc43a2fbe35a18605d94574e": {
+  "message": "Which documents are needed for KYC verification? I have a proprietorship. M1012",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant with a proprietorship asks which documents are required for KYC verification.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "cc6fb63370ed9f25413b5b13": {
+  "message": "Signature verification keeps failing on my server after payment succeeds. SIGNATURE_MISMATCH. M1008",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1008 reports that signature verification repeatedly fails on their server with a SIGNATURE_MISMATCH error after successful payments.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "d5592f905d3ed5ca5598b332": {
+  "message": "Issue with my account, call me.",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant reports an unspecified issue with their account and asks for a call back.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "d73169617d8fcdc80cc93f4d": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1035",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1035 asks when the settlement will arrive, saying nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "dace4e792ca3b8981a45ab88": {
+  "message": "This is my final warning. If my payouts are not released today I will send a legal notice and approach consumer court. M1034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1034 demands release of held payouts today and threatens to send a legal notice and approach consumer court otherwise.",
+   "threat_type": "legal_threat",
+   "tone": "angry"
+  }
+ },
+ "db3ab77e326d184c79919ff5": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1033",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1033 reports a customer was debited but the order shows as failed, and says this keeps happening repeatedly.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "dbe3c46234dd6e15987f8319": {
+  "message": "Please tell me the status of refund for pay_GWLJ94XTVB4URX, amount Rs 150,000, started 2 days back. M1040",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a Rs 150,000 refund for payment pay_GWLJ94XTVB4URX that was initiated 2 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "dcf9f53a05a35a5e799169fd": {
+  "message": "I got a chargeback notice for one of my orders. What should I do and by when? M1031",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Chargeback",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "de753f2b6ad0a4278e50552b": {
+  "message": "I got a message asking for re-verification of KYC. Is this genuine and what do I do? M1015",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant (M1015) received a message asking for KYC re-verification and asks whether it is genuine and what to do next.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "ded9c00d83359e76c57f2cfc": {
+  "message": "GST invoice dashboard me nahi dikh raha, kaha milega? M1018",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1018 cannot find their GST invoice in the dashboard and asks where to get it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "e0f4591603ddc1d94b06ed62": {
+  "message": "A customer said money was deducted but order shows failed. This is happening again and again. M1018",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1018 reports that a customer was debited but the order shows as failed, and says this keeps happening repeatedly.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "e2dd83a904fd1bee1d226d4f": {
+  "message": "My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1038",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1038 says payouts have been stopped for a few days, the dashboard mentions a hold, and asks for it to be released.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "e301ead24f6ec34c134f3c34": {
+  "message": "Customer complaining, do something. M1059",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant says a customer is complaining and asks support to act, citing M1059, but does not state what the problem is.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "e4fc1f824b8191782b3329f6": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1042",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks why their payout has been put on hold, says their business is stalled, and requests release of the funds.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "e53793a371c080e1f976eee4": {
+  "message": "Signature verification keeps failing on my server after payment succeeds. SIGNATURE_MISMATCH. M1028",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports that signature verification keeps failing on their server with a SIGNATURE_MISMATCH error even though payments succeed.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "e8d141673ccc85769272df05": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1053",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1053 asks when the settlement will arrive, saying nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "e8f416ca15ab80676ce526d6": {
+  "message": "My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1013",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1013 says payouts have been stopped for a few days, the dashboard mentions a hold, and asks for the hold to be released.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "ea371ee21a7c0ef4b4cbd37a": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1018",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant reports payments failing at checkout and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "ec80e0c4d7f14c0ab9d475cc": {
+  "message": "Customer ka refund Rs 45,000 abhi tak nahi mila, 6 din ho gaye. pay_Z4K5XE9WXVZ3ST. M1004",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant says a customer's refund of Rs 45,000 for payment pay_Z4K5XE9WXVZ3ST has not been received after 6 days.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "ed35def81d6c4eda1bb16ccc": {
+  "message": "Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1043",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant asks why their payout was put on hold, says their business is stalled, and requests release of the funds (merchant reference M1043).",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "ee5b3a541bd10fba15200171": {
+  "message": "I got a message asking for re-verification of KYC. Is this genuine and what do I do? M1047",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant received a message asking for KYC re-verification and asks whether it is genuine and what steps to take.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "eec1ea0200239f593f0d6275": {
+  "message": "Bhai settlement kab milega? Bank me kuch credit nahi hua. M1054",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Settlement",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1054 is asking when the settlement will arrive, as nothing has been credited to their bank account.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "f1990e2f656e3515f394591e": {
+  "message": "Payment success seems very low this week compared to last month. Is something wrong at your end? M1007",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1007 reports that their payment success rate is much lower this week than last month and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "f3c0df18bfbb721a38a4cde6": {
+  "message": "Humne company ka naam change kiya hai, account me kaise update karein? M1030",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Account Management",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant wants to know how to update the changed company name in their account (reference M1030).",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "f4fa4c3986ebb488585cc6a7": {
+  "message": "Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1027",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1027) reports payments failing at checkout and asks whether there is an issue on Razorpay's side.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "f71f9ef998aac9506124649b": {
+  "message": "Rate kam karo warna hum doosre gateway pe chale jayenge. Mujhe 1.5% se upar nahi chahiye. M1025",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1025) asks Razorpay to lower the transaction rate to no more than 1.5% and says they will switch to another gateway otherwise.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "f892177969f1393669b7ac15": {
+  "message": "Webhook nahi aa raha payment.captured ka, server pe kuch nahi dikh raha. M1027",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "API & Integration",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant (M1027) says the payment.captured webhook is not being received and nothing is showing on their server.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "fb1d3f10e544666f4ae2a138": {
+  "message": "Help needed urgently!! M1037",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Unclear",
+   "is_vague": true,
+   "language": "English",
+   "summary": "Merchant M1037 asks for urgent help but does not describe any problem.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "fbdfd160b19c8b81420ab4e9": {
+  "message": "Payment failed. M1011",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant reports a failed payment and references the ID M1011, with no further details given.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "fbe59f57b696aad258f377c8": {
+  "message": "KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1046",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "KYC",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1046 asks which documents are required for KYC besides PAN and address proof.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "fd79f7ca6597f2769ae6a00d": {
+  "message": "Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1008",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Payment Failure",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant M1008 reports that customers have been experiencing failed UPI payments at checkout since this morning and asks support to investigate.",
+   "threat_type": "none",
+   "tone": "frustrated"
+  }
+ },
+ "fee543fd43bc4e5c0ce79d97": {
+  "message": "GST invoice dashboard me nahi dikh raha, kaha milega? M1003",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Fees & Invoices",
+   "is_vague": false,
+   "language": "Hinglish",
+   "summary": "Merchant M1003 cannot see the GST invoice on the dashboard and asks where to find it.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ },
+ "ffb382bab08b9b9b1c1e8bff": {
+  "message": "Please tell me the status of refund for pay_QM3EETXNURG28R, amount Rs 900,000, started 3 days back. M1024",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "extractor-v1",
+  "reading": {
+   "category": "Refund",
+   "is_vague": false,
+   "language": "English",
+   "summary": "Merchant asks for the status of a refund of Rs 900,000 for payment pay_QM3EETXNURG28R that was started 3 days ago.",
+   "threat_type": "none",
+   "tone": "calm"
+  }
+ }
+}

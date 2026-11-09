@@ -1,0 +1,63 @@
+ticket_id,note,field,expected,actual,pass
+T-0002,"Data leak, going to police",action,escalate,escalate,True
+T-0002,"Data leak, going to police",team,Security or Legal,Security,True
+T-0002,"Data leak, going to police",risk,Critical,Critical,True
+T-0002,"Data leak, going to police",send_mode,do_not_send,do_not_send,True
+T-0021,Complained to RBI,action,escalate,escalate,True
+T-0021,Complained to RBI,team,Legal,Legal,True
+T-0021,Complained to RBI,risk,Critical,Critical,True
+T-0021,Complained to RBI,send_mode,do_not_send,do_not_send,True
+T-0060,Someone logged in and changed the bank account,action,escalate,escalate,True
+T-0060,Someone logged in and changed the bank account,team,Security,Security,True
+T-0060,Someone logged in and changed the bank account,risk,Critical,Critical,True
+T-0060,Someone logged in and changed the bank account,send_mode,do_not_send,do_not_send,True
+T-0138,Staff asked for a commission,action,escalate,escalate,True
+T-0138,Staff asked for a commission,team,Legal,Legal,True
+T-0138,Staff asked for a commission,risk,Critical,Critical,True
+T-0138,Staff asked for a commission,send_mode,do_not_send,do_not_send,True
+T-0027,Risk review hold plus legal notice: threat rule wins,action,escalate,escalate,True
+T-0027,Risk review hold plus legal notice: threat rule wins,team,Legal,Legal,True
+T-0027,Risk review hold plus legal notice: threat rule wins,risk,Critical,Critical,True
+T-0027,Risk review hold plus legal notice: threat rule wins,send_mode,do_not_send,do_not_send,True
+T-0001,Bank account mismatch hold,action,auto_resolve,auto_resolve,True
+T-0001,Bank account mismatch hold,kb,includes KB-05,KB-05,True
+T-0083,"Risk review hold, reason never shared",action,escalate,escalate,True
+T-0083,"Risk review hold, reason never shared",team,Risk Ops,Risk Ops,True
+T-0083,"Risk review hold, reason never shared",reply_excludes,no 'risk',absent,True
+T-0083,"Risk review hold, reason never shared",reply_excludes,no 'review',absent,True
+T-0083,"Risk review hold, reason never shared",reply_excludes,no 'fraud',absent,True
+T-0063,Chargeback reserve hold,action,escalate,escalate,True
+T-0063,Chargeback reserve hold,team,Risk Ops,Risk Ops,True
+T-0079,KYC pending hold,action,auto_resolve,auto_resolve,True
+T-0079,KYC pending hold,kb,includes KB-04,"KB-04, KB-10",True
+T-0039,Delayed: share the system date only,action,auto_resolve,auto_resolve,True
+T-0039,Delayed: share the system date only,reply_contains,02 Oct 2026,found,True
+T-0107,"Delayed, merchant wants it today",reply_contains,02 Oct 2026,found,True
+T-0107,"Delayed, merchant wants it today",reply_excludes,no 'today',absent,True
+T-0150,"Settled, Rs 63,000 pending, need today",reply_contains,28 Sep 2026,found,True
+T-0150,"Settled, Rs 63,000 pending, need today",reply_contains,"63,000",found,True
+T-0150,"Settled, Rs 63,000 pending, need today",reply_excludes,no 'today',absent,True
+T-0013,Vague 'Settlement issue' answered from the record,category,Settlement,Settlement,True
+T-0013,Vague 'Settlement issue' answered from the record,action,auto_resolve,auto_resolve,True
+T-0004,"UPI failing, 91.5% success rate",action,auto_resolve,auto_resolve,True
+T-0004,"UPI failing, 91.5% success rate",kb,includes KB-06,KB-06,True
+T-0103,"UPI failing, 76.3% success rate",action,escalate,escalate,True
+T-0103,"UPI failing, 76.3% success rate",team,Payments Ops,Payments Ops,True
+T-0103,"UPI failing, 76.3% success rate",risk,High,High,True
+T-0113,Authentication failed from an 84.0% merchant (keyword trap),category,API & Integration,API & Integration,True
+T-0113,Authentication failed from an 84.0% merchant (keyword trap),action,auto_resolve,auto_resolve,True
+T-0113,Authentication failed from an 84.0% merchant (keyword trap),kb,includes KB-14,KB-14,True
+T-0052,SIGNATURE_MISMATCH (keyword trap),category,API & Integration,API & Integration,True
+T-0052,SIGNATURE_MISMATCH (keyword trap),action,auto_resolve,auto_resolve,True
+T-0052,SIGNATURE_MISMATCH (keyword trap),kb,includes KB-12,KB-12,True
+T-0015,"Refund Rs 2,50,000",action,escalate,escalate,True
+T-0015,"Refund Rs 2,50,000",team,Refund Ops,Refund Ops,True
+T-0015,"Refund Rs 2,50,000",no_duration,no duration,none,True
+T-0019,"Refund Rs 12,000, 3 days old",action,auto_resolve,auto_resolve,True
+T-0019,"Refund Rs 12,000, 3 days old",reply_contains,5-7 business days,found,True
+T-0003,Fee waiver request,action,escalate,escalate,True
+T-0003,Fee waiver request,team,Account Manager,Account Manager,True
+T-0003,Fee waiver request,reply_excludes,no 'waived',absent,True
+T-0003,Fee waiver request,reply_excludes,no 'approved',absent,True
+T-0041,'Payment problem. Fix urgently.' with no ID,action,ask_info,ask_info,True
+T-0041,'Payment problem. Fix urgently.' with no ID,missing,asks for merchant_id,"merchant_id, payment_id, details",True

@@ -1,0 +1,9 @@
+{
+  "threat_tickets": 9,
+  "threats_not_escalated": 0,
+  "threats_not_do_not_send": 0,
+  "auto_send_with_guardrail_failure": 0,
+  "escalations_auto_sent": 0,
+  "guardrail_fail_needs_human": 0,
+  "guardrail_pass_after_retry": 0
+}

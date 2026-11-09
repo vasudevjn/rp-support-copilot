@@ -1,0 +1,9 @@
+signal,key,count,ticket_ids,low_success_merchants,success_rate_7d_pct
+daily_count,2026-09-02,3,T-0009 T-0012 T-0014,M1058,
+daily_count,2026-09-13,3,T-0067 T-0069 T-0074,M1007,
+daily_count,2026-09-15,4,T-0080 T-0081 T-0082 T-0084,M1033,
+repeat_merchant,M1011,2,T-0028 T-0067,,94.0
+repeat_merchant,M1013,2,T-0055 T-0084,,94.4
+repeat_merchant,M1017,2,T-0065 T-0082,,96.8
+repeat_merchant,M1033,2,T-0080 T-0098,,77.9
+repeat_merchant,M1058,2,T-0014 T-0124 T-0135,,70.6

@@ -1,0 +1,65 @@
+# Shared templates. Slots in {braces} are filled by code from merchant data and the KB.
+# en = English, hi = Hinglish (Roman script). Sign-off is added by code.
+
+# Opening line for frustrated or angry tickets, picked by category so it names the merchant's actual
+# problem. No apology: it reads as boilerplate and can imply fault. "default" covers any other category.
+ack:
+  Settlement:
+    en: "We know waiting on a payout affects your business."
+    hi: "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai."
+  Payment Failure:
+    en: "We know failed payments mean lost sales for you."
+    hi: "Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai."
+  Refund:
+    en: "We understand your customer is waiting on this refund."
+    hi: "Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai."
+  Chargeback:
+    en: "We understand a dispute debit is worrying."
+    hi: "Samajh sakte hain ki dispute ka debit pareshaan karne wala hai."
+  KYC:
+    en: "We understand KYC steps can be frustrating."
+    hi: "Samajh sakte hain ki KYC ke steps pareshaan kar sakte hain."
+  Fees & Invoices:
+    en: "We understand fees matter a lot to your business."
+    hi: "Samajh sakte hain ki fees aapke business ke liye bahut important hain."
+  API & Integration:
+    en: "We know integration errors hold up your work."
+    hi: "Samajh sakte hain ki integration errors se aapka kaam ruk jaata hai."
+  Account Management:
+    en: "We understand you want this sorted quickly."
+    hi: "Samajh sakte hain ki aap ise jaldi sort karna chahte hain."
+  default:
+    en: "We understand this is urgent for you."
+    hi: "Samajh sakte hain ki yeh aapke liye urgent hai."
+
+signoff:
+  en: "Razorpay Support"
+  hi: "Razorpay Support"
+
+field_names:
+  merchant_id: {en: "your Merchant ID (it starts with M)", hi: "aapka Merchant ID (M se shuru hota hai)"}
+  payment_id: {en: "the Payment ID (starts with pay_)", hi: "Payment ID (pay_ se shuru hota hai)"}
+  debit_reference: {en: "the debit reference or transaction reference shown in your bank statement", hi: "bank statement me dikh raha debit reference ya transaction reference"}
+  details: {en: "a few details of the issue (what is failing and since when)", hi: "issue ki thodi details (kya fail ho raha hai aur kab se)"}
+
+templates:
+  threat:
+    action: escalate
+    # KB-15: no argument, no admission of fault, no commitment. So no "will contact you" either.
+    en: "Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review."
+    hi: "Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai."
+
+  missing_merchant_id:
+    action: ask_info
+    en: "Thanks for reaching out. To look into this, please share {fields}. Once we have these, we can check your account."
+    hi: "Sampark karne ke liye dhanyavaad. Iski jaanch ke liye kripya {fields} share karein. Yeh milte hi hum aapka account check kar sakenge."
+
+  vague_ask_info:
+    action: ask_info
+    en: "Thanks for reaching out. So that we can help quickly, please share {fields}."
+    hi: "Sampark karne ke liye dhanyavaad. Jaldi madad ke liye kripya {fields} share karein."
+
+  no_rule_escalate:
+    action: escalate
+    en: "Thank you for the details. We have passed your request to our specialist team, who are reviewing it."
+    hi: "Details ke liye dhanyavaad. Aapki request hamari specialist team ko bhej di gayi hai, jo ise review kar rahi hai."

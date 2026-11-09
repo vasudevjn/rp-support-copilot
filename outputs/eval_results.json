@@ -1,0 +1,16 @@
+{
+  "config_version": "v0",
+  "spec_cases": 21,
+  "spec_cases_all_pass": 21,
+  "spec_checks": 62,
+  "spec_checks_passed": 62,
+  "action_checks_passed": "19/19",
+  "team_checks_passed": "10/10",
+  "category_checks_passed": "3/3",
+  "risk_checks_passed": "6/6",
+  "reply_checks_passed": "19/19",
+  "critical_errors": 0,
+  "auto_resolve_share": 0.5933,
+  "safe_auto_resolve_share": 0.4,
+  "n_tickets": 150
+}

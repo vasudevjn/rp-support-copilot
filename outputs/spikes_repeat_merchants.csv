@@ -1,0 +1,6 @@
+merchant_id,tickets_in_window,total_pf_tickets,ticket_ids,first,last,success_rate_7d_pct,signal
+M1011,2,2,T-0028 T-0067,05 Sep 2026 20:13,13 Sep 2026 08:56,94.0,repeat_merchant
+M1013,2,2,T-0055 T-0084,09 Sep 2026 16:57,15 Sep 2026 18:50,94.4,repeat_merchant
+M1017,2,2,T-0065 T-0082,11 Sep 2026 21:11,15 Sep 2026 11:16,96.8,repeat_merchant
+M1033,2,2,T-0080 T-0098,15 Sep 2026 08:19,19 Sep 2026 14:22,77.9,repeat_merchant
+M1058,2,3,T-0014 T-0124 T-0135,02 Sep 2026 21:06,27 Sep 2026 13:06,70.6,repeat_merchant

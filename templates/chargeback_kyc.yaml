@@ -1,0 +1,35 @@
+templates:
+  chargeback_notice:
+    action: auto_resolve
+    en: "When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically."
+    hi: "Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai."
+
+  dispute_with_open_chargeback:
+    action: auto_resolve
+    en: "Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically."
+    hi: "Hamare system me aapke account par Dashboard > Disputes me ek open dispute dikh raha hai. Ise contest karne ke liye notice ke 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai."
+
+  dispute_ask_reference:
+    action: ask_info
+    en: "Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share {fields} so we can trace it."
+    hi: "Dispute notices Dashboard me Disputes ke andar dikhte hain. Hum abhi is deduction ko aapke account ke kisi dispute se match nahi kar paaye. Kripya {fields} share karein taaki hum ise trace kar sakein."
+
+  chargeback_prevent:
+    action: auto_resolve
+    en: "Disputes cannot be blocked in advance. If the customer raises one, you will get a notice under Dashboard > Disputes and can upload evidence (invoice, proof of delivery, communication) within 7 calendar days."
+    hi: "Disputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega aur aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain."
+
+  kyc_documents:
+    action: auto_resolve
+    en: "For KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC."
+    hi: "KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain."
+
+  kyc_reverification_guide:
+    action: auto_resolve
+    en: "Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please complete any pending steps only under Dashboard > Account > KYC, and do not share documents through links in messages."
+    hi: "Genuine KYC re-verification requests sirf Dashboard ya @example.com emails se aati hain. Kripya pending steps sirf Dashboard > Account > KYC me complete karein, aur messages me aaye links se documents share na karein."
+
+  kyc_phishing_escalate:
+    action: escalate
+    en: "Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review."
+    hi: "Pehle humse confirm karne ke liye dhanyavaad. Genuine KYC re-verification requests sirf Dashboard ya @example.com emails se aati hain. Kripya us message me koi document share na karein aur koi link na kholein. Humne ise review ke liye hamari Security team ko flag kar diya hai."

@@ -1,0 +1,22 @@
+# Dashboard theme, from the design mockup. Light only, so the palette holds whatever the OS theme is.
+[theme]
+base = "light"
+primaryColor = "#2B55D9"
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#101828"
+borderColor = "#E1E5EB"
+showWidgetBorder = true
+baseRadius = "medium"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Space Grotesk:https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#0E1526"
+secondaryBackgroundColor = "#1E2C52"
+textColor = "#C9D1E0"
+borderColor = "#1E2C52"
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false

@@ -1,0 +1,147 @@
+ticket_id,category,action,escalation_team,source,status,reason_not_sent,rejected_draft,current_reply
+T-0002,Legal / Security,escalate,Security,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Namaste Vista Retail team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support"
+T-0021,Legal / Security,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0027,Settlement,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0030,Legal / Security,escalate,Security,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0031,Legal / Security,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0060,Legal / Security,escalate,Security,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0078,Legal / Security,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Namaste Pixel Crafts team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support"
+T-0115,Legal / Security,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0138,Legal / Security,escalate,Legal,automatic,blocked,Threat ticket (KB-15): never auto-replied; holding draft for the escalation team.,,"Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0021,Legal / Security,escalate,Legal,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0027,Settlement,escalate,Legal,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0030,Legal / Security,escalate,Security,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0031,Legal / Security,escalate,Legal,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0060,Legal / Security,escalate,Security,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0115,Legal / Security,escalate,Legal,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0138,Legal / Security,escalate,Legal,human review,fixed,"Apology in a threat holding reply. Under KB-15, Legal may read it as admitting fault. The LLM polisher added it for angry tone and the guardrail missed it. Fix: threat replies skip the polisher; apology words banned in threat replies.","""I'm sorry for the frustration this has caused...""","Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0002,Legal / Security,escalate,Security,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Namaste Vista Retail team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support"
+T-0021,Legal / Security,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0027,Settlement,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0030,Legal / Security,escalate,Security,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0031,Legal / Security,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0060,Legal / Security,escalate,Security,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0078,Legal / Security,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Namaste Pixel Crafts team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support"
+T-0115,Legal / Security,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0138,Legal / Security,escalate,Legal,human review,fixed,A commitment in a threat reply. KB-15 says no commitments. Fix: threat template now says only that the message was shared with the right team for review. (Found with Claude Code.),"""...the right specialist team, who will review it and contact you directly.""","Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support"
+T-0003,Fees & Invoices,escalate,Account Manager,human review,fixed,"Fee waiver request. ""Discuss it"" can read as the waiver being negotiable, which KB-09 says Customer Success cannot promise. Fix: reply now says only that the request went to the Account Manager for review. (Found with Claude Code.)","""They will get in touch with you to discuss it.""","Hi Kiran Furnishings team,
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support"
+T-0052,API & Integration,auto_resolve,,human review,fixed,"The same stock apology opened every frustrated reply, even a technical one. It reads as boilerplate, and an apology can imply fault. Fix: the opening line now depends on the category (for example ""I know integration errors hold up your work."") and has no apology. (Found with Claude Code.)","""I understand how stressful this is, and I'm sorry for the trouble. SIGNATURE_MISMATCH means...""","Hi Jaya Studio team,
+We know integration errors can hold up your work.
+SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).
+
+Razorpay Support"
+T-0018,Settlement,auto_resolve,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Zenith Exports team,
+We know waiting on a payout affects your business.
+As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support"
+T-0032,Unclear,ask_info,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Quill Enterprises team,
+We know this issue is urgent for your business.
+Thanks for reaching out. So that we can help quickly, please share a few details of the issue, including what is failing and since when.
+
+Razorpay Support"
+T-0034,Unclear,ask_info,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Pixel Crafts team,
+We know this issue is urgent for your business. To help quickly, please share a few details of the issue, such as what is failing and since when.
+
+Razorpay Support"
+T-0044,Fees & Invoices,escalate,Account Manager,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Yatra Naturals team,
+We know that fees have a real impact on your business. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support"
+T-0107,Settlement,auto_resolve,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Jaya Studio team,
+We know waiting on a payout affects your business.
+Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.
+
+Razorpay Support"
+T-0111,Fees & Invoices,escalate,Account Manager,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Cedar Studio team,
+We know that fees have a real impact on your business.
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support"
+T-0131,Settlement,auto_resolve,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Sunrise Mart team,
+We know waiting on a payout affects your business.
+As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support"
+T-0150,Settlement,auto_resolve,,human review,fixed,"After the stock apology was removed from the templates, the LLM polisher added one back on re-polish. Fix: a guardrail now fails any reply with an apology; all 8 were regenerated once and passed. (Found with Claude Code.)","""...and I'm sorry for the worry this causes.""","Hi Lagoon Crafts team,
+We know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support"

@@ -1,0 +1,31 @@
+day,payment_failure_tickets,flagged,ticket_ids,low_success_merchants,signal
+2026-09-01,1,False,T-0004,,daily_count
+2026-09-02,3,True,T-0009 T-0012 T-0014,M1058,daily_count
+2026-09-03,0,False,,,daily_count
+2026-09-04,1,False,T-0023,M1021,daily_count
+2026-09-05,1,False,T-0028,,daily_count
+2026-09-06,1,False,T-0035,,daily_count
+2026-09-07,1,False,T-0041,,daily_count
+2026-09-08,1,False,T-0045,M1042,daily_count
+2026-09-09,1,False,T-0055,,daily_count
+2026-09-10,0,False,,,daily_count
+2026-09-11,1,False,T-0065,,daily_count
+2026-09-12,0,False,,,daily_count
+2026-09-13,3,True,T-0067 T-0069 T-0074,M1007,daily_count
+2026-09-14,0,False,,,daily_count
+2026-09-15,4,True,T-0080 T-0081 T-0082 T-0084,M1033,daily_count
+2026-09-16,0,False,,,daily_count
+2026-09-17,0,False,,,daily_count
+2026-09-18,0,False,,,daily_count
+2026-09-19,1,False,T-0098,M1033,daily_count
+2026-09-20,1,False,T-0103,M1008,daily_count
+2026-09-21,2,False,T-0105 T-0109,,daily_count
+2026-09-22,0,False,,,daily_count
+2026-09-23,0,False,,,daily_count
+2026-09-24,0,False,,,daily_count
+2026-09-25,1,False,T-0124,M1058,daily_count
+2026-09-26,0,False,,,daily_count
+2026-09-27,2,False,T-0134 T-0135,M1058,daily_count
+2026-09-28,1,False,T-0140,M1042,daily_count
+2026-09-29,1,False,T-0147,,daily_count
+2026-09-30,0,False,,,daily_count

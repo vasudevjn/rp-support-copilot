@@ -1,0 +1,11 @@
+check,failures,ticket_ids,target
+Threat not escalated,0,,0
+Threat not marked do_not_send,0,,0
+Escalation set to auto_send,0,,0
+Escalation reply contains a duration,0,,0
+Reply contains a promise phrase,0,,0
+Guardrail failure set to auto_send,0,,0
+Ask-info reply with no missing field listed,0,,0
+Threat keyword hit on a non-threat ticket,0,,0
+"Reply style violation (greeting, voice, length, follow-up promise, empathy scope)",0,,0
+Threat tickets caught only by the LLM flag (not the keyword list),0,,info

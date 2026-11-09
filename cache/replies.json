@@ -1,0 +1,1538 @@
+{
+ "02bdd9d2d144ca1cd1dee90c": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh aapke liye kitna pareshaan karne wala hai. Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "042fd31fb26b06201af17021": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Payments usually fail because of bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support"
+ },
+ "04a14d3f775ff22db8e10a7e": {
+  "draft": "Namaste Opal Crafts team,\nAapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Opal Crafts team,\nSamajh sakte hain ki payout ruka rehna aapke business ke liye mushkil hota hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support"
+ },
+ "0672d343211a6c53bc104c4a": {
+  "draft": "I understand fees matter a lot to your business. Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how much fees matter to your business, and I'm sorry this has been frustrating. Thank you for sharing it with us. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "072e902558baff6ae1cd6ad7": {
+  "draft": "Hi Quill Enterprises team,\nThanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Quill Enterprises team,\nWe know this issue is urgent for your business.\nThanks for reaching out. So that we can help quickly, please share a few details of the issue, including what is failing and since when.\n\nRazorpay Support"
+ },
+ "0982ce21aca6b9f2d2d70375": {
+  "draft": "Hi Zenith Exports team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Zenith Exports team,\nWe know it is difficult when your customer is still waiting on this refund. Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "0b7b911eae2fbe07fe8ae0f5": {
+  "draft": "Namaste Saffron Traders team,\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Saffron Traders team,\nPayout mein deri se aapke business par asar padta hai, yeh hum samajhte hain.\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.\n\nRazorpay Support"
+ },
+ "0d8a995398fad3a9194fdcbb": {
+  "draft": "Hi Sunrise Mart team,\nThank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Sunrise Mart team,\nThank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "0dfcd9bf97319de7ab7ee66f": {
+  "draft": "Hi Orchid Retail team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Orchid Retail team,\nWe know failed payments mean lost sales for your business.\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "0e45769d96397ebda3cabc86": {
+  "draft": "Hi Fable Furnishings team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Fable Furnishings team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "0eeb86ab9009bfb07da5acfb": {
+  "draft": "Legal entity ka naam ya business type edit karke change nahi ho sakta. Iske liye nayi (fresh) application deni hogi.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Legal entity ka naam ya business type edit karke change nahi kiya ja sakta. Iske liye aapko nayi (fresh) application deni hogi.\n\nRazorpay Support"
+ },
+ "0f42afd9f258a847ae52c291": {
+  "draft": "Hi Indus Services team,\nPayments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Indus Services team,\nWe know failed payments mean lost sales for your business.\nPayments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support"
+ },
+ "0f93281c2815e877090d5572": {
+  "draft": "Hi Kaveri Studio team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Kaveri Studio team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support"
+ },
+ "101874829c2a59f20d87e754": {
+  "draft": "Hi Saffron Travels team,\nIf webhooks are not received, please check that the URL is publicly reachable, returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Saffron Travels team,\nIf you are not receiving webhooks, please check three things: the URL must be publicly reachable, it must return HTTP 200 within 5 seconds, and the event must be subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support"
+ },
+ "11aeab29d1f2313ce0a9ebde": {
+  "draft": "Namaste Quill Enterprises team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Quill Enterprises team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support"
+ },
+ "11c722b8400ea6f1de237efc": {
+  "draft": "Hi Willow Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PWUVL55KZVFPBV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Willow Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. For pay_PWUVL55KZVFPBV, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "142ba709df8cf38f7a6022b4": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka wait karna aapke business ke liye mushkil hota hai. Hamare system ke mutabik aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "1535aea3c2d9dea9a96c9484": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh aapke liye kitna pareshaan karne wala hai, aur iske liye hum maafi chahte hain. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me jaakar pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support"
+ },
+ "153ca9b0bd72e79ea03ec4bd": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful it is to wait on a payout, and I'm sorry for the worry this causes. Our system shows your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "1605c57af7dad58d3f423c20": {
+  "draft": "Namaste Mosaic Crafts team,\nAgar webhooks nahi aa rahe, toh kripya check karein ki URL publicly reachable hai, 5 seconds ke andar HTTP 200 return karta hai, aur event subscribed hai. Failed webhooks 24 hours tak retry hote hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Mosaic Crafts team,\nAgar aapko webhooks nahi mil rahe hain, toh kripya check karein ki aapka URL publicly reachable hai, 5 seconds ke andar HTTP 200 return karta hai, aur aapne us event ko subscribe kiya hua hai. Failed webhooks 24 hours tak retry hote hain.\n\nRazorpay Support"
+ },
+ "16b65445b42b9b5df88cd16d": {
+  "draft": "Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, your settlement is delayed because of bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track its status under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "1748961ebd43a93fceb51b33": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Our system shows your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "17d77c14f516cc939eeddaf1": {
+  "draft": "Hi Blue Lotus Electronics team,\nSIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Electronics team,\nWe know integration errors can hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support"
+ },
+ "18638aa96051d21c359d7bf1": {
+  "draft": "Namaste Amber Services team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Amber Services team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support"
+ },
+ "1c3c0cadd73415bf4b40c71e": {
+  "draft": "Hi,\nThanks for reaching out. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi,\nWe know failed payments mean lost sales for you.\nTo look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.\n\nRazorpay Support"
+ },
+ "1fbdf73a8bf2aff44ea1083b": {
+  "draft": "Hi Saffron Travels team,\nYou can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Saffron Travels team,\nYou can change your registered email and mobile number under Settings. The change is confirmed using OTP verification.\n\nRazorpay Support"
+ },
+ "219c5a06b88c39c3fdded0c0": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_DGRN9FSMT9DNQM becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_DGRN9FSMT9DNQM, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "21ed5ed36d931eaf3b49e4eb": {
+  "draft": "Namaste Haveli Traders team,\nHamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Haveli Traders team,\nPayout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.\nHamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "2269ddc9ccd923d6c6392e9e": {
+  "draft": "Hi Dhruva Academy team,\nThank you for the details. We have passed this to our Tech Support team, who are investigating it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Dhruva Academy team,\nThank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.\n\nRazorpay Support"
+ },
+ "229efcd44c98301241521d54": {
+  "draft": "Namaste Gulmohar Academy team,\nAapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Gulmohar Academy team,\nPayout ruka hone se aapke business par asar padta hai, yeh hum samajhte hain.\nAapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support"
+ },
+ "2434489da4eee513ae98b212": {
+  "draft": "Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "2454023137b0bf493708f2e2": {
+  "draft": "As per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, as per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "28caca2e5e539e98cebec3bc": {
+  "draft": "Hi Saffron Traders team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Saffron Traders team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "2919056a373b438d3b39206f": {
+  "draft": "Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Jab koi customer payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar uska notice dikhega. Aapko 7 calendar days ke andar evidence upload karna hoga, jaise invoice, proof of delivery aur customer ke saath communication. Agar deadline miss ho gayi, toh dispute automatically lost ho jaata hai.\n\nRazorpay Support"
+ },
+ "2bdabcc7b0225852eb29d5df": {
+  "draft": "Namaste Jade Naturals team,\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Jade Naturals team,\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "2d4ee8d51324f4da619fafb1": {
+  "draft": "Hi Pearl Pharma team,\nYour settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Pearl Pharma team,\nYour settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.\n\nRazorpay Support"
+ },
+ "2e20772040fc377bb6908d69": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko escalate kar diya gaya hai jo holds handle karti hai, aur woh aapko update denge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai, aur yeh frustrating hota hai. Humne dekha hai ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko escalate kar diya gaya hai jo holds handle karti hai, aur woh aapko update denge.\n\nRazorpay Support"
+ },
+ "2f2eaa265d28afc39429017a": {
+  "draft": "Disputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega aur aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Disputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega. Aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "2f48b120b9a1b7700cf8c653": {
+  "draft": "Hi Tulsi Learning team,\nThank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Tulsi Learning team,\nThank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "31f51e9a7391949b7e055166": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful it is to wait on a payout, and I want to help. Our system shows your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "321f31e684dacc9dae9fa28b": {
+  "draft": "Hi Rudra Services team,\nFor KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Rudra Services team,\nFor KYC, please keep these documents ready: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support"
+ },
+ "3273e0c4f49ac8578e9e3469": {
+  "draft": "Hi Cedar Labs team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Cedar Labs team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support"
+ },
+ "331d878fe991889541d11adf": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them. They will get in touch with you to discuss it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for sharing this with us. Your Account Manager handles pricing and fee requests, so we have passed your request on to them. They will get in touch with you to discuss it.\n\nRazorpay Support"
+ },
+ "333cc55fb05cef9daf99cc43": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Our system shows your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "33992ae51ffe56e7d37de587": {
+  "draft": "Your settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, your settlements are currently on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Once your KYC is verified, settlements are released within 1 business day.\n\nRazorpay Support"
+ },
+ "33f296031048117f86fd2965": {
+  "draft": "I understand your customer is waiting on this refund. Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating it is when your customer is waiting on this refund. Refunds are credited to the customer's original payment source in 5-7 business days. For pay_MQV5K93DLJK5YA, an ARN (reference number) becomes available after 3 days. Your customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "342abac1b9a7da18e3eaa2a2": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_E9TA2K7T4Q7PEW becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_E9TA2K7T4Q7PEW, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "359e05cb5990764730fa90d4": {
+  "draft": "Hi,\nThanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi,\nTo look into this, please share your Merchant ID (it starts with M) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.\n\nRazorpay Support"
+ },
+ "35e01e8a1485f573fa959676": {
+  "draft": "Yeh batane ke liye dhanyavaad. Humne ise hamari Payments team ko escalate kar diya hai taaki woh aapke payment success par asar daal rahe kisi possible issue ki jaanch kar sakein. Woh aapko update karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Yeh batane ke liye dhanyavaad. Humne ise apni Payments team ko escalate kar diya hai, taaki woh dekh sakein ki kahin koi issue to nahi hai jo aapke payment success ko affect kar raha ho. Team aapko update karegi.\n\nRazorpay Support"
+ },
+ "3664fc700dfe12373c6e9735": {
+  "draft": "Hi Prime Stores team,\n'Authentication failed' on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Prime Stores team,\nAn 'Authentication failed' error on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.\n\nRazorpay Support"
+ },
+ "3691d4361249616a4841773f": {
+  "draft": "Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, dispute notices appear on the Dashboard under Disputes. We couldn't match this deduction to a dispute on your account yet. Could you please share the debit reference or transaction reference shown in your bank statement? That will help us trace it.\n\nRazorpay Support"
+ },
+ "36aff0f565f31ae7a9de9a30": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful waiting on a payout can be for your business. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "3799b011b6f1a53d594dac2c": {
+  "draft": "Hi Everest Exports team,\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Everest Exports team,\nWe know failed payments mean lost sales for your business. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support"
+ },
+ "39c52d7af42281941d4afe21": {
+  "draft": "Hi Trident Electronics team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Trident Electronics team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "3a0cdfa48d660ac31cbb36cd": {
+  "draft": "Namaste Quill Enterprises team,\nHamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Quill Enterprises team,\nPayout me deri se aapke business par asar padta hai, yeh hum samajhte hain.\nHamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "3eb918bc9fc4b1c7781319eb": {
+  "draft": "Namaste Jade Traders team,\nHamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Jade Traders team,\nHamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap har settlement ko Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "3f051e8fa89c958517813a03": {
+  "draft": "Hi Indus Services team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Indus Services team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support"
+ },
+ "40074f968018065ec79a5508": {
+  "draft": "Hi Kiran Furnishings team,\nThank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Kiran Furnishings team,\nThank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "411e23228892977683fe4683": {
+  "draft": "Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for reaching out. Your Account Manager handles pricing and fee requests, so we've passed yours on to them for review.\n\nRazorpay Support"
+ },
+ "428cf631363b1d965d759e55": {
+  "draft": "Hi Sahara Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_DGRN9FSMT9DNQM becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Sahara Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_DGRN9FSMT9DNQM becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "43ad9c1314ac3083543551d4": {
+  "draft": "Hi Orchid Retail team,\nThis BAD_REQUEST_ERROR happens when the amount is not in paise. Amounts must be sent in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Orchid Retail team,\nThe BAD_REQUEST_ERROR occurs when the amount is not sent in paise. Amounts must always be sent in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support"
+ },
+ "43c973c296d86c94d8c0215b": {
+  "draft": "Hi Willow Naturals team,\nThis BAD_REQUEST_ERROR happens when the amount is not in paise. Amounts must be sent in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Willow Naturals team,\nThis BAD_REQUEST_ERROR occurs when the amount is not sent in paise. Amounts must always be sent in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support"
+ },
+ "45a08fa3d5259c6e4910f204": {
+  "draft": "Thank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team. We've escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "462e1d4344967dd4aa817c7f": {
+  "draft": "Hi Panchi Foods team,\nFor KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Panchi Foods team,\nFor KYC, we need the following documents: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support"
+ },
+ "4abd063f8dea99ff525ee7e3": {
+  "draft": "Hi Blue Lotus Organics team,\nThank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Organics team,\nThank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "4ca1e3db31c1ea6ad278b895": {
+  "draft": "Namaste Dhruva Academy team,\nKYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Dhruva Academy team,\nKYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "4d9788efe817568bcb2be3c2": {
+  "draft": "Hi Oasis Labs team,\nWhen a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Oasis Labs team,\nWhen a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery, and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "4e009052ff88a673d8315c23": {
+  "draft": "Hi Madhur Enterprises team,\nWe have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Madhur Enterprises team,\nWe know you want your account closure handled quickly.\nWe have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.\n\nRazorpay Support"
+ },
+ "4f5233ec0413e053e373c55b": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai. Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customers ko retry karne ya doosra payment method use karne ko keh sakte hain. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "4fa9e90952c18375c628f6cf": {
+  "draft": "Hi Umang Fashions team,\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Umang Fashions team,\nWe know failed payments mean lost sales for your business.\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support"
+ },
+ "4fe4dd681f23fa67dc894407": {
+  "draft": "I know integration errors hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating integration errors can be when they hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support"
+ },
+ "51c1da495bf90d22cd289e70": {
+  "draft": "Namaste Kaveri Studio team,\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh ise review kar rahi hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Kaveri Studio team,\nSamajh sakte hain ki payout ruka hona aapke business ko affect karta hai.\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh ise review kar rahi hai.\n\nRazorpay Support"
+ },
+ "532988cd899ddb06ab268d27": {
+  "draft": "Namaste Cedar Studio team,\nHamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Cedar Studio team,\nPayout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.\nHamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "547b39aacd0d4ab7f6b5e2dd": {
+  "draft": "Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.\n\nRazorpay Support"
+ },
+ "5497e0b1638e5984d676ee1a": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me jaakar pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support"
+ },
+ "56bc4c9cee746da325fe4b52": {
+  "draft": "Hi Everest Exports team,\nThanks for reaching out. So that we can help quickly, please share the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Everest Exports team,\nThank you for reaching out. So that we can help you quickly, please share the Payment ID (it starts with pay_) along with a few details of the issue, such as what is failing and since when.\n\nRazorpay Support"
+ },
+ "56ec2225c19fa4b44424d353": {
+  "draft": "Batane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ko kaha hai, woh aapko update karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Batane ke liye thank you! Humne aapke Account Manager ko aapke account ka GST invoice check karne ke liye keh diya hai. Woh aapko update karenge.\n\nRazorpay Support"
+ },
+ "57212e0f016c9b7ffdd3e4fb": {
+  "draft": "We can see that settlements on your account are currently on hold. We have escalated your case to the specialist team that manages holds, and they will contact you with an update.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, we can see that settlements on your account are currently on hold. We have escalated your case to the specialist team that manages holds, and they will contact you with an update.\n\nRazorpay Support"
+ },
+ "573a3415c3d18bd859a96b0f": {
+  "draft": "I know integration errors hold up your work. Thank you for the details. Since this affects your production traffic, we have escalated it to our Tech Support team to investigate, and they will get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating integration errors can be when they hold up your work. Thank you for sharing the details. Since this affects your production traffic, we have escalated it to our Tech Support team to investigate, and they will get back to you.\n\nRazorpay Support"
+ },
+ "57f24409c7698403d20edc44": {
+  "draft": "Hi Lagoon Crafts team,\nAs per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Lagoon Crafts team,\nWe know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "58dd5100265f1ddb0f211415": {
+  "draft": "Hi Rudra Organics team,\nThank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Rudra Organics team,\nThank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account.\n\nRazorpay Support"
+ },
+ "5a0ad17308b76146bffe970a": {
+  "draft": "Hi Blue Lotus Organics team,\nWe can see that settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, who are looking into it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Organics team,\nAs per our system, settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, and they are looking into it.\n\nRazorpay Support"
+ },
+ "5b86d542b671629dc147ce27": {
+  "draft": "Hi Tulsi Learning team,\nPayments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Tulsi Learning team,\nWe know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support"
+ },
+ "5c9ac35d1028fdda4923c1db": {
+  "draft": "Namaste Umang Fashions team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Umang Fashions team,\nSamajh sakte hain ki payments fail hone se aapki sales par asar padta hai.\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "5c9ce20ae94ebde9733dcef7": {
+  "draft": "Hi Blue Lotus Electronics team,\nThank you for the details. We have passed this to our Tech Support team, who are investigating it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Electronics team,\nThank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.\n\nRazorpay Support"
+ },
+ "5ca23bafcdaa0a136cb6163b": {
+  "draft": "Hi Vista Retail team,\nThank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Vista Retail team,\nThank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support"
+ },
+ "5cbcc325132e0b17c99d07e8": {
+  "draft": "Namaste Panchi Foods team,\nHamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Panchi Foods team,\nPayout ka intezaar aapke business ko affect karta hai, yeh hum samajhte hain.\nHamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "5d0850a84d37bc74495c8087": {
+  "draft": "Hi Pixel Crafts team,\nWhen a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Pixel Crafts team,\nWhen a customer disputes a payment, you receive a notice on the Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "5d613bc6c43be72051599431": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajhte hain ki payout ka wait karna aapke business ke liye mushkil hota hai. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "5db2ecc5c0008cc9239ef931": {
+  "draft": "Hi Saffron Traders team,\nThank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Saffron Traders team,\nThank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "5dbb2a85663849573ea0eb6d": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_FY78TDVSVKDPD9 becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_FY78TDVSVKDPD9, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "5e029490e1aefe3351601cdc": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh situation kitni pareshaan karne wali hai. Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "5fefc4b2a4146b4b49a85adc": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Refunds are credited to the customer's original payment source in 5-7 business days. For pay_MQV5K93DLJK5YA, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "60cdfd805c5e74c1389f6f6c": {
+  "draft": "Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have it, we will check your account and get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) along with a few details of the issue, such as what is failing and since when. Once we have these, we will check your account and get back to you.\n\nRazorpay Support"
+ },
+ "616e4400582f330758fdb204": {
+  "draft": "Hi Pixel Crafts team,\nThanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Pixel Crafts team,\nWe know this issue is urgent for your business. To help quickly, please share a few details of the issue, such as what is failing and since when.\n\nRazorpay Support"
+ },
+ "61779823fdd22ae32467df08": {
+  "draft": "Hi Panchi Mart team,\nAs per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Panchi Mart team,\nAs per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "61bf20caf6e276b73a6c1238": {
+  "draft": "Namaste,\nSampark karne ke liye dhanyavaad. Iski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details (kya fail ho raha hai aur kab se) share karein. Yeh milte hi hum aapka account check kar sakenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste,\nPayout me deri aapke business ke liye pareshani ki baat hoti hai.\nIski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details share karein, yaani kya fail ho raha hai aur kab se. Yeh milte hi hum aapka account check kar sakenge.\n\nRazorpay Support"
+ },
+ "61c9eb7d403b374c85edc238": {
+  "draft": "Thank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "62ba60cbe80f43beb74611e0": {
+  "draft": "If webhooks are not received, please check that the URL is publicly reachable, returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, if you're not receiving webhooks, please check that your URL is publicly reachable, that it returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support"
+ },
+ "63e745814c27cb56d72c9e48": {
+  "draft": "Hi Dhruva Exports team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_L6DCLEWDD45TRV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Dhruva Exports team,\nRefunds are credited to the customer's original payment source within 5-7 business days. An ARN (reference number) for pay_L6DCLEWDD45TRV becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "64854c55a6fd63a63617910b": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh aapke liye kitna pareshaan karne wala hai. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "6623db63b7b1180ff5dcb46c": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Yeh share karne ke liye dhanyavaad. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request unhe bhej di hai. Woh is par baat karne ke liye aapse sampark karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh aapke liye kitna pareshaan karne wala hai, aur humein iska khed hai. Aapne yeh baat share ki, uske liye thank you. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request unhe forward kar di hai. Woh is baare mein aapse contact karenge.\n\nRazorpay Support"
+ },
+ "66274f5e8bc330d36bfb0697": {
+  "draft": "Hi Yatra Electronics team,\nYou can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Yatra Electronics team,\nYou can change your registered email and mobile number under Settings. The change is verified using an OTP.\n\nRazorpay Support"
+ },
+ "668c4723bae21b810ee94970": {
+  "draft": "Namaste Saffron Traders team,\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh ise review kar rahi hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Saffron Traders team,\nPayout mein deri aapke business ko affect karti hai, yeh hum samajhte hain.\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh ise review kar rahi hai.\n\nRazorpay Support"
+ },
+ "68247f613dc243be891d3700": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Sampark karne ke liye dhanyavaad. Iski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details (kya fail ho raha hai aur kab se) share karein. Yeh milte hi hum aapka account check karke aapko update karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Humse contact karne ke liye thanks. Iski jaanch ke liye please apna Merchant ID (jo M se shuru hota hai) aur issue ki thodi details share karein, jaise kya fail ho raha hai aur kab se. Yeh milte hi hum aapka account check karke aapko update denge.\n\nRazorpay Support"
+ },
+ "68330107442b0550a6ee5324": {
+  "draft": "Hi Jade Traders team,\nOur system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jade Traders team,\nOur system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence such as the invoice, proof of delivery and your communication with the customer within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "6915c45209c7c103268c01de": {
+  "draft": "You can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, you can change your registered email and mobile number under Settings. You'll just need to verify the change using an OTP.\n\nRazorpay Support"
+ },
+ "69c52a8695d1954b2676ca98": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (it starts with pay_).\n\nRazorpay Support"
+ },
+ "6b03df6898d765bbf162b82f": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Thanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Thanks for reaching out. So that we can help quickly, please share a few details about the issue, including what is failing and since when.\n\nRazorpay Support"
+ },
+ "6b0fba3ac25c8e06ff00b28b": {
+  "draft": "Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support"
+ },
+ "6c27b6d9af51465c5da5bf2e": {
+  "draft": "Namaste Dhruva Exports team,\nYeh share karne ke liye dhanyavaad. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Dhruva Exports team,\nSamajh sakte hain ki fees aapke business ke liye bahut important hain. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.\n\nRazorpay Support"
+ },
+ "6ec077cc510b44b73b179464": {
+  "draft": "Thank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "7011e509a73b2d5562df3a4c": {
+  "draft": "Namaste Fable Furnishings team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Fable Furnishings team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support"
+ },
+ "70e26b2b6fd1e50286a1d532": {
+  "draft": "I know failed payments mean lost sales for you. Thank you for flagging this. We have escalated it to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating failed payments can be, especially when they mean lost sales. Thank you for flagging this. We have escalated it to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support"
+ },
+ "71581308a69738ceab53047b": {
+  "draft": "Namaste Trident Electronics team,\nYeh batane ke liye dhanyavaad. Humne ise hamari Payments team ko bhej diya hai, jo aapke payment success par asar daal rahe kisi possible issue ki jaanch kar rahi hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Trident Electronics team,\nYeh jaankari share karne ke liye dhanyavaad. Humne ise apni Payments team ko pass kar diya hai, jo aapke payment success ko affect kar rahe kisi possible issue ki jaanch kar rahi hai.\n\nRazorpay Support"
+ },
+ "738af41122f8daa8aa7b8e4d": {
+  "draft": "Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them. They will get in touch with you to discuss it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing this. Your Account Manager handles pricing and fee requests, so we have passed your request on to them. They will get in touch with you to discuss it.\n\nRazorpay Support"
+ },
+ "7490b82cbd8baf4f7cd711da": {
+  "draft": "Namaste Craft Mart team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Craft Mart team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye keh sakte hain. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "751947a09a9d39238b33a7c1": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PPCYSPMF5V3J33 becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_PPCYSPMF5V3J33, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "757f4e26682e7ed78355dc68": {
+  "draft": "Namaste Nila Naturals team,\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Nila Naturals team,\nAapke customer ko is refund ka intezaar hai, yeh hum samajhte hain.\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "7767cf8c44532ce64533c6ad": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PWUVL55KZVFPBV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_PWUVL55KZVFPBV, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "78d53633d141d26aeda17dfb": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 71,000 ka 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "7b3b0254bada539a857feca6": {
+  "draft": "Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload your evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "7bf3e4560fb8a203c48e7a32": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh situation kitni pareshaan karne wali hai. Hamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "7d04e31e86beda12dee519da": {
+  "draft": "Namaste Yatra Naturals team,\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Yatra Naturals team,\nPayout me delay aapke business ke liye mushkil hota hai, yeh hum samajhte hain.\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "7d0c645c8c770b4ee13cef42": {
+  "draft": "Hi Blue Lotus Electronics team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Electronics team,\nWe know failed payments mean lost sales for your business.\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "7d114396ed465e78921577ff": {
+  "draft": "Hi Zenith Exports team,\nAs per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Zenith Exports team,\nWe know waiting on a payout affects your business.\nAs per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "7e6a2bf2ccf593fbe9105269": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh aapke liye kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "7ea42de949b756524437cf89": {
+  "draft": "Hi Lotus Naturals team,\nYou can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Lotus Naturals team,\nYou can change your registered email and mobile number under Settings. Verification is done using an OTP.\n\nRazorpay Support"
+ },
+ "7edcdd3ee47fe4d15506f3fa": {
+  "draft": "I understand this is urgent for you. Thanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand this is urgent for you, and I appreciate you reaching out. So we can help quickly, please share a few details about the issue: what is failing and since when.\n\nRazorpay Support"
+ },
+ "80b76965741fd0496158a357": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka intezaar aapke business ke liye mushkil hota hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me jaakar sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support"
+ },
+ "84b58743cb82ac841f1cdf17": {
+  "draft": "Namaste Jade Naturals team,\nDisputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega aur aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Jade Naturals team,\nDisputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega. Aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "84eaa06f7383191b1b6dfefb": {
+  "draft": "Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ko keh sakte hain. Agar paisa kat gaya par order fail ho gaya, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "86433276d1612a4705c37c10": {
+  "draft": "Namaste Amber Services team,\nKYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Amber Services team,\nKYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "880def05387d72de51e982c0": {
+  "draft": "I know waiting on a payout affects your business. Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful it is to wait on a payout, and I'm sorry for the worry this causes. Your settlement is delayed because of bank-side processing. Our system shows the expected settlement date as 02 Oct 2026. You can track its status under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "88d67dd812a51b8ba97ad3e0": {
+  "draft": "Hi Jade Furnishings team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PPCYSPMF5V3J33 becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jade Furnishings team,\nRefunds are credited to the customer's original payment source in 5-7 business days. For pay_PPCYSPMF5V3J33, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "89e4d02bd68d87e5c16c88e6": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajhte hain ki payout ka intezaar aapke business ke liye mushkil hota hai. Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "8ae84ac68ff2e02076b7a86d": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh situation kitni pareshaan karne wali hai, aur iske liye hum maafi chahte hain. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "8d27a27abbb81fcd62b1b29a": {
+  "draft": "I understand this is urgent for you. Thanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating this is, and I'm sorry for the trouble. Thanks for reaching out. So we can help you quickly, please share a few details about the issue: what is failing and since when.\n\nRazorpay Support"
+ },
+ "914ad27d5493f897bd83211a": {
+  "draft": "Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur sahi specialist team ko bhej diya gaya hai. Woh ise review karke aapse seedha sampark karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Aapki pareshani hum samajh sakte hain, aur humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur sahi specialist team ko bhej diya gaya hai. Woh ise review karke aapse seedha sampark karenge.\n\nRazorpay Support"
+ },
+ "92ec227f5c891e3aff7810e7": {
+  "draft": "Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai. Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajhte hain ki payments fail hone se aapki sales par asar padta hai. Aam taur par payments bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customers ko retry karne ya doosra payment method use karne ko keh sakte hain. Agar paisa kat gaya par order fail ho gaya, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "946e42a90b73d8350ece7d77": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Sampark karne ke liye dhanyavaad. Iski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details (kya fail ho raha hai aur kab se) share karein. Yeh milte hi hum aapka account check karke aapko update karenge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka wait karna aapke business ke liye mushkil hota hai. Humse sampark karne ke liye shukriya. Is issue ko check karne ke liye please apna Merchant ID (M se shuru hota hai) aur issue ki thodi details share karein, jaise kya fail ho raha hai aur kab se. Yeh milte hi hum aapka account check karke aapko update karenge.\n\nRazorpay Support"
+ },
+ "95b2b7c9fed3bddf687528a4": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "95d1bb2be9d9f8ae13b99482": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_ADQCNC9MXJHLCT becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_ADQCNC9MXJHLCT, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "960754b2d1bd7793fe0a6ca9": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko escalate kar diya gaya hai jo holds handle karti hai, aur woh aapko update denge.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajhte hain ki yeh aapke liye kitna pareshaan karne wala hai. Humne dekha ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko escalate kar diya gaya hai jo holds handle karti hai, aur woh aapko update denge.\n\nRazorpay Support"
+ },
+ "972c8167a80bf48a64fc2b85": {
+  "draft": "Hi Delta Enterprises team,\nYou can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Delta Enterprises team,\nYou can change your registered email and mobile number under Settings. The change is verified using an OTP.\n\nRazorpay Support"
+ },
+ "976ee09b3735f9a91955055e": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajhte hain ki payout ka wait karna aapke business ke liye mushkil hota hai. Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "97b90c3e1186c3da38098ff5": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Your settlement is delayed because of bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track its progress under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "98d33a3dfe2ba4e9cf33096b": {
+  "draft": "Hi Panchi Studio team,\nThank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Panchi Studio team,\nThank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "98d5eff27ce924032d10e18a": {
+  "draft": "When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, when a customer disputes a payment, you'll see a notice on the Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery, and any communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "99102a4919f901191fdf3785": {
+  "draft": "Hi Mosaic Crafts team,\nAs per our system, your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Mosaic Crafts team,\nAs per our system, your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "9f02ad8d7bed3364e56fcf7d": {
+  "draft": "Thank you for the details on the refund for pay_34VM92SASN6M8H. We have escalated this to our Refund team to check its status, and they will update you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_34VM92SASN6M8H. We've escalated this to our Refund team so they can check its status, and they will update you.\n\nRazorpay Support"
+ },
+ "9f4e20b7f7c05974d8394245": {
+  "draft": "Hi Cedar Studio team,\nOur system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Cedar Studio team,\nOur system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence such as an invoice, proof of delivery and your communication with the customer, within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "a22c699a2d3ce3353eb642bd": {
+  "draft": "Hi Trident Electronics team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Trident Electronics team,\nWe know failed payments mean lost sales for your business.\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "a375499ec3ad66de4d00e4f2": {
+  "draft": "Namaste Saffron Travels team,\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Saffron Travels team,\nAapke customer ko refund ka intezaar hai, yeh hum samajhte hain.\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai. Customer isse apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "a3b1f23fdc1a9aba6cadddce": {
+  "draft": "Thanks for reaching out. So that we can help quickly, please share the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for reaching out! To help you quickly, please share the Payment ID (it starts with pay_) along with a few details about the issue, such as what is failing and since when.\n\nRazorpay Support"
+ },
+ "a402a87ed2ffa483906aba08": {
+  "draft": "I understand you want this sorted quickly. We have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating this is, and I want to help get it sorted quickly. We have received your request to close the account and shared it with your Account Manager, who handles closures. Please note that closure is processed only after all pending settlements, refunds and disputes are cleared.\n\nRazorpay Support"
+ },
+ "a4138c0cb9e2cc6e52e5a272": {
+  "draft": "Hi Nila Naturals team,\nThank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Nila Naturals team,\nWe know integration errors can hold up your work, especially with production traffic affected.\nThank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.\n\nRazorpay Support"
+ },
+ "a4677542cda9c105205bb1b2": {
+  "draft": "Hi Yatra Naturals team,\nThank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Yatra Naturals team,\nWe know that fees have a real impact on your business. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "a4a129b73bfc2fe022c6b9c8": {
+  "draft": "Hi Lotus Naturals team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Lotus Naturals team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support"
+ },
+ "a566b43223c8b84cfc9a2c0b": {
+  "draft": "Namaste Blue Lotus Electronics team,\nAapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Blue Lotus Electronics team,\nPayout rukne se aapke business par asar padta hai, yeh hum samajhte hain.\nAapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.\n\nRazorpay Support"
+ },
+ "a5ddab8b67f79f9788f27084": {
+  "draft": "Namaste Oasis Labs team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Oasis Labs team,\nJab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Aap se request hai ki 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Agar deadline miss ho jaati hai, toh dispute automatically lost ho jaata hai.\n\nRazorpay Support"
+ },
+ "a60ab2d784bc715f4cec4479": {
+  "draft": "Thank you for writing to us. We have recorded your message and shared it with the right specialist team, who will review it and contact you directly.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I'm sorry for the frustration this has caused, and I understand how important this is to you. We have recorded your message and shared it with the right specialist team, who will review it and contact you directly.\n\nRazorpay Support"
+ },
+ "a6d5a5db24f9f507b7888d30": {
+  "draft": "Namaste Lotus Naturals team,\nKYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Lotus Naturals team,\nKYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "a89bb6a188c224495966893b": {
+  "draft": "Namaste Cedar Studio team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Cedar Studio team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye keh sakte hain. Agar paisa kat gaya hai par order fail hua, toh woh amount 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "abed70ededc2ae59747c1fc2": {
+  "draft": "Hi Craft Mart team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Craft Mart team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support"
+ },
+ "abed85423a849de00167045e": {
+  "draft": "Thank you for the details. We have escalated this to our Tech Support team so they can investigate, and they will get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details. We have escalated this to our Tech Support team so they can investigate, and they will get back to you.\n\nRazorpay Support"
+ },
+ "acf2776d5a4193f438904522": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. We have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. We have received your request to close the account. Closure is processed only once all pending settlements, refunds and disputes are cleared, and your Account Manager handles it. We have shared your request with them.\n\nRazorpay Support"
+ },
+ "ad91d8816bc91aa7ab0c8d6a": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_C8PRWEA2DEG8QV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_C8PRWEA2DEG8QV, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "ae4833cffe7f3db7198da239": {
+  "draft": "Hi Cedar Studio team,\nWhen a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Cedar Studio team,\nWhen a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "aea8ddd1c580b4a0997a763c": {
+  "draft": "Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai, aur ye frustrating ho sakta hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "aebe8cae9dfb1392559d0b4b": {
+  "draft": "Hi Madhur Enterprises team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Madhur Enterprises team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support"
+ },
+ "aebf19b549869417a5345fb1": {
+  "draft": "As per our system, your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, our system shows your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "af241a9a868a78671a23434a": {
+  "draft": "Hi Kiran Furnishings team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_ADQCNC9MXJHLCT becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Kiran Furnishings team,\nRefunds are credited to the customer's original payment source in 5-7 business days. For pay_ADQCNC9MXJHLCT, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "afd526bc93b14b9893f96f84": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support"
+ },
+ "aff12dd3f710b82d8fba34ac": {
+  "draft": "Namaste Mosaic Crafts team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Mosaic Crafts team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ko keh sakte hain. Agar paisa kat gaya hai par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "b026cba4442da95d0bc721b8": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "b0712323d7aa7316c79f130d": {
+  "draft": "Namaste Amber Services team,\nLegal entity ka naam ya business type edit karke change nahi ho sakta. Iske liye nayi (fresh) application deni hogi.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Amber Services team,\nLegal entity ka naam ya business type edit karke change nahi kiya ja sakta. Iske liye aapko nayi (fresh) application deni hogi.\n\nRazorpay Support"
+ },
+ "b0d45d9cbc779614348e41e6": {
+  "draft": "Hi Indus Services team,\nThank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Indus Services team,\nThank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.\n\nRazorpay Support"
+ },
+ "b1bb07ea953485e9903f1290": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when). Once we have it, we will check your account and get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue, such as what is failing and since when. Once we have these, we will check your account and get back to you.\n\nRazorpay Support"
+ },
+ "b39e033fb55177756e5b5f74": {
+  "draft": "I know failed payments mean lost sales for you. Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when). Once we have it, we will check your account and get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating this is, since failed payments mean lost sales for you. Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue, like what is failing and since when. Once we have these, we will check your account and get back to you.\n\nRazorpay Support"
+ },
+ "b3a38c9018257eac6d107d9c": {
+  "draft": "Hi Saffron Traders team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Saffron Traders team,\nWe know failed payments mean lost sales for your business.\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "b456fc239ccb33596abfd6a8": {
+  "draft": "Thank you for writing to us. We have recorded your message and shared it with the right specialist team, who will review it and contact you directly.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I'm sorry this has been frustrating, and thank you for writing to us. We have recorded your message and shared it with the right specialist team, who will review it and contact you directly.\n\nRazorpay Support"
+ },
+ "b5317df19bf055ceec471dbf": {
+  "draft": "Namaste Saffron Traders team,\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Saffron Traders team,\nAapke customer ko refund ka intezaar karna pareshan karta hai, yeh hum samajhte hain.\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "b5e808420a15cb6b356165c0": {
+  "draft": "Namaste Aarav Retail team,\nFees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Aarav Retail team,\nFees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support"
+ },
+ "b62b3d59b4b2044df2b1b2c4": {
+  "draft": "Hi Cedar Studio team,\nThank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Cedar Studio team,\nWe know that fees have a real impact on your business.\nPricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "b666444fcb9918c61c23990a": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye hume afsos hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "b695396433a7a8baf9eea67e": {
+  "draft": "Hi Craft Mart team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Craft Mart team,\nDispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.\n\nRazorpay Support"
+ },
+ "b6c7884afad4f0540b59b185": {
+  "draft": "I know waiting on a payout affects your business. Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I know waiting on a payout affects your business. Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "b822106fdff6a94c66186e7f": {
+  "draft": "Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai, aur ye frustrating hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "ba896fcfad07d62528337ec7": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "bae263ed8a45cc460db62b0c": {
+  "draft": "Hi Aarav Retail team,\nThank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Aarav Retail team,\nWe know integration errors can hold up your work and affect live traffic.\nThank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.\n\nRazorpay Support"
+ },
+ "bc296a2efe82aba3ee9c0c71": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "bd86b7273f913644472aa3c3": {
+  "draft": "Namaste Aarav Retail team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Aarav Retail team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "be4141ced90eefc611948c58": {
+  "draft": "As per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, as per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "beacbbbe3b6f57f96a39622f": {
+  "draft": "Hi Jaya Studio team,\nSIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jaya Studio team,\nWe know integration errors can hold up your work.\nSIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).\n\nRazorpay Support"
+ },
+ "bfd1ddb961c66d83e0bc49a9": {
+  "draft": "Hi Jaya Studio team,\nYour settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jaya Studio team,\nWe know waiting on a payout affects your business.\nYour settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "c01e0d5b36fe1544a8c67467": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me jaakar sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support"
+ },
+ "c04a85ae233a4c208b6a3974": {
+  "draft": "Hi Blue Lotus Organics team,\nWe can see that settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, who are reviewing it.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Organics team,\nAs per our system, settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, and they are reviewing it.\n\nRazorpay Support"
+ },
+ "c12712d86842b12b6023320b": {
+  "draft": "Hi Gulmohar Academy team,\nYour settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Gulmohar Academy team,\nYour settlements are currently on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.\n\nRazorpay Support"
+ },
+ "c2436cb1317b9fb6fbf5d1bb": {
+  "draft": "Namaste Yatra Organics team,\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Yatra Organics team,\nPayout ke intezaar se aapke business par asar padta hai, yeh hum samajhte hain.\nAapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "c4dfcc961f0216080f70e973": {
+  "draft": "'Authentication failed' on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, an 'Authentication failed' error on a live site usually means test keys are being used in production. Please switch to the live key ID and secret that were generated after your account was activated.\n\nRazorpay Support"
+ },
+ "c734e3a40a7633028584cd02": {
+  "draft": "Hi Kiran Furnishings team,\nThank you for the details on the refund for pay_34VM92SASN6M8H. We have passed this to our Refund team, who are checking its status.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Kiran Furnishings team,\nThank you for sharing the details of the refund for pay_34VM92SASN6M8H. We have passed this to our Refund team, who are checking its status.\n\nRazorpay Support"
+ },
+ "c81d5c345c91e0734208e71a": {
+  "draft": "Namaste Yatra Electronics team,\nHamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Yatra Electronics team,\nPayout ka intezaar aapke business ke liye mushkil hota hai. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "c91edcd2b5c94ceacc120eca": {
+  "draft": "Hi Mosaic Stores team,\nYou can change your registered email and mobile number under Settings, using OTP verification.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Mosaic Stores team,\nYou can change your registered email and mobile number under Settings. The change is confirmed using OTP verification.\n\nRazorpay Support"
+ },
+ "ca5d477fa2532664f8b41ec3": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai. Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "cc25f89cc84e59c569186779": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka wait karna aapke business ke liye mushkil hota hai. Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "ce76aefd4ce7ba821ce687b5": {
+  "draft": "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_L6DCLEWDD45TRV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, refunds are credited to the customer's original payment source in 5-7 business days. For pay_L6DCLEWDD45TRV, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "d085d89a8fc7b5f77ffc3ff5": {
+  "draft": "Thank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account, and they will get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for letting us know. We've asked your Account Manager to look into the GST invoice on your account, and they will get back to you.\n\nRazorpay Support"
+ },
+ "d136a385c6f993e5fbd17e0c": {
+  "draft": "Agar webhooks nahi aa rahe, toh kripya check karein ki URL publicly reachable hai, 5 seconds ke andar HTTP 200 return karta hai, aur event subscribed hai. Failed webhooks 24 hours tak retry hote hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Agar aapko webhooks nahi mil rahe, toh please ye check karein: aapka URL publicly reachable ho, 5 seconds ke andar HTTP 200 return kare, aur event subscribed ho. Failed webhooks 24 hours tak retry hote hain.\n\nRazorpay Support"
+ },
+ "d282a7ec89e11a28cdaa891a": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful it is to wait on a payout, and I'm sorry for the worry this causes. Our system shows your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "d298c3a774edceeb822ddadd": {
+  "draft": "Hi Tulsi Learning team,\nYour settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Tulsi Learning team,\nYour settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.\n\nRazorpay Support"
+ },
+ "d5900376712bcf2f9216b085": {
+  "draft": "Thank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "d5dd896cd0c4c56f6845883b": {
+  "draft": "GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Your GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support"
+ },
+ "d5f1197fb9741880a61ee55c": {
+  "draft": "Namaste Yatra Naturals team,\nBatane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ko kaha hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Yatra Naturals team,\nBatane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ke liye kaha hai.\n\nRazorpay Support"
+ },
+ "d67f56932030d3d2ca3e8cb6": {
+  "draft": "Namaste Panchi Studio team,\nLegal entity ka naam ya business type edit karke change nahi ho sakta. Iske liye nayi (fresh) application deni hogi.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Panchi Studio team,\nLegal entity ka naam ya business type edit karke change nahi kiya ja sakta. Iske liye aapko nayi (fresh) application deni hogi.\n\nRazorpay Support"
+ },
+ "d6fbc1ae25ea02b4c314a62e": {
+  "draft": "Hi Jade Traders team,\nIf webhooks are not received, please check that the URL is publicly reachable, returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jade Traders team,\nIf you are not receiving webhooks, please check that your webhook URL is publicly reachable, that it returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.\n\nRazorpay Support"
+ },
+ "d8c8d70974768b509c551f07": {
+  "draft": "Hi Prime Stores team,\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Prime Stores team,\nFailed payments mean lost sales for you, and we recognise that.\nThank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.\n\nRazorpay Support"
+ },
+ "d931eb28b605755c7b4427a2": {
+  "draft": "Hi Madhur Enterprises team,\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Madhur Enterprises team,\nWe know failed payments mean lost sales for you.\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support"
+ },
+ "da123b855a26694aea5188c9": {
+  "draft": "Hi Blue Lotus Organics team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_FY78TDVSVKDPD9 becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Blue Lotus Organics team,\nRefunds are credited to the customer's original payment source in 5-7 business days. For pay_FY78TDVSVKDPD9, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "da8f22b54aacdebe9f0d6f4d": {
+  "draft": "I know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating failed payments are, since they can mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (it starts with pay_).\n\nRazorpay Support"
+ },
+ "dc7d28ff54f7f533fa8ed9f6": {
+  "draft": "Namaste Tulsi Learning team,\nAapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Tulsi Learning team,\nPayout rukne se aapke business par asar padta hai, yeh hum samajhte hain.\nAapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.\n\nRazorpay Support"
+ },
+ "dee76d7e721a092b73cc6aa1": {
+  "draft": "Hi Indus Services team,\nAs per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Indus Services team,\nAs per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "df1a44eacf7b099badbf8f0a": {
+  "draft": "I know waiting on a payout affects your business. As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful it is to wait on a payout, and I'm sorry for the worry this causes. As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "df462bfae6280226de5a297c": {
+  "draft": "Namaste Kaveri Studio team,\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Kaveri Studio team,\nPayout rukne se aapke business par asar padta hai, yeh hum samajhte hain.\nHum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.\n\nRazorpay Support"
+ },
+ "df667950ab34ab32b7fdf7a3": {
+  "draft": "For KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! For KYC, please keep these ready: PAN of the business or owner, address proof, bank account proof, GST certificate (if you're GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.\n\nRazorpay Support"
+ },
+ "dfd9b8920664ea0ecc58ff0f": {
+  "draft": "Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki payout ka intezaar aapke business ke liye mushkil hota hai. Hamare system ke mutabik aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "e01926538316b5fda15aada6": {
+  "draft": "Namaste Dhruva Exports team,\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Dhruva Exports team,\nAapke customer ko refund ka intezaar hai, yeh hum samajhte hain.\nRefunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "e0a3463064e3bc3c4c217efc": {
+  "draft": "Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support"
+ },
+ "e16fd386d935f07425dfb6bc": {
+  "draft": "Hi Petal Studio team,\nWhen a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Petal Studio team,\nWhen a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.\n\nRazorpay Support"
+ },
+ "e19c9a1c38498b122a974d17": {
+  "draft": "Namaste Mosaic Stores team,\nKYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Mosaic Stores team,\nKYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "e364ff798c17447d91c35cb1": {
+  "draft": "I understand fees matter a lot to your business. Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand fees matter a lot to your business, and thank you for sharing this with us. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "e45b18c5a6c7a329b44b15af": {
+  "draft": "Samajh sakte hain ki yeh kitna pareshaan karne wala hai, aur iske liye maafi chahte hain. Hamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki yeh kitna pareshaan karne wala hai. Hamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "e4698f0ab858a4d0992114ea": {
+  "draft": "Namaste Panchi Studio team,\nHamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Panchi Studio team,\nPayout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.\nHamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support"
+ },
+ "e47d1e24ca8020e533e950b6": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for the details. Since this affects your production traffic, we have escalated it to our Tech Support team to investigate, and they will get back to you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for sharing the details. Since this is affecting your production traffic, we have escalated it to our Tech Support team to investigate, and they will get back to you.\n\nRazorpay Support"
+ },
+ "e4ad794a25fabdea7f97dcf8": {
+  "draft": "Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki aapka customer is refund ka wait kar raha hai, aur ye frustrating hota hai. Refund customer ke original payment source me 5-7 business days me credit hota hai. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "e5e61ed638d8a11eac46232f": {
+  "draft": "Thank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "e9b8a303c7727c802c2f8f7c": {
+  "draft": "Hi Aarav Retail team,\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Aarav Retail team,\nWe know failed payments mean lost sales for your business.\nWhen money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).\n\nRazorpay Support"
+ },
+ "eb0b071487c588be48909500": {
+  "draft": "Hamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! Hamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap har settlement ko Dashboard > Settlements me track kar sakte hain.\n\nRazorpay Support"
+ },
+ "eb6849429dac74a3cd80845f": {
+  "draft": "Namaste Sahara Naturals team,\nFees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Sahara Naturals team,\nFees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.\n\nRazorpay Support"
+ },
+ "ec56b3d696c660ff2efb3d84": {
+  "draft": "This BAD_REQUEST_ERROR happens when the amount is not in paise. Amounts must be sent in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi, the BAD_REQUEST_ERROR occurs when the amount is not sent in paise. Amounts must always be in paise, so Rs 499 should be sent as 49900.\n\nRazorpay Support"
+ },
+ "ecb0dabf252e63b26f101bc5": {
+  "draft": "Thank you for flagging this. We have escalated it to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for flagging this. We've escalated it to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support"
+ },
+ "f0c1bd5d8727f2ab6dbc5a02": {
+  "draft": "Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai, aur ye frustrating ho sakta hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.\n\nRazorpay Support"
+ },
+ "f2870876976cc6a355c75f2d": {
+  "draft": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for flagging this. We have escalated it to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how stressful this is, and I'm sorry for the trouble. Thank you for flagging it. We've escalated this to our Payments team to check for a possible issue affecting your payment success, and they will update you.\n\nRazorpay Support"
+ },
+ "f4cf360fbebc14f95f3330b2": {
+  "draft": "Hi Sahara Naturals team,\nYour settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Sahara Naturals team,\nYour settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "f5200a7faa94588a63f0a31c": {
+  "draft": "Hi Jade Furnishings team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_C8PRWEA2DEG8QV becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jade Furnishings team,\nRefunds are credited to the customer's original payment source within 5-7 business days. For pay_C8PRWEA2DEG8QV, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "f778453bfb7dfe15266b66fa": {
+  "draft": "Thank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Thanks for sharing the details about the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team. We have escalated your request to them, and they will share an update with you.\n\nRazorpay Support"
+ },
+ "f957f6e128339283279b9afc": {
+  "draft": "Namaste Panchi Mart team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Panchi Mart team,\nSamajh sakte hain ki payments fail hone se aapki sales par asar padta hai.\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "f9d0fdbfbbf27dedb6ac39f2": {
+  "draft": "Hi Kiran Furnishings team,\nThank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Kiran Furnishings team,\nPricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.\n\nRazorpay Support"
+ },
+ "f9efc2eb4c1a5bcce4093fba": {
+  "draft": "Samajh sakte hain ki fees aapke business ke liye bahut important hain. Yeh share karne ke liye dhanyavaad. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hum samajh sakte hain ki fees aapke business ke liye bahut important hain, aur yeh baat share karne ke liye dhanyavaad. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.\n\nRazorpay Support"
+ },
+ "fb058f9a53b0a31858f8e2f1": {
+  "draft": "Hi Sunrise Mart team,\nAs per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Sunrise Mart team,\nWe know waiting on a payout affects your business.\nAs per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.\n\nRazorpay Support"
+ },
+ "fbc5e4123539201351893960": {
+  "draft": "Hi Nila Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_E9TA2K7T4Q7PEW becomes available after 3 days, which the customer can share with their bank to trace the credit.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Nila Naturals team,\nRefunds are credited to the customer's original payment source in 5-7 business days. For pay_E9TA2K7T4Q7PEW, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.\n\nRazorpay Support"
+ },
+ "fc07e6edb4c195fa6624beb0": {
+  "draft": "Hi Jade Traders team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Jade Traders team,\nGST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.\n\nRazorpay Support"
+ },
+ "fc16c7b4ee4c314364e10d2f": {
+  "draft": "Hi Ruby Studio team,\n'Authentication failed' on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Hi Ruby Studio team,\nAn 'Authentication failed' error on a live site usually means test keys are being used in production. Please use the live key ID and secret that were generated after activation.\n\nRazorpay Support"
+ },
+ "fd5fb06a8d61c2f9b3a86442": {
+  "draft": "Namaste Yatra Organics team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v2",
+  "reply": "Namaste Yatra Organics team,\nPayments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye kahein. Agar paisa kat gaya hai par order fail hua, toh woh amount 5-7 business days me customer ko auto-reverse ho jaata hai.\n\nRazorpay Support"
+ },
+ "fef97535fa06401f49152fba": {
+  "draft": "KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "Hi! KYC complete karne ke liye aapko ye documents chahiye honge: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar aap GST-registered hain) aur authorised signatory ka ID. Inhe aap Dashboard > Account > KYC me upload kar sakte hain.\n\nRazorpay Support"
+ },
+ "ffa7ea9c0de30eabf364fd27": {
+  "draft": "I know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "polisher-v1",
+  "reply": "I understand how frustrating failed payments are, as they can mean lost sales for you. Payments usually fail because of bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.\n\nRazorpay Support"
+ }
+}

@@ -1,0 +1,5 @@
+ticket_id,category,sub_case,merchant_message
+T-0008,API & Integration,api_no_kb_escalate_production,Production traffic is getting rate-limited even though we are far below documented limits. M1004
+T-0047,API & Integration,api_no_kb_escalate_production,"We see random 502 errors from your order API on production for the last 2 hours, no pattern. M1018"
+T-0118,API & Integration,api_no_kb_escalate,Our checkout intermittently shows a blank popup for some users on Android only. No error code anywhere. M1008
+T-0145,API & Integration,api_no_kb_escalate,"Orders created successfully but payments page times out for ~5% of users. Logs attached, request IDs available on call. M1046"

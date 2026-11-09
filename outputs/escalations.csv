@@ -1,0 +1,186 @@
+ticket_id,category,action,escalation_team,risk_level,drafted_reply,secondary_team,threat_type,send_mode,decision_trace
+T-0003,Fees & Invoices,escalate,Account Manager,Medium,"Hi Kiran Furnishings team,
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09): fee waiver is handled only by the Account Manager. No promise of waiver, refund or rate change."
+T-0044,Fees & Invoices,escalate,Account Manager,Medium,"Hi Yatra Naturals team,
+We know that fees have a real impact on your business. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09): fee difference refund is handled only by the Account Manager. No promise of waiver, refund or rate change."
+T-0070,Account Management,escalate,Account Manager,High,"Hi Madhur Enterprises team,
+We know you want your account closure handled quickly.
+We have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.
+
+Razorpay Support",Risk Ops,none,agent_review,"Rule 11 (KB-17): closure goes through the Account Manager and Risk Ops after pending settlements, refunds and disputes clear. Tone frustrated + urgent: risk raised Medium -> High."
+T-0085,Fees & Invoices,escalate,Account Manager,Medium,"Hi Rudra Organics team,
+Thank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09, decision D7): the system shows no GST invoice available for this merchant, so pointing to the Dashboard would be wrong. Escalate to the Account Manager."
+T-0101,Fees & Invoices,escalate,Account Manager,Medium,"Namaste Dhruva Exports team,
+Samajh sakte hain ki fees aapke business ke liye bahut important hain. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09): fee rate negotiation is handled only by the Account Manager. No promise of waiver, refund or rate change. Competitor or leaving language: churn signal set."
+T-0111,Fees & Invoices,escalate,Account Manager,High,"Hi Cedar Studio team,
+We know that fees have a real impact on your business.
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09): fee rate negotiation is handled only by the Account Manager. No promise of waiver, refund or rate change. Competitor or leaving language: churn signal set. Tone frustrated + urgent: risk raised Medium -> High."
+T-0130,Fees & Invoices,escalate,Account Manager,Medium,"Namaste Yatra Naturals team,
+Batane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ke liye kaha hai.
+
+Razorpay Support",,none,agent_review,"Rule 9 (KB-09, decision D7): the system shows no GST invoice available for this merchant, so pointing to the Dashboard would be wrong. Escalate to the Account Manager."
+T-0021,Legal / Security,escalate,Legal,Critical,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,regulator,do_not_send,"Rule 1 (KB-15): threat detected (regulator, keywords ['RBI']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0027,Settlement,escalate,Legal,Critical,"Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,legal_threat,do_not_send,"Rule 1 (KB-15): threat detected (legal_threat, keywords ['legal notice', 'court']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0031,Legal / Security,escalate,Legal,Critical,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,legal_threat,do_not_send,"Rule 1 (KB-15): threat detected (legal_threat, keywords ['lawyer']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0078,Legal / Security,escalate,Legal,Critical,"Namaste Pixel Crafts team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",,fraud_allegation,do_not_send,"Rule 1 (KB-15): threat detected (fraud_allegation, keywords ['consumer forum', 'fraud']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0115,Legal / Security,escalate,Legal,Critical,"Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,media_threat,do_not_send,"Rule 1 (KB-15): threat detected (media_threat, keywords ['Twitter', 'LinkedIn', 'press']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0138,Legal / Security,escalate,Legal,Critical,"Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,bribery,do_not_send,"Rule 1 (KB-15): threat detected (bribery, keywords ['commission', 'recording']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0014,Payment Failure,escalate,Payments Ops,High,"Hi Trident Electronics team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0023,Payment Failure,escalate,Payments Ops,High,"Hi Prime Stores team,
+Failed payments mean lost sales for you, and we recognise that.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 84.0% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0045,Payment Failure,escalate,Payments Ops,High,"Hi Saffron Traders team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 78.5% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0069,Payment Failure,escalate,Payments Ops,High,"Hi Fable Furnishings team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 82.8% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0080,Payment Failure,escalate,Payments Ops,High,"Hi Orchid Retail team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 77.9% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0098,Payment Failure,escalate,Payments Ops,High,"Hi Orchid Retail team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 77.9% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0103,Payment Failure,escalate,Payments Ops,High,"Hi Blue Lotus Electronics team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 76.3% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0124,Payment Failure,escalate,Payments Ops,High,"Namaste Trident Electronics team,
+Yeh jaankari share karne ke liye dhanyavaad. Humne ise apni Payments team ko pass kar diya hai, jo aapke payment success ko affect kar rahe kisi possible issue ki jaanch kar rahi hai.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0135,Payment Failure,escalate,Payments Ops,High,"Hi Trident Electronics team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0140,Payment Failure,escalate,Payments Ops,High,"Hi Saffron Traders team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,none,agent_review,Rule 5 (KB-06): 7-day success rate 78.5% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.
+T-0015,Refund,escalate,Refund Ops,High,"Hi Sunrise Mart team,
+Thank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 2,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0040,Refund,escalate,Refund Ops,High,"Hi Saffron Traders team,
+Thank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 1,20,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0042,Refund,escalate,Refund Ops,High,"Hi Blue Lotus Organics team,
+Thank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 9,00,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0089,Refund,escalate,Refund Ops,Medium,"Hi Kiran Furnishings team,
+Thank you for sharing the details of the refund for pay_34VM92SASN6M8H. We have passed this to our Refund team, who are checking its status.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07, decision D1): initiated 10 calendar days before the ticket = 8 business days, past the 7-day window. Escalate to Refund Ops to check status."
+T-0117,Refund,escalate,Refund Ops,High,"Hi Panchi Studio team,
+Thank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 1,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0137,Refund,escalate,Refund Ops,High,"Hi Kiran Furnishings team,
+Thank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 9,00,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0149,Refund,escalate,Refund Ops,High,"Hi Tulsi Learning team,
+Thank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,none,agent_review,"Rule 6 (KB-07): refund Rs 1,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised."
+T-0016,Settlement,escalate,Risk Ops,High,"Hi Blue Lotus Organics team,
+As per our system, settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, and they are looking into it.
+
+Razorpay Support",,none,agent_review,Rule 4 (KB-03): on hold (Chargeback reserve). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.
+T-0063,Settlement,escalate,Risk Ops,High,"Namaste Saffron Traders team,
+Payout mein deri se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,none,agent_review,Rule 4 (KB-03): on hold (Chargeback reserve). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.
+T-0083,Settlement,escalate,Risk Ops,High,"Namaste Kaveri Studio team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,none,agent_review,Rule 4 (KB-03): on hold (Risk review). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.
+T-0092,Settlement,escalate,Risk Ops,High,"Namaste Kaveri Studio team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,none,agent_review,Rule 4 (KB-03): on hold (Risk review). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.
+T-0002,Legal / Security,escalate,Security,Critical,"Namaste Vista Retail team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",Legal,data_leak,do_not_send,"Rule 1 (KB-15): threat detected (data_leak, keywords ['police', 'leak']). Escalate immediately to Security with Legal as secondary (police/authorities mentioned). Never auto-replied: holding draft only, for the escalation team to approve."
+T-0017,KYC,escalate,Security,High,"Hi Vista Retail team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,none,agent_review,"Rule 8 (KB-10, decision D5): merchant KYC is already Verified, so a re-verification message is suspicious. Warn the merchant (genuine requests come only from the Dashboard or @example.com) and escalate to Security."
+T-0030,Legal / Security,escalate,Security,Critical,"Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",Legal,data_leak,do_not_send,"Rule 1 (KB-15): threat detected (data_leak, keywords ['leak', 'authorities']). Escalate immediately to Security with Legal as secondary (police/authorities mentioned). Never auto-replied: holding draft only, for the escalation team to approve."
+T-0060,Legal / Security,escalate,Security,Critical,"Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,account_takeover,do_not_send,"Rule 1 (KB-15): threat detected (account_takeover, keywords ['logged into my dashboard', 'changed my bank account']). Escalate immediately to Security. Never auto-replied: holding draft only, for the escalation team to approve."
+T-0095,KYC,escalate,Security,High,"Hi Indus Services team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,none,agent_review,"Rule 8 (KB-10, decision D5): merchant KYC is already Verified, so a re-verification message is suspicious. Warn the merchant (genuine requests come only from the Dashboard or @example.com) and escalate to Security."
+T-0008,API & Integration,escalate,Tech Support,High,"Hi Nila Naturals team,
+We know integration errors can hold up your work, especially with production traffic affected.
+Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,none,agent_review,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess. Production impact stated: risk High."
+T-0047,API & Integration,escalate,Tech Support,High,"Hi Aarav Retail team,
+We know integration errors can hold up your work and affect live traffic.
+Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,none,agent_review,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess. Production impact stated: risk High."
+T-0118,API & Integration,escalate,Tech Support,Medium,"Hi Blue Lotus Electronics team,
+Thank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,none,agent_review,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess."
+T-0145,API & Integration,escalate,Tech Support,Medium,"Hi Dhruva Academy team,
+Thank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,none,agent_review,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess."

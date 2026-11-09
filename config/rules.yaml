@@ -1,0 +1,277 @@
+# Merchant Support Triage Copilot: rulebook.
+# The KB is the source of truth. This file encodes it. Code applies it.
+# Never reference specific ticket or merchant IDs here.
+
+version: v0
+frozen: false            # set true (and bump version) to lock the rulebook for submission
+
+data:
+  path: data/Buildathon_Student_Data_Pack.xlsx
+  tickets_sheet: P1_Tickets
+  merchants_sheet: P1_Merchants
+  kb_sheet: P1_KnowledgeBase
+  snapshot_date: "30 Sep 2026"   # from the Data Pack README tab
+
+llm:
+  model: claude-sonnet-5-5
+  effort: low                 # short classification and rewrite tasks
+  max_tokens: 2000
+  use_fallbacks: true         # server-side refusal fallback ("default" form)
+  polish_replies: true        # false = template text only
+  max_try_it_runs: 10         # per dashboard session
+  # Without an LLM reading (no key, API error, --offline) the keyword reader cannot catch threats worded
+  # in a new way, so nothing auto-sends: every reply goes to agent review.
+  offline_blocks_auto_send: true
+
+categories:
+  - Settlement
+  - Payment Failure
+  - Refund
+  - Chargeback
+  - KYC
+  - Fees & Invoices
+  - API & Integration
+  - Account Management
+  - Legal / Security
+  - Unclear
+
+teams:
+  legal: Legal
+  security: Security
+  risk_ops: Risk Ops
+  refund_ops: Refund Ops
+  payments_ops: Payments Ops
+  account_manager: Account Manager
+  tech_support: Tech Support
+
+# Team used when the LLM names a category but no KB rule covers the request.
+fallback_team_by_category:
+  Settlement: risk_ops
+  Payment Failure: payments_ops
+  Refund: refund_ops
+  Chargeback: risk_ops
+  KYC: security
+  Fees & Invoices: account_manager
+  API & Integration: tech_support
+  Account Management: account_manager
+  Legal / Security: legal
+  Unclear: null
+
+thresholds:
+  success_rate_degradation_pct: 85        # KB-06: below this, escalate to Payments Ops
+  refund_manual_approval_inr: 100000      # KB-07: at or above, Refund Ops approves
+  refund_window_business_days: 7          # KB-07: 5-7 business days; past 7 = overdue (decision D1)
+  vague_max_words: 6                      # message (IDs removed) this short = too vague to act on
+
+# ---------------------------------------------------------------------------
+# Threats (KB-15). Either the keyword list OR the LLM threat flag fires rule 1.
+# ---------------------------------------------------------------------------
+threats:
+  keywords: [police, lawyer, legal notice, court, consumer forum, RBI, regulator, leak,
+             hacked, logged into my dashboard, changed my bank account, commission, bribe,
+             recording, Twitter, LinkedIn, press, media, fraud, authorities]
+  # If the LLM flags a threat with a label not listed below, treat it as this type (fail safe, never dropped).
+  unknown_type_fallback: legal_threat
+  # Ordered: first type whose keywords match wins.
+  types:
+    - name: account_takeover
+      keywords: [hacked, logged into my dashboard, changed my bank account]
+      team: security
+      pure_threat: true
+    - name: data_leak
+      keywords: [leak]
+      team: security
+      secondary_if_keywords: [police, authorities]
+      secondary_team: legal
+      pure_threat: true
+    - name: bribery
+      keywords: [commission, bribe, recording]
+      team: legal
+      pure_threat: true
+    - name: fraud_allegation
+      keywords: [fraud]
+      team: legal
+      pure_threat: true
+    - name: regulator
+      keywords: [RBI, regulator, consumer forum]
+      team: legal
+      pure_threat: true
+    - name: legal_threat
+      keywords: [lawyer, legal notice, court]
+      team: legal
+      pure_threat: false      # topic + legal threat keeps the topic as category (decision D3)
+    - name: media_threat
+      keywords: [Twitter, LinkedIn, press, media]
+      team: legal
+      pure_threat: true
+
+# ---------------------------------------------------------------------------
+# Intents: regex patterns (case-insensitive), checked in order, first match wins.
+# Each intent maps to a category. These are auditable; the LLM covers the rest.
+# ---------------------------------------------------------------------------
+intents:
+  - {name: api_signature,         category: API & Integration, patterns: ['signature', 'SIGNATURE_MISMATCH']}
+  - {name: api_amount_mismatch,   category: API & Integration, patterns: ['amount mismatch', 'BAD_REQUEST_ERROR']}
+  - {name: api_auth_failed,       category: API & Integration, patterns: ['authentication failed']}
+  - {name: api_webhook,           category: API & Integration, patterns: ['webhook']}
+  - {name: api_unknown,           category: API & Integration, patterns: ['\b5\d\d errors?\b', 'rate[- ]limit', 'blank popup', '\btimes? out\b', '\btimeout', '\bAPI\b']}
+  - {name: kyc_reverification_check, category: KYC, patterns: ['re-?verification.*(genuine|real|fake|scam)', '(genuine|fake|scam).*(kyc|verification)']}
+  - {name: kyc_documents,         category: KYC, patterns: ['kyc.*documents?', 'documents?.*kyc', 'kyc me kya']}
+  - {name: account_closure,       category: Account Management, patterns: ['close my account', 'account (band|close)', 'closure']}
+  - {name: change_legal_name,     category: Account Management, patterns: ['(company|business|legal|firm) (ka )?(naam|name)', 'naam change', 'business type']}
+  - {name: change_contact,        category: Account Management, patterns: ['(change|update).*(email|mobile|phone)', '(email|mobile|phone).*(change|update)']}
+  - {name: fee_rate_negotiation,  category: Fees & Invoices, patterns: ['rate kam', 'reduce my rates?', '\bMDR\b', 'competitor', 'doosre gateway', 'other gateway']}
+  - {name: fee_difference_refund, category: Fees & Invoices, patterns: ['charged \d', 'refund the difference', 'fee difference']}
+  - {name: fee_waiver,            category: Fees & Invoices, patterns: ['waiver', '\bwaive']}
+  - {name: invoice_request,       category: Fees & Invoices, patterns: ['invoice']}
+  - {name: chargeback_prevent,    category: Chargeback, patterns: ['chargeback karega', 'rok sakte', '(block|stop|prevent).*(chargeback|dispute)']}
+  - {name: dispute_deduction,     category: Chargeback, patterns: ['deducted.*dispute', 'dispute.*(debited|deducted)', 'disputed.*debited']}
+  - {name: chargeback_notice,     category: Chargeback, patterns: ['chargeback']}
+  - {name: refund_status,         category: Refund, patterns: ['refund']}
+  - {name: deducted_order_failed, category: Payment Failure, patterns: ['deducted.*fail']}
+  - {name: payment_failing,       category: Payment Failure, patterns: ['\bfail', 'payment success', 'success rate', 'payment (problem|issue)']}
+  - {name: settlement_query,      category: Settlement, patterns: ['settlement', 'payout', '\bpaisa\b', 'money not received']}
+
+# Words that mark a vague ticket's topic when it is too short to act on.
+vague_message_patterns: ['help', 'not working', 'complaining', 'check my case', 'issue with my account', 'call me']
+
+# ---------------------------------------------------------------------------
+# Language and tone (offline detector; the LLM is preferred when available)
+# ---------------------------------------------------------------------------
+language:
+  hinglish_markers: [hai, hain, kya, nahi, kaha, kahan, kab, mera, mere, meri, karo, kar, karna, karein,
+                     gaye, gayi, aaya, aayi, bhai, chahiye, raha, rahe, rahi, kitna, lagenge, kyun,
+                     ke, ka, ki, aap, aapki, aapka, hum, humne, abhi, tak, mila, dono, kuch, hua,
+                     jaa, warna, ruk, se, wajah, tumhari, alawa, batao, kaafi, din, pe, ho, toh, hoga, jayega]
+  min_markers: 2
+
+tone:
+  angry_patterns: ['final warning', "don't want any more", 'immediately or', 'or i will move', 'fraud kar',
+                   'which law', 'or my lawyer', 'tagging your ceo', 'i will post']
+  frustrated_patterns: ['urgent', '!!', 'no one has told', 'again and again', 'need this today', 'stuck',
+                        'ruk gaya', 'ruk gayi', 'kaafi din', 'abhi tak', 'do something', 'final warning',
+                        'immediately', 'not fixed']
+  urgent_patterns: ['urgent', 'today', 'immediately', 'asap', 'jaldi', 'right now', '\bnow\b']
+
+api_production_patterns: ['production', 'live site', '\bprod\b']
+sales_stopped_patterns: ['sales ruk', 'sales (have |has )?stopped', 'business ruk']
+churn_patterns: ['competitor', 'doosre gateway', 'other gateway', 'i will move', 'chale jayenge', 'close my account', 'switch']
+
+# ---------------------------------------------------------------------------
+# Risk: base level per sub_case. Tone (angry or urgent) raises one level, max High.
+# Critical only comes from threats.
+# ---------------------------------------------------------------------------
+risk:
+  threat: Critical
+  missing_merchant_id: Medium
+  vague_ask_info: Medium
+  settlement_settled: Low
+  settlement_delayed: Low
+  settlement_hold_escalate: High
+  settlement_kyc_pending: Medium
+  settlement_bank_mismatch: Medium
+  payment_degradation_escalate: High
+  payment_failing_auto: Low
+  payment_failing_sales_stopped: Medium
+  deducted_ask_payment_id: Medium
+  refund_large_escalate: High
+  refund_overdue_escalate: Medium
+  refund_ask_payment_id: Medium
+  refund_in_window: Low
+  dispute_ask_reference: Medium
+  dispute_with_open_chargeback: Medium
+  chargeback_notice: Medium
+  chargeback_prevent: Low
+  kyc_documents: Low
+  kyc_reverification_guide: Low
+  kyc_phishing_escalate: High
+  invoice_available: Low
+  invoice_unavailable_escalate: Medium
+  fee_commercial_escalate: Medium
+  api_signature: Low
+  api_amount_mismatch: Low
+  api_auth_failed: Low
+  api_webhook: Low
+  api_no_kb_escalate: Medium
+  api_no_kb_escalate_production: High
+  account_change_contact: Medium
+  account_change_legal_name: Medium
+  account_closure_escalate: Medium
+  no_rule_escalate: Medium
+
+# ---------------------------------------------------------------------------
+# Guardrails (guardrails.py). Every reply is checked.
+# ---------------------------------------------------------------------------
+guardrails:
+  # Durations allowed in a reply, keyed by the KB article that backs them.
+  # Matched after normalising: lowercase, "5 - 7" -> "5-7", Hinglish units kept in English.
+  allowed_durations:
+    KB-01: ["t+2", "2 business days"]
+    KB-02: ["2 additional business days", "2 business days"]
+    KB-04: ["1 business day"]
+    KB-05: ["24 hours"]
+    KB-06: ["5-7 business days"]
+    KB-07: ["5-7 business days", "3 days"]
+    KB-08: ["7 calendar days", "7 days"]
+    KB-09: ["5th"]
+    KB-10: ["24 months"]
+    KB-13: ["5 seconds", "24 hours"]
+  promise_phrases: ["will be refunded", "refund approved", "we have released", "we will release",
+                    "has been released", "waived", "waiver approved", "guarantee", "today itself",
+                    "by today", "rest assured it will", "rate reduced", "will be credited today",
+                    "aaj hi", "approve kar diya", "release kar diya", "release kar denge"]
+  # No apology in any reply: the acknowledgement line is enough, and an apology can read as admitting fault.
+  # Added after the polisher put "I'm sorry for the worry" back into 8 replies (decisions log, 09 Nov 2026).
+  apology_phrases: ["sorry", "apolog", "regret", "maafi", "khed hai", "kshama"]
+  # Checked only on settlement-hold escalations (KB-03: never hint at the hold reason). "review" echoes
+  # "Risk review", so it is banned there too (found when T-0083's spec case failed, 09 Nov 2026).
+  internal_reason_terms: ["risk", "fraud", "suspicious", "chargeback reserve", "risk review", "under review for",
+                          "review"]
+  threat_banned_phrases: ["our fault", "our mistake", "we admit", "we accept responsibility", "we apologise for the leak",
+                          "we apologize for the leak", "you are wrong", "that is not true", "will be fixed",
+                          "will be resolved", "we will compensate", "galti hamari", "hamari galti",
+                         "sorry", "apolog", "regret", "maafi", "khed hai"]   # no apology in threat replies (KB-15)
+  ask_info_field_phrases:
+    merchant_id: ["merchant id"]
+    payment_id: ["payment id"]
+    debit_reference: ["reference"]
+    details: ["details"]
+
+# ---------------------------------------------------------------------------
+# Reply style (guardrails.py style checks). Applies to every reply; a failing reply is regenerated once,
+# then blocked for a human. Decided by Vasudev, 09 Nov 2026.
+# ---------------------------------------------------------------------------
+reply_style:
+  greeting: {en: "Hi {name} team,", hi: "Namaste {name} team,"}   # {name} = business_name from the merchant record
+  greeting_no_name: {en: "Hi,", hi: "Namaste,"}                   # no merchant ID on the ticket
+  signoff: "Razorpay Support"
+  max_words: 80                         # body only: greeting and sign-off not counted
+  # No promise of follow-up in any reply (escalation replies stay neutral: "the team is reviewing it").
+  commitment_phrases: ["will get back", "will update you", "will contact", "will reach out", "get in touch",
+                       "share an update", "keep you updated", "keep you posted", "shortly", "soon",
+                       "update denge", "update karenge", "sampark karenge", "jald hi"]
+  first_person_en: ['\bI\b', '\bmy\b', '\bme\b']   # English voice is always "we" (\bI\b also catches I'm, I've)
+  no_exclamation: true
+  # Empathy wording is only for frustrated or angry merchants; calm merchants get a straight answer.
+  empathy_markers: ["understand", "know how", "know that", "samajh", "frustrat", "stressful", "pareshaan"]
+
+# ---------------------------------------------------------------------------
+# Insights
+# ---------------------------------------------------------------------------
+spikes:
+  daily_min_payment_failure_tickets: 3     # a day at or above this is flagged
+  repeat_window_days: 14
+  repeat_min_tickets: 2
+
+# Rules where the KB was silent or ambiguous; each counted as a KB improvement signal.
+kb_ambiguity:
+  refund_overdue_escalate: {kb: KB-07, note: "KB gives business days; merchants quote calendar days. No rule for an overdue refund."}
+  refund_in_window: {kb: KB-07, note: "Ticket ages in calendar days had to be converted to business days (bank holidays unknown)."}
+  deducted_ask_payment_id: {kb: KB-16, note: "Unclear whether KB-16's payment ID rule applies to 'money deducted, order failed' reports."}
+  dispute_ask_reference: {kb: KB-08, note: "No guidance when a merchant reports a dispute debit but the system shows 0 open chargebacks."}
+  kyc_phishing_escalate: {kb: KB-10, note: "KB-10 says what genuine requests look like, but not who handles a suspected phishing message."}
+  invoice_unavailable_escalate: {kb: KB-09, note: "KB-09 says invoices are generated by the 5th, but not what to do when the system shows none."}
+  api_no_kb_escalate: {kb: KB-12, note: "No KB article for this API error (5xx, rate limiting, timeouts, blank checkout)."}
+  api_no_kb_escalate_production: {kb: KB-12, note: "No KB article for this API error (5xx, rate limiting, timeouts, blank checkout)."}
+  vague_ask_info: {kb: KB-16, note: "Ticket too vague to act on; a 'what to include' guide could cut these."}
+  missing_merchant_id: {kb: KB-16, note: "Merchant ID missing; channels could capture it before the ticket is created."}

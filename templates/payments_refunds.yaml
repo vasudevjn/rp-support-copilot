@@ -1,0 +1,40 @@
+templates:
+  payment_degradation_escalate:
+    action: escalate
+    en: "Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success."
+    hi: "Yeh batane ke liye dhanyavaad. Humne ise hamari Payments team ko bhej diya hai, jo aapke payment success par asar daal rahe kisi possible issue ki jaanch kar rahi hai."
+
+  payment_failing_auto:
+    action: auto_resolve
+    en: "Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days."
+    hi: "Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai."
+
+  payment_failing_sales_stopped:
+    action: auto_resolve
+    en: "Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask customers to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days."
+    hi: "Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai."
+
+  deducted_ask_payment_id:
+    action: ask_info
+    en: "When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share {fields}."
+    hi: "Jab paisa kat jaata hai par order fail hota hai, toh amount 5-7 business days me customer ko auto-reverse ho jaata hai. Is case ko check karne ke liye kripya {fields} share karein."
+
+  refund_large_escalate:
+    action: escalate
+    en: "Thank you for the details on the refund for {payment_id}. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review."
+    hi: "{payment_id} ke refund ki details ke liye dhanyavaad. Itne bade refunds hamari Refund team manually review aur approve karti hai. Aapki request review ke liye unhe bhej di gayi hai."
+
+  refund_overdue_escalate:
+    action: escalate
+    en: "Thank you for the details on the refund for {payment_id}. We have passed this to our Refund team, who are checking its status."
+    hi: "{payment_id} ke refund ki details ke liye dhanyavaad. Humne ise hamari Refund team ko bhej diya hai, jo iska status check kar rahi hai."
+
+  refund_ask_payment_id:
+    action: ask_info
+    en: "To check this refund, please share {fields}."
+    hi: "Is refund ko check karne ke liye kripya {fields} share karein."
+
+  refund_in_window:
+    action: auto_resolve
+    en: "Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for {payment_id} becomes available after 3 days, which the customer can share with their bank to trace the credit."
+    hi: "Refunds customer ke original payment source me 5-7 business days me credit hote hain. {payment_id} ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain."

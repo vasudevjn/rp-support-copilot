@@ -1,0 +1,1093 @@
+ticket_id,category,action,escalation_team,risk_level,drafted_reply,secondary_team,sub_case,kb_ids,language,tone,threat_type,missing_fields,send_mode,guardrail_status,churn_signal,decision_trace,merchant_id,channel,created_at,merchant_message,intent,urgent,threat_keywords,extraction_source,reply_source,guardrail_failures,template_reply,extraction_notes,summary,payment_id,amount_inr
+T-0001,Settlement,auto_resolve,,Medium,"Namaste Opal Crafts team,
+Samajh sakte hain ki payout ruka rehna aapke business ke liye mushkil hota hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.
+
+Razorpay Support",,settlement_bank_mismatch,KB-05,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-05): on hold for bank account name mismatch; guide to re-add the account (penny-drop within 24 hours).,M1043,Email,01 Sep 2026 09:40,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1043",settlement_query,False,,cache,cache,,"Namaste Opal Crafts team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.
+
+Razorpay Support",,"Merchant asks why their payout was put on hold, says their business is stalled, and requests release of the funds (merchant reference M1043).",,
+T-0002,Legal / Security,escalate,Security,Critical,"Namaste Vista Retail team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",Legal,threat,KB-15,Hinglish,angry,data_leak,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (data_leak, keywords ['police', 'leak']). Escalate immediately to Security with Legal as secondary (police/authorities mentioned). Never auto-replied: holding draft only, for the escalation team to approve.",M1015,Chat,01 Sep 2026 13:26,Mere customers ka data leak hua hai tumhari wajah se. Main police me jaa raha hu. M1015,,False,"police, leak",cache,template,,"Namaste Vista Retail team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",,Merchant (M1015) claims their customers' data has leaked because of Razorpay and says they are going to the police.,,
+T-0003,Fees & Invoices,escalate,Account Manager,Medium,"Hi Kiran Furnishings team,
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,fee_commercial_escalate,KB-09,English,calm,none,,agent_review,PASS,False,"Rule 9 (KB-09): fee waiver is handled only by the Account Manager. No promise of waiver, refund or rate change.",M1034,Email,01 Sep 2026 13:45,I want a fee waiver for this month as my sales were low. Please approve. M1034,fee_waiver,False,,cache,cache,,"Hi Kiran Furnishings team,
+Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,Merchant M1034 requests a fee waiver for this month because their sales were low.,,
+T-0004,Payment Failure,auto_resolve,,Low,"Hi Indus Services team,
+We know failed payments mean lost sales for your business.
+Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,payment_failing_auto,KB-06,English,frustrated,none,,agent_review,PASS,False,"Rule 5 (KB-06): success rate 91.5% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1047,Chat,01 Sep 2026 16:46,Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1047,payment_failing,False,,cache,cache,,"Hi Indus Services team,
+We know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,Merchant reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.,,
+T-0005,Refund,auto_resolve,,Low,"Namaste Saffron Traders team,
+Aapke customer ko refund ka intezaar karna pareshan karta hai, yeh hum samajhte hain.
+Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,refund_in_window,KB-07,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): 3 calendar days = 2 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1042,Chat,01 Sep 2026 20:36,"Customer ka refund Rs 12,000 abhi tak nahi mila, 3 din ho gaye. pay_NPQNDM4PXUUM2N. M1042",refund_status,False,,cache,cache,,"Namaste Saffron Traders team,
+Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_NPQNDM4PXUUM2N ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,"Merchant says a customer's refund of Rs 12,000 for payment pay_NPQNDM4PXUUM2N has not been received after 3 days.",pay_NPQNDM4PXUUM2N,12000
+T-0006,Chargeback,ask_info,,Medium,"Hi Kaveri Studio team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,dispute_ask_reference,"KB-08, KB-16",English,calm,none,debit_reference,auto_send,PASS,False,"Rule 7 (KB-08, decision D6): merchant reports a dispute debit but the system shows 0 open chargebacks. Confirm neither side; ask for the debit reference.",M1020,WhatsApp,02 Sep 2026 09:12,"Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1020",dispute_deduction,False,,cache,cache,,"Hi Kaveri Studio team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,Merchant (M1020) says money was deducted from their account for a dispute without any notice and asks for an explanation.,,
+T-0007,Settlement,auto_resolve,,Medium,"Namaste Tulsi Learning team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.
+
+Razorpay Support",,settlement_bank_mismatch,KB-05,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-05): on hold for bank account name mismatch; guide to re-add the account (penny-drop within 24 hours).,M1013,Email,02 Sep 2026 11:58,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1013",settlement_query,False,,cache,cache,,"Namaste Tulsi Learning team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai.
+
+Razorpay Support",,"Merchant M1013 asks why their payout was put on hold, says their business has stopped, and requests that it be released.",,
+T-0008,API & Integration,escalate,Tech Support,High,"Hi Nila Naturals team,
+We know integration errors can hold up your work, especially with production traffic affected.
+Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,api_no_kb_escalate_production,,English,frustrated,none,,agent_review,PASS,False,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess. Production impact stated: risk High.",M1004,Chat,02 Sep 2026 14:25,Production traffic is getting rate-limited even though we are far below documented limits. M1004,api_unknown,False,,cache,cache,,"Hi Nila Naturals team,
+We know integration errors hold up your work. Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,Merchant M1004 reports that production API traffic is being rate-limited even though usage is well below the documented limits.,,
+T-0009,Payment Failure,ask_info,,Medium,"Hi Madhur Enterprises team,
+We know failed payments mean lost sales for you.
+When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,deducted_ask_payment_id,"KB-06, KB-16",English,frustrated,none,payment_id,agent_review,PASS,False,"Rule 5 (KB-06, KB-16): success rate 91.1% is healthy. 'Money deducted, order failed' with no payment ID: ask for it (decision D2); mention auto-reversal.",M1052,Email,02 Sep 2026 15:02,A customer said money was deducted but order shows failed. This is happening again and again. M1052,deducted_order_failed,False,,cache,cache,,"Hi Madhur Enterprises team,
+We know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,"Merchant M1052 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0010,KYC,auto_resolve,,Low,"Namaste Mosaic Stores team,
+KYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,kyc_documents,KB-10,Hinglish,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1050,Chat,02 Sep 2026 15:18,KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1050,kyc_documents,False,,cache,cache,,"Namaste Mosaic Stores team,
+KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,"Merchant asks which documents are required for KYC besides PAN and address proof, and mentions reference M1050.",,
+T-0011,Fees & Invoices,auto_resolve,,Low,"Namaste Sahara Naturals team,
+Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.
+
+Razorpay Support",,invoice_available,KB-09,Hinglish,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1003,Chat,02 Sep 2026 15:35,"GST invoice dashboard me nahi dikh raha, kaha milega? M1003",invoice_request,False,,cache,cache,,"Namaste Sahara Naturals team,
+Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.
+
+Razorpay Support",,Merchant M1003 cannot see the GST invoice on the dashboard and asks where to find it.,,
+T-0012,Payment Failure,auto_resolve,,Low,"Namaste Aarav Retail team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_auto,KB-06,Hinglish,calm,none,,auto_send,PASS,False,"Rule 5 (KB-06): success rate 97.7% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1018,Chat,02 Sep 2026 17:40,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1018,payment_failing,False,,cache,cache,,"Namaste Aarav Retail team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,Merchant reports payments failing at checkout and asks whether there is an issue on Razorpay's side.,,
+T-0013,Settlement,auto_resolve,,Low,"Hi Panchi Mart team,
+As per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,calm,none,,auto_send,PASS,False,"Rule 3: message is vague, but the topic (settlement) is clear and the merchant record answers it; answer from the data instead of asking. Rule 4 (KB-01): merchant status Settled; share last settlement Rs 55,000 on 28 Sep 2026 from the system.",M1019,Chat,02 Sep 2026 17:55,Settlement issue M1019,settlement_query,False,,cache,cache,,"Hi Panchi Mart team,
+As per our system, your last settlement of Rs 55,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,Merchant reports a settlement issue and references M1019 but gives no details about the problem.,,
+T-0014,Payment Failure,escalate,Payments Ops,High,"Hi Trident Electronics team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,calm,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1058,Chat,02 Sep 2026 21:06,Payment success seems very low this week compared to last month. Is something wrong at your end? M1058,payment_failing,False,,cache,cache,,"Hi Trident Electronics team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,Merchant M1058 reports that payment success rates this week appear much lower than last month and asks if there is an issue on Razorpay's side.,,
+T-0015,Refund,escalate,Refund Ops,High,"Hi Sunrise Mart team,
+Thank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 2,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1009,Chat,03 Sep 2026 12:23,"Please tell me the status of refund for pay_JXPRKE87BC2CGG, amount Rs 250,000, started 6 days back. M1009",refund_status,False,,cache,cache,,"Hi Sunrise Mart team,
+Thank you for the details on the refund for pay_JXPRKE87BC2CGG. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 250,000 for payment pay_JXPRKE87BC2CGG that was started 6 days ago.",pay_JXPRKE87BC2CGG,250000
+T-0016,Settlement,escalate,Risk Ops,High,"Hi Blue Lotus Organics team,
+As per our system, settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, and they are looking into it.
+
+Razorpay Support",,settlement_hold_escalate,KB-03,English,calm,none,,agent_review,PASS,False,Rule 4 (KB-03): on hold (Chargeback reserve). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.,M1024,Chat,03 Sep 2026 12:34,My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1024,settlement_query,False,,cache,cache,,"Hi Blue Lotus Organics team,
+We can see that settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, who are looking into it.
+
+Razorpay Support",,"Merchant says payouts have been stopped for a few days, mentions a hold shown on the dashboard, and asks for it to be released.",,
+T-0017,KYC,escalate,Security,High,"Hi Vista Retail team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,kyc_phishing_escalate,KB-10,English,calm,none,,agent_review,PASS,False,"Rule 8 (KB-10, decision D5): merchant KYC is already Verified, so a re-verification message is suspicious. Warn the merchant (genuine requests come only from the Dashboard or @example.com) and escalate to Security.",M1015,Email,03 Sep 2026 13:42,I got a message asking for re-verification of KYC. Is this genuine and what do I do? M1015,kyc_reverification_check,False,,cache,cache,,"Hi Vista Retail team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,Merchant (M1015) received a message asking for KYC re-verification and asks whether it is genuine and what to do next.,,
+T-0018,Settlement,auto_resolve,,Low,"Hi Zenith Exports team,
+We know waiting on a payout affects your business.
+As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 4,30,000 on 27 Sep 2026 from the system.",M1001,Chat,03 Sep 2026 16:58,Why has my payout not come? No one has told me anything. Merchant M1001,settlement_query,False,,cache,cache,,"Hi Zenith Exports team,
+We know waiting on a payout affects your business. As per our system, your last settlement of Rs 4,30,000 was credited on 27 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,Merchant M1001 says their payout has not arrived and that no one has given them any update.,,
+T-0019,Refund,auto_resolve,,Low,"Hi Jade Furnishings team,
+Refunds are credited to the customer's original payment source in 5-7 business days. For pay_PPCYSPMF5V3J33, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 3 calendar days = 3 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1005,Chat,03 Sep 2026 18:07,"Please tell me the status of refund for pay_PPCYSPMF5V3J33, amount Rs 12,000, started 3 days back. M1005",refund_status,False,,cache,cache,,"Hi Jade Furnishings team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PPCYSPMF5V3J33 becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant asks for the status of a Rs 12,000 refund for payment pay_PPCYSPMF5V3J33 that was started 3 days ago.",pay_PPCYSPMF5V3J33,12000
+T-0020,Fees & Invoices,auto_resolve,,Low,"Hi Lotus Naturals team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,invoice_available,KB-09,English,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1055,Email,03 Sep 2026 19:45,"Please send my fee invoice for the quarter, accounts team needs it. M1055",invoice_request,False,,cache,cache,,"Hi Lotus Naturals team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,Merchant (M1055) requests the fee invoice for the quarter because their accounts team needs it.,,
+T-0021,Legal / Security,escalate,Legal,Critical,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,angry,regulator,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (regulator, keywords ['RBI']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1021,Email,04 Sep 2026 08:46,I have complained to RBI about delays on my account. Expect a notice from them. M1021,,False,RBI,cache,template,,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,Merchant M1021 says they have complained to RBI about delays on their account and expects a notice from the regulator.,,
+T-0022,Refund,auto_resolve,,Low,"Namaste Saffron Travels team,
+Aapke customer ko refund ka intezaar hai, yeh hum samajhte hain.
+Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai. Customer isse apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,refund_in_window,KB-07,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): 6 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1048,Email,04 Sep 2026 14:44,"Customer ka refund Rs 26,000 abhi tak nahi mila, 6 din ho gaye. pay_Z5G7ZQMS8K5H7V. M1048",refund_status,False,,cache,cache,,"Namaste Saffron Travels team,
+Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z5G7ZQMS8K5H7V ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,"Merchant says a customer's refund of Rs 26,000 for payment pay_Z5G7ZQMS8K5H7V has not been received after 6 days.",pay_Z5G7ZQMS8K5H7V,26000
+T-0023,Payment Failure,escalate,Payments Ops,High,"Hi Prime Stores team,
+Failed payments mean lost sales for you, and we recognise that.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 84.0% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1021,Email,04 Sep 2026 15:44,A customer said money was deducted but order shows failed. This is happening again and again. M1021,deducted_order_failed,False,,cache,cache,,"Hi Prime Stores team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,"Merchant M1021 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0024,Settlement,auto_resolve,,Low,"Namaste Jade Traders team,
+Hamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap har settlement ko Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,calm,none,,auto_send,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 38,000 on 30 Sep 2026 from the system.",M1045,Chat,04 Sep 2026 15:57,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1045,settlement_query,False,,cache,cache,,"Namaste Jade Traders team,
+Hamare system ke hisaab se aapka last settlement Rs 38,000 30 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,Merchant M1045 asks when the settlement will arrive since nothing has been credited to their bank account.,,
+T-0025,Account Management,auto_resolve,,Medium,"Namaste Amber Services team,
+Legal entity ka naam ya business type edit karke change nahi kiya ja sakta. Iske liye aapko nayi (fresh) application deni hogi.
+
+Razorpay Support",,account_change_legal_name,KB-11,Hinglish,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): a legal entity name or business type change needs a fresh application; it cannot be edited.,M1030,Chat,04 Sep 2026 17:01,"Humne company ka naam change kiya hai, account me kaise update karein? M1030",change_legal_name,False,,cache,cache,,"Namaste Amber Services team,
+Legal entity ka naam ya business type edit karke change nahi ho sakta. Iske liye nayi (fresh) application deni hogi.
+
+Razorpay Support",,Merchant wants to know how to update the changed company name in their account (reference M1030).,,
+T-0026,KYC,auto_resolve,,Low,"Hi Rudra Services team,
+For KYC, please keep these documents ready: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.
+
+Razorpay Support",,kyc_documents,KB-10,English,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1036,Email,05 Sep 2026 10:22,Which documents are needed for KYC verification? I have a proprietorship. M1036,kyc_documents,False,,cache,cache,,"Hi Rudra Services team,
+For KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.
+
+Razorpay Support",,Merchant with a proprietorship (ID M1036) asks which documents are required for KYC verification.,,
+T-0027,Settlement,escalate,Legal,Critical,"Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,angry,legal_threat,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (legal_threat, keywords ['legal notice', 'court']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1034,Chat,05 Sep 2026 14:10,This is my final warning. If my payouts are not released today I will send a legal notice and approach consumer court. M1034,settlement_query,True,"legal notice, court",cache,template,,"Hi Kiran Furnishings team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,Merchant M1034 demands release of held payouts today and threatens to send a legal notice and approach consumer court otherwise.,,
+T-0028,Payment Failure,ask_info,,Medium,"Hi Everest Exports team,
+We know failed payments mean lost sales for your business. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,deducted_ask_payment_id,"KB-06, KB-16",English,frustrated,none,payment_id,agent_review,PASS,False,"Rule 5 (KB-06, KB-16): success rate 94.0% is healthy. 'Money deducted, order failed' with no payment ID: ask for it (decision D2); mention auto-reversal.",M1011,Chat,05 Sep 2026 20:13,A customer said money was deducted but order shows failed. This is happening again and again. M1011,deducted_order_failed,False,,cache,cache,,"Hi Everest Exports team,
+We know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,Merchant M1011 reports that customers are repeatedly debited while the order shows as failed.,,
+T-0029,Account Management,auto_resolve,,Medium,"Hi Delta Enterprises team,
+You can change your registered email and mobile number under Settings. The change is verified using an OTP.
+
+Razorpay Support",,account_change_contact,KB-11,English,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): email and mobile change in Settings with OTP verification.,M1032,Chat,05 Sep 2026 21:20,I want to change my registered email and mobile number on the account. How? M1032,change_contact,False,,cache,cache,,"Hi Delta Enterprises team,
+You can change your registered email and mobile number under Settings, using OTP verification.
+
+Razorpay Support",,Merchant asks how to change the registered email and mobile number on their account (merchant ID M1032 mentioned).,,
+T-0030,Legal / Security,escalate,Security,Critical,"Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",Legal,threat,KB-15,English,angry,data_leak,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (data_leak, keywords ['leak', 'authorities']). Escalate immediately to Security with Legal as secondary (police/authorities mentioned). Never auto-replied: holding draft only, for the escalation team to approve.",M1016,Chat,06 Sep 2026 08:42,My customers' card details were visible in an email you sent me. This is a data leak. I am reporting to the authorities. M1016,,False,"leak, authorities",cache,template,,"Hi Mira Studio team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,"Merchant (M1016) says customers' card details were visible in an email from Razorpay, calls it a data leak, and says they will report it to the authorities.",,
+T-0031,Legal / Security,escalate,Legal,Critical,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,angry,legal_threat,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (legal_threat, keywords ['lawyer']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1021,Email,06 Sep 2026 09:18,You froze my account without notice. Which law allows this? Reply in writing or my lawyer will. M1021,,False,lawyer,cache,template,,"Hi Prime Stores team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,"Merchant (M1021) says their account was frozen without notice, asks which law permits this, and demands a written reply or their lawyer will act.",,
+T-0032,Unclear,ask_info,,Medium,"Hi Quill Enterprises team,
+We know this issue is urgent for your business.
+Thanks for reaching out. So that we can help quickly, please share a few details of the issue, including what is failing and since when.
+
+Razorpay Support",,vague_ask_info,KB-16,English,frustrated,none,details,agent_review,PASS,False,Rule 3 (KB-16): message too vague to act on (topic: Unclear); ask for specifics.,M1059,Chat,06 Sep 2026 09:22,"Customer complaining, do something. M1059",,False,,cache,cache,,"Hi Quill Enterprises team,
+We understand this is urgent for you. Thanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).
+
+Razorpay Support",,"Merchant says a customer is complaining and asks support to act, citing M1059, but does not state what the problem is.",,
+T-0033,Refund,auto_resolve,,Low,"Hi Dhruva Exports team,
+Refunds are credited to the customer's original payment source within 5-7 business days. An ARN (reference number) for pay_L6DCLEWDD45TRV becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 8 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1025,Chat,06 Sep 2026 10:13,"Refund of Rs 1,299 to my customer was initiated 8 days ago. Customer is asking where the money is. Payment ID pay_L6DCLEWDD45TRV. M1025",refund_status,False,,cache,cache,,"Hi Dhruva Exports team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_L6DCLEWDD45TRV becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant says a Rs 1,299 refund to their customer was initiated 8 days ago, the customer has not received the money, and asks for its status (payment ID pay_L6DCLEWDD45TRV).",pay_L6DCLEWDD45TRV,1299
+T-0034,Unclear,ask_info,,High,"Hi Pixel Crafts team,
+We know this issue is urgent for your business. To help quickly, please share a few details of the issue, such as what is failing and since when.
+
+Razorpay Support",,vague_ask_info,KB-16,English,frustrated,none,details,agent_review,PASS,False,Rule 3 (KB-16): message too vague to act on (topic: Unclear); ask for specifics. Tone frustrated + urgent: risk raised Medium -> High.,M1037,Chat,06 Sep 2026 10:13,Help needed urgently!! M1037,,True,,cache,cache,,"Hi Pixel Crafts team,
+We understand this is urgent for you. Thanks for reaching out. So that we can help quickly, please share a few details of the issue (what is failing and since when).
+
+Razorpay Support",,Merchant M1037 asks for urgent help but does not describe any problem.,,
+T-0035,Payment Failure,auto_resolve,,Low,"Namaste Craft Mart team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye keh sakte hain. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_auto,KB-06,Hinglish,calm,none,,auto_send,PASS,False,"Rule 5 (KB-06): success rate 95.1% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1041,Email,06 Sep 2026 14:34,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1041,payment_failing,False,,cache,cache,,"Namaste Craft Mart team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,Merchant reports payments failing at checkout and asks whether there is an issue on Razorpay's side.,,
+T-0036,Settlement,auto_resolve,,Medium,"Hi Tulsi Learning team,
+Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.
+
+Razorpay Support",,settlement_bank_mismatch,KB-05,English,calm,none,,auto_send,PASS,False,Rule 4 (KB-05): on hold for bank account name mismatch; guide to re-add the account (penny-drop within 24 hours).,M1013,Email,06 Sep 2026 17:17,My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1013,settlement_query,False,,cache,cache,,"Hi Tulsi Learning team,
+Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.
+
+Razorpay Support",,"Merchant M1013 says payouts have been stopped for a few days, the dashboard mentions a hold, and asks for the hold to be released.",,
+T-0037,KYC,auto_resolve,,Low,"Namaste Lotus Naturals team,
+KYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,kyc_documents,KB-10,Hinglish,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1055,Email,06 Sep 2026 21:00,KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1055,kyc_documents,False,,cache,cache,,"Namaste Lotus Naturals team,
+KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,Merchant M1055 asks which documents are required for KYC besides PAN and address proof.,,
+T-0038,Settlement,auto_resolve,,Low,"Namaste Cedar Studio team,
+Payout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.
+Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 39,000 on 27 Sep 2026 from the system.",M1049,Email,07 Sep 2026 09:24,"Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1049",settlement_query,False,,cache,cache,,"Namaste Cedar Studio team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 39,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,Merchant says their settlement has not arrived for several days and asks what the problem is (MID M1049).,,
+T-0039,Settlement,auto_resolve,,Low,"Hi Sahara Naturals team,
+Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.
+
+Razorpay Support",,settlement_delayed,KB-02,English,calm,none,,auto_send,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 02 Oct 2026 exactly as in the system.,M1003,Chat,07 Sep 2026 10:04,"Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1003.",settlement_query,False,,cache,cache,,"Hi Sahara Naturals team,
+Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.
+
+Razorpay Support",,Merchant M1003 reports that settlements from the last few days have not reached their bank account and asks support to check.,,
+T-0040,Refund,escalate,Refund Ops,High,"Hi Saffron Traders team,
+Thank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 1,20,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1042,Chat,07 Sep 2026 12:14,"Please tell me the status of refund for pay_5G8TS3T2W63P7B, amount Rs 120,000, started 2 days back. M1042",refund_status,False,,cache,cache,,"Hi Saffron Traders team,
+Thank you for the details on the refund for pay_5G8TS3T2W63P7B. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant asks for the status of a Rs 120,000 refund for payment pay_5G8TS3T2W63P7B that was initiated 2 days ago.",pay_5G8TS3T2W63P7B,120000
+T-0041,Payment Failure,ask_info,,High,"Hi,
+We know failed payments mean lost sales for you.
+To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.
+
+Razorpay Support",,missing_merchant_id,KB-16,English,frustrated,none,"merchant_id, payment_id, details",agent_review,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is. Tone frustrated + urgent: risk raised Medium -> High.,,Chat,07 Sep 2026 12:20,Payment problem. Fix urgently.,payment_failing,True,,cache,cache,,"Hi,
+We know failed payments mean lost sales for you. Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M), the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.
+
+Razorpay Support","Category disagreement: patterns=Payment Failure, LLM=Unclear; patterns kept",Merchant reports an unspecified payment problem and asks for an urgent fix without giving any details.,,
+T-0042,Refund,escalate,Refund Ops,High,"Hi Blue Lotus Organics team,
+Thank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 9,00,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1024,Chat,07 Sep 2026 15:50,"Please tell me the status of refund for pay_QM3EETXNURG28R, amount Rs 900,000, started 3 days back. M1024",refund_status,False,,cache,cache,,"Hi Blue Lotus Organics team,
+Thank you for the details on the refund for pay_QM3EETXNURG28R. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 900,000 for payment pay_QM3EETXNURG28R that was started 3 days ago.",pay_QM3EETXNURG28R,900000
+T-0043,Chargeback,auto_resolve,,Medium,"Hi Oasis Labs team,
+When a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery, and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,chargeback_notice,KB-08,English,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1031,Email,07 Sep 2026 16:22,I got a chargeback notice for one of my orders. What should I do and by when? M1031,chargeback_notice,False,,cache,cache,,"Hi Oasis Labs team,
+When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.,,
+T-0044,Fees & Invoices,escalate,Account Manager,Medium,"Hi Yatra Naturals team,
+We know that fees have a real impact on your business. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,fee_commercial_escalate,KB-09,English,frustrated,none,,agent_review,PASS,False,"Rule 9 (KB-09): fee difference refund is handled only by the Account Manager. No promise of waiver, refund or rate change.",M1057,Email,08 Sep 2026 11:32,Why was I charged 2.1% on cards? The sales team told me 1.8%. Please correct and refund the difference. M1057,fee_difference_refund,False,,cache,cache,,"Hi Yatra Naturals team,
+We understand fees matter a lot to your business. Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,Merchant says they were charged 2.1% on card payments instead of the 1.8% quoted by sales and asks for correction and a refund of the difference.,,
+T-0045,Payment Failure,escalate,Payments Ops,High,"Hi Saffron Traders team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 78.5% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1042,Email,08 Sep 2026 15:44,A customer said money was deducted but order shows failed. This is happening again and again. M1042,deducted_order_failed,False,,cache,cache,,"Hi Saffron Traders team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,"Merchant M1042 reports that a customer's money was deducted while the order shows as failed, and says this keeps recurring.",,
+T-0046,Account Management,auto_resolve,,Medium,"Hi Lotus Naturals team,
+You can change your registered email and mobile number under Settings. Verification is done using an OTP.
+
+Razorpay Support",,account_change_contact,KB-11,English,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): email and mobile change in Settings with OTP verification.,M1055,Email,08 Sep 2026 16:12,I want to change my registered email and mobile number on the account. How? M1055,change_contact,False,,cache,cache,,"Hi Lotus Naturals team,
+You can change your registered email and mobile number under Settings, using OTP verification.
+
+Razorpay Support",,Merchant (ID M1055) asks how to change the registered email and mobile number on their account.,,
+T-0047,API & Integration,escalate,Tech Support,High,"Hi Aarav Retail team,
+We know integration errors can hold up your work and affect live traffic.
+Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,api_no_kb_escalate_production,,English,frustrated,none,,agent_review,PASS,False,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess. Production impact stated: risk High.",M1018,Email,08 Sep 2026 17:14,"We see random 502 errors from your order API on production for the last 2 hours, no pattern. M1018",api_unknown,False,,cache,cache,,"Hi Aarav Retail team,
+We know integration errors hold up your work. Thank you for the details. Since this affects your production traffic, we have passed it to our Tech Support team, who are investigating it.
+
+Razorpay Support",,Merchant M1018 reports random 502 errors from the order API on production for the last 2 hours with no clear pattern.,,
+T-0048,Settlement,auto_resolve,,Low,"Hi Indus Services team,
+As per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,calm,none,,auto_send,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 4,60,000 on 29 Sep 2026 from the system.",M1047,Email,08 Sep 2026 18:23,"Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1047.",settlement_query,False,,cache,cache,,"Hi Indus Services team,
+As per our system, your last settlement of Rs 4,60,000 was credited on 29 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,Merchant reports that settlements for the last few days have not reached their bank account and asks support to check (Merchant ID M1047).,,
+T-0049,Chargeback,auto_resolve,,Medium,"Hi Cedar Studio team,
+When a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,chargeback_notice,KB-08,English,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1049,Chat,08 Sep 2026 19:40,I got a chargeback notice for one of my orders. What should I do and by when? M1049,chargeback_notice,False,,cache,cache,,"Hi Cedar Studio team,
+When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.,,
+T-0050,Refund,auto_resolve,,Low,"Hi Willow Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. For pay_PWUVL55KZVFPBV, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 7 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1006,Chat,08 Sep 2026 21:54,"Please tell me the status of refund for pay_PWUVL55KZVFPBV, amount Rs 3,999, started 7 days back. M1006",refund_status,False,,cache,cache,,"Hi Willow Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_PWUVL55KZVFPBV becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 3,999 for payment pay_PWUVL55KZVFPBV, which was started 7 days ago.",pay_PWUVL55KZVFPBV,3999
+T-0051,Settlement,auto_resolve,,Low,"Namaste Haveli Traders team,
+Payout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.
+Hamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 71,000 on 29 Sep 2026 from the system.",M1054,Chat,09 Sep 2026 11:10,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1054,settlement_query,False,,cache,cache,,"Namaste Haveli Traders team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 71,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,"Merchant M1054 is asking when the settlement will arrive, as nothing has been credited to their bank account.",,
+T-0052,API & Integration,auto_resolve,,Low,"Hi Jaya Studio team,
+We know integration errors can hold up your work.
+SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).
+
+Razorpay Support",,api_signature,KB-12,English,frustrated,none,,agent_review,PASS,False,"Rule 10 (KB-12): known API issue; share the exact KB fix (SIGNATURE_MISMATCH fix). Not a payment failure, so success rate is not used.",M1028,Email,09 Sep 2026 12:11,Signature verification keeps failing on my server after payment succeeds. SIGNATURE_MISMATCH. M1028,api_signature,False,,cache,cache,,"Hi Jaya Studio team,
+We know integration errors hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).
+
+Razorpay Support",,Merchant reports that signature verification keeps failing on their server with a SIGNATURE_MISMATCH error even though payments succeed.,,
+T-0053,KYC,auto_resolve,,Low,"Namaste Dhruva Academy team,
+KYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,kyc_documents,KB-10,Hinglish,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1046,Chat,09 Sep 2026 12:25,KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1046,kyc_documents,False,,cache,cache,,"Namaste Dhruva Academy team,
+KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,Merchant M1046 asks which documents are required for KYC besides PAN and address proof.,,
+T-0054,KYC,auto_resolve,,Low,"Hi Panchi Foods team,
+For KYC, we need the following documents: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.
+
+Razorpay Support",,kyc_documents,KB-10,English,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1012,Email,09 Sep 2026 14:59,Which documents are needed for KYC verification? I have a proprietorship. M1012,kyc_documents,False,,cache,cache,,"Hi Panchi Foods team,
+For KYC we need: PAN of the business or owner, address proof, bank account proof, GST certificate (if GST-registered) and ID of the authorised signatory. You can upload them under Dashboard > Account > KYC.
+
+Razorpay Support",,Merchant with a proprietorship asks which documents are required for KYC verification.,,
+T-0055,Payment Failure,auto_resolve,,Low,"Hi Tulsi Learning team,
+We know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,payment_failing_auto,KB-06,English,frustrated,none,,agent_review,PASS,False,"Rule 5 (KB-06): success rate 94.4% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1013,WhatsApp,09 Sep 2026 16:57,Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1013,payment_failing,False,,cache,cache,,"Hi Tulsi Learning team,
+We know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,Merchant reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.,,
+T-0056,Chargeback,auto_resolve,,Medium,"Namaste Fable Furnishings team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,chargeback_notice,KB-08,Hinglish,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1007,Email,10 Sep 2026 10:18,"Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1007",chargeback_notice,False,,cache,cache,,"Namaste Fable Furnishings team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,Merchant received a chargeback from a customer and asks what to do and how much time they have to respond.,,
+T-0057,Settlement,auto_resolve,,Low,"Namaste Panchi Foods team,
+Payout ka intezaar aapke business ko affect karta hai, yeh hum samajhte hain.
+Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 58,000 on 27 Sep 2026 from the system.",M1012,Email,10 Sep 2026 12:46,"Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1012",settlement_query,False,,cache,cache,,"Namaste Panchi Foods team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 58,000 27 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,Merchant (MID M1012) says their settlement has not arrived for several days and asks what the problem is.,,
+T-0058,Chargeback,auto_resolve,,Medium,"Hi Petal Studio team,
+When a customer disputes a payment, a notice appears on your Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,chargeback_notice,KB-08,English,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1010,WhatsApp,10 Sep 2026 19:00,I got a chargeback notice for one of my orders. What should I do and by when? M1010,chargeback_notice,False,,cache,cache,,"Hi Petal Studio team,
+When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,Merchant received a chargeback notice for an order and asks what steps to take and the deadline to respond.,,
+T-0059,Fees & Invoices,auto_resolve,,Low,"Namaste Aarav Retail team,
+Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.
+
+Razorpay Support",,invoice_available,KB-09,Hinglish,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1018,Email,10 Sep 2026 20:52,"GST invoice dashboard me nahi dikh raha, kaha milega? M1018",invoice_request,False,,cache,cache,,"Namaste Aarav Retail team,
+Fees ke GST invoices har mahine ki 5th tak generate ho jaate hain. Aap inhe Dashboard > Reports > Invoices se download kar sakte hain.
+
+Razorpay Support",,Merchant M1018 cannot find their GST invoice in the dashboard and asks where to get it.,,
+T-0060,Legal / Security,escalate,Security,Critical,"Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,frustrated,account_takeover,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (account_takeover, keywords ['logged into my dashboard', 'changed my bank account']). Escalate immediately to Security. Never auto-replied: holding draft only, for the escalation team to approve.",M1059,Chat,11 Sep 2026 08:18,Someone has logged into my dashboard and changed my bank account. I did not do this. URGENT. M1059,,True,"logged into my dashboard, changed my bank account",cache,template,,"Hi Quill Enterprises team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,"Merchant (M1059) reports that an unknown person logged into their dashboard and changed the bank account without their authorization, and asks for urgent help.",,
+T-0061,API & Integration,auto_resolve,,Low,"Hi Orchid Retail team,
+The BAD_REQUEST_ERROR occurs when the amount is not sent in paise. Amounts must always be sent in paise, so Rs 499 should be sent as 49900.
+
+Razorpay Support",,api_amount_mismatch,KB-12,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-12): known API issue; share the exact KB fix (amounts in paise). Not a payment failure, so success rate is not used.",M1033,Email,11 Sep 2026 08:54,Getting BAD_REQUEST_ERROR: order amount mismatch when I create a payment. Amount is 499. M1033,api_amount_mismatch,False,,cache,cache,,"Hi Orchid Retail team,
+This BAD_REQUEST_ERROR happens when the amount is not in paise. Amounts must be sent in paise, so Rs 499 should be sent as 49900.
+
+Razorpay Support",,Merchant M1033 gets a BAD_REQUEST_ERROR for order amount mismatch when creating a payment with an amount of 499.,,
+T-0062,KYC,auto_resolve,,Low,"Namaste Amber Services team,
+KYC ke liye aapko yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,kyc_documents,KB-10,Hinglish,calm,none,,auto_send,PASS,False,Rule 8 (KB-10): share the required KYC document list.,M1030,Chat,11 Sep 2026 09:29,KYC me kya kya documents lagenge? PAN aur address proof ke alawa? M1030,kyc_documents,False,,cache,cache,,"Namaste Amber Services team,
+KYC ke liye yeh documents chahiye: business ya owner ka PAN, address proof, bank account proof, GST certificate (agar GST-registered hain) aur authorised signatory ka ID. Aap inhe Dashboard > Account > KYC me upload kar sakte hain.
+
+Razorpay Support",,"Merchant asks which documents are required for KYC besides PAN and address proof, and mentions the reference M1030.",,
+T-0063,Settlement,escalate,Risk Ops,High,"Namaste Saffron Traders team,
+Payout mein deri se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,settlement_hold_escalate,KB-03,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-03): on hold (Chargeback reserve). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.,M1042,Chat,11 Sep 2026 11:46,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1042",settlement_query,False,,cache,cache,,"Namaste Saffron Traders team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,"Merchant asks why their payout has been put on hold, says their business is stalled, and requests release of the funds.",,
+T-0064,Unclear,ask_info,,Medium,"Hi,
+To look into this, please share your Merchant ID (it starts with M) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.
+
+Razorpay Support",,missing_merchant_id,KB-16,English,calm,none,"merchant_id, details",auto_send,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is.,,Email,11 Sep 2026 14:20,Not working. Please help.,,False,,cache,cache,,"Hi,
+Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.
+
+Razorpay Support",,"Merchant says something is not working and asks for help, but does not say what the problem is.",,
+T-0065,Payment Failure,ask_info,,Medium,"Hi Umang Fashions team,
+We know failed payments mean lost sales for your business.
+When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,deducted_ask_payment_id,"KB-06, KB-16",English,frustrated,none,payment_id,agent_review,PASS,False,"Rule 5 (KB-06, KB-16): success rate 96.8% is healthy. 'Money deducted, order failed' with no payment ID: ask for it (decision D2); mention auto-reversal.",M1017,Email,11 Sep 2026 21:11,A customer said money was deducted but order shows failed. This is happening again and again. M1017,deducted_order_failed,False,,cache,cache,,"Hi Umang Fashions team,
+We know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,"Merchant M1017 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0066,Settlement,auto_resolve,,Low,"Namaste Yatra Electronics team,
+Payout ka intezaar aapke business ke liye mushkil hota hai. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 79,000 on 29 Sep 2026 from the system.",M1060,Chat,12 Sep 2026 10:39,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1060,settlement_query,False,,cache,cache,,"Namaste Yatra Electronics team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 79,000 29 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,"Merchant (M1060) asks when the settlement will arrive, saying nothing has been credited to their bank account.",,
+T-0067,Payment Failure,ask_info,,Medium,"Hi Everest Exports team,
+Thank you for reaching out. So that we can help you quickly, please share the Payment ID (it starts with pay_) along with a few details of the issue, such as what is failing and since when.
+
+Razorpay Support",,vague_ask_info,KB-16,English,calm,none,"payment_id, details",auto_send,PASS,False,Rule 3 (KB-16): message too vague to act on (topic: Payment Failure); ask for specifics.,M1011,Email,13 Sep 2026 08:56,Payment failed. M1011,payment_failing,False,,cache,cache,,"Hi Everest Exports team,
+Thanks for reaching out. So that we can help quickly, please share the Payment ID (starts with pay_) and a few details of the issue (what is failing and since when).
+
+Razorpay Support",,"Merchant reports a failed payment and references the ID M1011, with no further details given.",,
+T-0068,API & Integration,auto_resolve,,Low,"Hi Ruby Studio team,
+An 'Authentication failed' error on a live site usually means test keys are being used in production. Please use the live key ID and secret that were generated after activation.
+
+Razorpay Support",,api_auth_failed,KB-14,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-14): known API issue; share the exact KB fix (test keys on a live site). Not a payment failure, so success rate is not used.",M1044,Email,13 Sep 2026 12:14,Authentication failed error on my live site. Works fine on my laptop. M1044,api_auth_failed,False,,cache,cache,,"Hi Ruby Studio team,
+'Authentication failed' on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.
+
+Razorpay Support",,Merchant M1044 reports an 'Authentication failed' error on their live site while the integration works on their laptop.,,
+T-0069,Payment Failure,escalate,Payments Ops,High,"Hi Fable Furnishings team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,calm,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 82.8% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1007,Email,13 Sep 2026 13:29,Payment success seems very low this week compared to last month. Is something wrong at your end? M1007,payment_failing,False,,cache,cache,,"Hi Fable Furnishings team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,Merchant M1007 reports that their payment success rate is much lower this week than last month and asks whether there is an issue on Razorpay's side.,,
+T-0070,Account Management,escalate,Account Manager,High,"Hi Madhur Enterprises team,
+We know you want your account closure handled quickly.
+We have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.
+
+Razorpay Support",Risk Ops,account_closure_escalate,KB-17,English,frustrated,none,,agent_review,PASS,True,"Rule 11 (KB-17): closure goes through the Account Manager and Risk Ops after pending settlements, refunds and disputes clear. Tone frustrated + urgent: risk raised Medium -> High.",M1052,WhatsApp,13 Sep 2026 14:02,"Close my account and send all the money now, I don't want any more dealings with Razorpay. M1052",account_closure,True,,cache,cache,,"Hi Madhur Enterprises team,
+We understand you want this sorted quickly. We have received your request to close the account. Closure is processed only after all pending settlements, refunds and disputes are cleared, and is handled by your Account Manager. We have shared your request with them.
+
+Razorpay Support",,"Merchant M1052 wants their account closed and all remaining money sent immediately, as they no longer wish to work with Razorpay.",,
+T-0071,Unclear,ask_info,,Medium,"Hi,
+To look into this, please share your Merchant ID (it starts with M) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.
+
+Razorpay Support",,missing_merchant_id,KB-16,English,calm,none,"merchant_id, details",auto_send,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is.,,WhatsApp,13 Sep 2026 17:57,Please check my case and revert.,,False,,cache,cache,,"Hi,
+Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.
+
+Razorpay Support",,"Merchant asks support to check their case and respond, without specifying any issue or details.",,
+T-0072,Chargeback,ask_info,,Medium,"Hi Cedar Labs team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,dispute_ask_reference,"KB-08, KB-16",English,calm,none,debit_reference,auto_send,PASS,False,"Rule 7 (KB-08, decision D6): merchant reports a dispute debit but the system shows 0 open chargebacks. Confirm neither side; ask for the debit reference.",M1056,Email,13 Sep 2026 19:40,"Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1056",dispute_deduction,False,,cache,cache,,"Hi Cedar Labs team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,Merchant M1056 says money was deducted from their account for a dispute without any notice and asks for an explanation.,,
+T-0073,Settlement,auto_resolve,,Medium,"Hi Tulsi Learning team,
+Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.
+
+Razorpay Support",,settlement_bank_mismatch,KB-05,English,calm,none,,auto_send,PASS,False,Rule 4 (KB-05): on hold for bank account name mismatch; guide to re-add the account (penny-drop within 24 hours).,M1013,Chat,13 Sep 2026 20:09,My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1013,settlement_query,False,,cache,cache,,"Hi Tulsi Learning team,
+Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours.
+
+Razorpay Support",,"Merchant M1013 says payouts have been stopped for a few days, the dashboard mentions a hold, and asks for the hold to be released.",,
+T-0074,Payment Failure,auto_resolve,,Medium,"Namaste Panchi Mart team,
+Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai.
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_sales_stopped,KB-06,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 5 (KB-06): success rate 95.2% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal). Merchant says sales have stopped: risk Medium.",M1019,Chat,13 Sep 2026 20:44,"Customers ke payments fail ho rahe hain, card aur UPI dono pe. Sales ruk gayi hai. M1019",payment_failing,False,,cache,cache,,"Namaste Panchi Mart team,
+Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai. Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,"Merchant reports that customer payments are failing on both card and UPI, which has halted their sales.",,
+T-0075,Settlement,ask_info,,Medium,"Namaste,
+Payout me deri aapke business ke liye pareshani ki baat hoti hai.
+Iski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details share karein, yaani kya fail ho raha hai aur kab se. Yeh milte hi hum aapka account check kar sakenge.
+
+Razorpay Support",,missing_merchant_id,KB-16,Hinglish,frustrated,none,"merchant_id, details",agent_review,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is.,,Email,14 Sep 2026 11:56,Mera paisa kaha hai??,settlement_query,False,,cache,cache,,"Namaste,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Sampark karne ke liye dhanyavaad. Iski jaanch ke liye kripya aapka Merchant ID (M se shuru hota hai) aur issue ki thodi details (kya fail ho raha hai aur kab se) share karein. Yeh milte hi hum aapka account check kar sakenge.
+
+Razorpay Support","Category disagreement: patterns=Settlement, LLM=Unclear; patterns kept","Merchant asks where their money is, without specifying whether it concerns a settlement, refund or other payment.",,
+T-0076,Account Management,auto_resolve,,Medium,"Hi Saffron Travels team,
+You can change your registered email and mobile number under Settings. The change is confirmed using OTP verification.
+
+Razorpay Support",,account_change_contact,KB-11,English,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): email and mobile change in Settings with OTP verification.,M1048,Chat,14 Sep 2026 12:44,I want to change my registered email and mobile number on the account. How? M1048,change_contact,False,,cache,cache,,"Hi Saffron Travels team,
+You can change your registered email and mobile number under Settings, using OTP verification.
+
+Razorpay Support",,Merchant asks how to change the registered email and mobile number on their account (merchant reference M1048).,,
+T-0077,Refund,auto_resolve,,Low,"Namaste Dhruva Exports team,
+Aapke customer ko refund ka intezaar hai, yeh hum samajhte hain.
+Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,refund_in_window,KB-07,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): 7 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1025,WhatsApp,14 Sep 2026 13:35,"Customer ka refund Rs 1,299 abhi tak nahi mila, 7 din ho gaye. pay_EQ5D93P8CXP9QB. M1025",refund_status,False,,cache,cache,,"Namaste Dhruva Exports team,
+Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_EQ5D93P8CXP9QB ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,"Merchant says a customer's refund of Rs 1,299 for payment pay_EQ5D93P8CXP9QB has not been received after 7 days.",pay_EQ5D93P8CXP9QB,1299
+T-0078,Legal / Security,escalate,Legal,Critical,"Namaste Pixel Crafts team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",,threat,KB-15,Hinglish,angry,fraud_allegation,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (fraud_allegation, keywords ['consumer forum', 'fraud']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1037,Chat,14 Sep 2026 19:19,"Aap log fraud kar rahe ho, mera paisa rok ke baithe ho. Consumer forum me complaint karunga. M1037",settlement_query,False,"consumer forum, fraud",cache,template,,"Namaste Pixel Crafts team,
+Humein likhne ke liye dhanyavaad. Aapka message record kar liya gaya hai aur review ke liye sahi specialist team ko bhej diya gaya hai.
+
+Razorpay Support",,Merchant M1037 accuses Razorpay of fraud for withholding their money and threatens to file a consumer forum complaint.,,
+T-0079,Settlement,auto_resolve,,Medium,"Namaste Gulmohar Academy team,
+Payout ruka hone se aapke business par asar padta hai, yeh hum samajhte hain.
+Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.
+
+Razorpay Support",,settlement_kyc_pending,"KB-04, KB-10",Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-04): on hold for pending KYC; guide to Dashboard > Account > KYC.,M1038,Email,14 Sep 2026 21:50,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1038",settlement_query,False,,cache,cache,,"Namaste Gulmohar Academy team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.
+
+Razorpay Support",,"Merchant asks why their payout was put on hold, says their business is stalled, and requests release of the funds (reference M1038).",,
+T-0080,Payment Failure,escalate,Payments Ops,High,"Hi Orchid Retail team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 77.9% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1033,Email,15 Sep 2026 08:19,A customer said money was deducted but order shows failed. This is happening again and again. M1033,deducted_order_failed,False,,cache,cache,,"Hi Orchid Retail team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,"Merchant M1033 reports a customer was debited but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0081,Payment Failure,auto_resolve,,Low,"Namaste Mosaic Crafts team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ko keh sakte hain. Agar paisa kat gaya hai par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_auto,KB-06,Hinglish,calm,none,,auto_send,PASS,False,"Rule 5 (KB-06): success rate 98.1% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1027,Chat,15 Sep 2026 09:00,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1027,payment_failing,False,,cache,cache,,"Namaste Mosaic Crafts team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,Merchant (M1027) reports payments failing at checkout and asks whether there is an issue on Razorpay's side.,,
+T-0082,Payment Failure,auto_resolve,,Medium,"Namaste Umang Fashions team,
+Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai.
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_sales_stopped,KB-06,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 5 (KB-06): success rate 96.8% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal). Merchant says sales have stopped: risk Medium.",M1017,Chat,15 Sep 2026 11:16,"Customers ke payments fail ho rahe hain, card aur UPI dono pe. Sales ruk gayi hai. M1017",payment_failing,False,,cache,cache,,"Namaste Umang Fashions team,
+Samajh sakte hain ki payments fail hone se aapki sales par asar padta hai. Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customers ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,"Merchant reports that customer payments are failing on both card and UPI, which has stopped their sales.",,
+T-0083,Settlement,escalate,Risk Ops,High,"Namaste Kaveri Studio team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,settlement_hold_escalate,KB-03,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-03): on hold (Risk review). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.,M1020,Email,15 Sep 2026 15:25,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1020",settlement_query,False,,cache,cache,,"Namaste Kaveri Studio team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,"Merchant M1020 asks why their payout was put on hold, says their business has stopped, and requests it be released.",,
+T-0084,Payment Failure,auto_resolve,,Low,"Hi Tulsi Learning team,
+We know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,payment_failing_auto,KB-06,English,frustrated,none,,agent_review,PASS,False,"Rule 5 (KB-06): success rate 94.4% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1013,Chat,15 Sep 2026 18:50,Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1013,payment_failing,False,,cache,cache,,"Hi Tulsi Learning team,
+We know failed payments mean lost sales for you. Payments usually fail due to bank declines, insufficient funds, UPI app time-outs or wrong card details. Please ask the customer to retry or use another payment method. If money was deducted but the order failed, it is auto-reversed to the customer in 5-7 business days.
+
+Razorpay Support",,Merchant reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.,,
+T-0085,Fees & Invoices,escalate,Account Manager,Medium,"Hi Rudra Organics team,
+Thank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account.
+
+Razorpay Support",,invoice_unavailable_escalate,KB-09,English,calm,none,,agent_review,PASS,False,"Rule 9 (KB-09, decision D7): the system shows no GST invoice available for this merchant, so pointing to the Dashboard would be wrong. Escalate to the Account Manager.",M1022,Email,16 Sep 2026 09:07,"Please send my fee invoice for the quarter, accounts team needs it. M1022",invoice_request,False,,cache,cache,,"Hi Rudra Organics team,
+Thank you for letting us know. We have asked your Account Manager to look into the GST invoice on your account.
+
+Razorpay Support",,Merchant (M1022) asks for the fee invoice for the quarter because their accounts team needs it.,,
+T-0086,API & Integration,auto_resolve,,Low,"Hi Jade Traders team,
+If you are not receiving webhooks, please check that your webhook URL is publicly reachable, that it returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.
+
+Razorpay Support",,api_webhook,KB-13,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-13): known API issue; share the exact KB fix (webhook checklist). Not a payment failure, so success rate is not used.",M1045,Email,16 Sep 2026 12:49,Webhooks are not reaching my server since yesterday. M1045,api_webhook,False,,cache,cache,,"Hi Jade Traders team,
+If webhooks are not received, please check that the URL is publicly reachable, returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.
+
+Razorpay Support",,Merchant reports that webhooks have not been reaching their server since yesterday and provides merchant ID M1045.,,
+T-0087,Refund,auto_resolve,,Low,"Hi Jade Furnishings team,
+Refunds are credited to the customer's original payment source within 5-7 business days. For pay_C8PRWEA2DEG8QV, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 8 calendar days = 6 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1005,Chat,16 Sep 2026 13:24,"Refund of Rs 2,450 to my customer was initiated 8 days ago. Customer is asking where the money is. Payment ID pay_C8PRWEA2DEG8QV. M1005",refund_status,False,,cache,cache,,"Hi Jade Furnishings team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_C8PRWEA2DEG8QV becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant says a refund of Rs 2,450 to their customer was initiated 8 days ago, the customer has not received it, and asks for its status (payment ID pay_C8PRWEA2DEG8QV).",pay_C8PRWEA2DEG8QV,2450
+T-0088,Fees & Invoices,auto_resolve,,Low,"Hi Craft Mart team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,invoice_available,KB-09,English,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1041,Chat,16 Sep 2026 14:50,I need the GST invoice for September fees. Where do I download it? M1041,invoice_request,False,,cache,cache,,"Hi Craft Mart team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,Merchant M1041 asks where to download the GST invoice for September fees.,,
+T-0089,Refund,escalate,Refund Ops,Medium,"Hi Kiran Furnishings team,
+Thank you for sharing the details of the refund for pay_34VM92SASN6M8H. We have passed this to our Refund team, who are checking its status.
+
+Razorpay Support",,refund_overdue_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): initiated 10 calendar days before the ticket = 8 business days, past the 7-day window. Escalate to Refund Ops to check status.",M1034,Email,17 Sep 2026 10:03,"Please tell me the status of refund for pay_34VM92SASN6M8H, amount Rs 3,999, started 10 days back. M1034",refund_status,False,,cache,cache,,"Hi Kiran Furnishings team,
+Thank you for the details on the refund for pay_34VM92SASN6M8H. We have passed this to our Refund team, who are checking its status.
+
+Razorpay Support",,"Merchant asks for the status of a Rs 3,999 refund for payment pay_34VM92SASN6M8H that was started 10 days ago.",pay_34VM92SASN6M8H,3999
+T-0090,Settlement,auto_resolve,,Low,"Namaste Panchi Studio team,
+Payout me deri aapke business ke liye mushkil hoti hai, yeh hum samajhte hain.
+Hamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 47,000 on 28 Sep 2026 from the system.",M1040,Chat,17 Sep 2026 14:37,"Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1040",settlement_query,False,,cache,cache,,"Namaste Panchi Studio team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 47,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,Merchant M1040 says their settlement has not been received for many days and asks what the problem is.,,
+T-0091,Fees & Invoices,auto_resolve,,Low,"Hi Madhur Enterprises team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,invoice_available,KB-09,English,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1052,WhatsApp,17 Sep 2026 19:20,I need the GST invoice for September fees. Where do I download it? M1052,invoice_request,False,,cache,cache,,"Hi Madhur Enterprises team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,Merchant asks where to download the GST invoice for September fees.,,
+T-0092,Settlement,escalate,Risk Ops,High,"Namaste Kaveri Studio team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,settlement_hold_escalate,KB-03,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-03): on hold (Risk review). CS cannot release or shorten holds; escalate to Risk Ops. Reason must not be shared.,M1020,Chat,17 Sep 2026 21:51,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1020",settlement_query,False,,cache,cache,,"Namaste Kaveri Studio team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai.
+
+Razorpay Support",,"Merchant M1020 asks why their payout was put on hold, says their business has stopped, and requests it be released.",,
+T-0093,Fees & Invoices,auto_resolve,,Low,"Hi Jade Traders team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,invoice_available,KB-09,English,calm,none,,auto_send,PASS,False,Rule 9 (KB-09): invoice available; generated by the 5th under Dashboard > Reports > Invoices.,M1045,Chat,18 Sep 2026 16:37,I need the GST invoice for September fees. Where do I download it? M1045,invoice_request,False,,cache,cache,,"Hi Jade Traders team,
+GST invoices for fees are generated by the 5th of every month. You can download them under Dashboard > Reports > Invoices.
+
+Razorpay Support",,Merchant asks where to download the GST invoice for September fees.,,
+T-0094,Settlement,auto_resolve,,Low,"Namaste Yatra Organics team,
+Payout ke intezaar se aapke business par asar padta hai, yeh hum samajhte hain.
+Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,settlement_delayed,KB-02,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 01 Oct 2026 exactly as in the system.,M1053,Chat,19 Sep 2026 08:51,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1053,settlement_query,False,,cache,cache,,"Namaste Yatra Organics team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,"Merchant M1053 asks when the settlement will arrive, saying nothing has been credited to their bank account.",,
+T-0095,KYC,escalate,Security,High,"Hi Indus Services team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click any links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,kyc_phishing_escalate,KB-10,English,calm,none,,agent_review,PASS,False,"Rule 8 (KB-10, decision D5): merchant KYC is already Verified, so a re-verification message is suspicious. Warn the merchant (genuine requests come only from the Dashboard or @example.com) and escalate to Security.",M1047,Email,19 Sep 2026 13:56,I got a message asking for re-verification of KYC. Is this genuine and what do I do? M1047,kyc_reverification_check,False,,cache,cache,,"Hi Indus Services team,
+Thank you for checking with us first. Genuine KYC re-verification requests come only from the Dashboard or from @example.com emails. Please do not share any documents or click links in that message. We have flagged it to our Security team for review.
+
+Razorpay Support",,Merchant received a message asking for KYC re-verification and asks whether it is genuine and what steps to take.,,
+T-0096,Chargeback,ask_info,,Medium,"Hi Craft Mart team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,dispute_ask_reference,"KB-08, KB-16",English,calm,none,debit_reference,auto_send,PASS,False,"Rule 7 (KB-08, decision D6): merchant reports a dispute debit but the system shows 0 open chargebacks. Confirm neither side; ask for the debit reference.",M1041,WhatsApp,19 Sep 2026 14:03,"Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1041",dispute_deduction,False,,cache,cache,,"Hi Craft Mart team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,Merchant M1041 says money was deducted from their account for a dispute without any notice and asks for an explanation.,,
+T-0097,Refund,auto_resolve,,Low,"Hi Sahara Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_DGRN9FSMT9DNQM becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 7 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1003,Chat,19 Sep 2026 14:10,"Please tell me the status of refund for pay_DGRN9FSMT9DNQM, amount Rs 18,500, started 7 days back. M1003",refund_status,False,,cache,cache,,"Hi Sahara Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_DGRN9FSMT9DNQM becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 18,500 for payment pay_DGRN9FSMT9DNQM, which was started 7 days ago.",pay_DGRN9FSMT9DNQM,18500
+T-0098,Payment Failure,escalate,Payments Ops,High,"Hi Orchid Retail team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 77.9% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1033,Email,19 Sep 2026 14:22,A customer said money was deducted but order shows failed. This is happening again and again. M1033,deducted_order_failed,False,,cache,cache,,"Hi Orchid Retail team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,"Merchant M1033 reports a customer was debited but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0099,Refund,auto_resolve,,Low,"Hi Kiran Furnishings team,
+Refunds are credited to the customer's original payment source in 5-7 business days. For pay_ADQCNC9MXJHLCT, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 4 calendar days = 3 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1034,Email,19 Sep 2026 16:12,"Refund of Rs 12,000 to my customer was initiated 4 days ago. Customer is asking where the money is. Payment ID pay_ADQCNC9MXJHLCT. M1034",refund_status,False,,cache,cache,,"Hi Kiran Furnishings team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_ADQCNC9MXJHLCT becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant says a Rs 12,000 refund for a customer (payment ID pay_ADQCNC9MXJHLCT) was initiated 4 days ago and the customer has not received the money.",pay_ADQCNC9MXJHLCT,12000
+T-0100,API & Integration,auto_resolve,,Low,"Hi Saffron Travels team,
+If you are not receiving webhooks, please check three things: the URL must be publicly reachable, it must return HTTP 200 within 5 seconds, and the event must be subscribed. Failed webhooks are retried for up to 24 hours.
+
+Razorpay Support",,api_webhook,KB-13,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-13): known API issue; share the exact KB fix (webhook checklist). Not a payment failure, so success rate is not used.",M1048,Chat,20 Sep 2026 10:39,Webhooks are not reaching my server since yesterday. M1048,api_webhook,False,,cache,cache,,"Hi Saffron Travels team,
+If webhooks are not received, please check that the URL is publicly reachable, returns HTTP 200 within 5 seconds, and that the event is subscribed. Failed webhooks are retried for up to 24 hours.
+
+Razorpay Support",,Merchant M1048 reports that webhooks have not been reaching their server since yesterday.,,
+T-0101,Fees & Invoices,escalate,Account Manager,Medium,"Namaste Dhruva Exports team,
+Samajh sakte hain ki fees aapke business ke liye bahut important hain. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.
+
+Razorpay Support",,fee_commercial_escalate,KB-09,Hinglish,frustrated,none,,agent_review,PASS,True,"Rule 9 (KB-09): fee rate negotiation is handled only by the Account Manager. No promise of waiver, refund or rate change. Competitor or leaving language: churn signal set.",M1025,Email,20 Sep 2026 18:16,Rate kam karo warna hum doosre gateway pe chale jayenge. Mujhe 1.5% se upar nahi chahiye. M1025,fee_rate_negotiation,False,,cache,cache,,"Namaste Dhruva Exports team,
+Samajh sakte hain ki fees aapke business ke liye bahut important hain. Yeh share karne ke liye dhanyavaad. Pricing aur fees ki requests aapke Account Manager handle karte hain, isliye humne aapki request review ke liye unhe bhej di hai.
+
+Razorpay Support",,Merchant (M1025) asks Razorpay to lower the transaction rate to no more than 1.5% and says they will switch to another gateway otherwise.,,
+T-0102,Settlement,ask_info,,Medium,"Hi,
+To look into this, please share your Merchant ID (it starts with M) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.
+
+Razorpay Support",,missing_merchant_id,KB-16,English,calm,none,"merchant_id, details",auto_send,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is.,,Email,20 Sep 2026 20:31,Money not received,settlement_query,False,,cache,cache,,"Hi,
+Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.
+
+Razorpay Support",,"Merchant says they have not received money, but gives no details on whether it is a settlement, refund or other payment.",,
+T-0103,Payment Failure,escalate,Payments Ops,High,"Hi Blue Lotus Electronics team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 76.3% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1008,Email,20 Sep 2026 20:57,Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1008,payment_failing,False,,cache,cache,,"Hi Blue Lotus Electronics team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,Merchant M1008 reports that customers have been experiencing failed UPI payments at checkout since this morning and asks support to investigate.,,
+T-0104,Chargeback,auto_resolve,,Low,"Namaste Jade Naturals team,
+Disputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega. Aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.
+
+Razorpay Support",,chargeback_prevent,KB-08,Hinglish,calm,none,,auto_send,PASS,False,Rule 7 (KB-08): disputes cannot be blocked in advance; explain evidence process.,M1035,Email,21 Sep 2026 09:11,"Mujhe lag raha hai ek customer chargeback karega, kya aap rok sakte ho? M1035",chargeback_prevent,False,,cache,cache,,"Namaste Jade Naturals team,
+Disputes ko pehle se block nahi kiya ja sakta. Agar customer dispute raise karta hai, toh aapko Dashboard > Disputes me notice milega aur aap 7 calendar days ke andar evidence (invoice, proof of delivery, communication) upload kar sakte hain.
+
+Razorpay Support",,Merchant (ID M1035) expects a customer may file a chargeback and asks if Razorpay can prevent it.,,
+T-0105,Payment Failure,auto_resolve,,Low,"Namaste Yatra Organics team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye kahein. Agar paisa kat gaya hai par order fail hua, toh woh amount 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_auto,KB-06,Hinglish,calm,none,,auto_send,PASS,False,"Rule 5 (KB-06): success rate 92.1% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1053,WhatsApp,21 Sep 2026 10:01,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1053,payment_failing,False,,cache,cache,,"Namaste Yatra Organics team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,Merchant M1053 reports payments failing at checkout and asks if there is an issue on Razorpay's side.,,
+T-0106,Settlement,auto_resolve,,Low,"Hi Mosaic Crafts team,
+As per our system, your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,calm,none,,auto_send,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 2,90,000 on 30 Sep 2026 from the system.",M1027,Chat,21 Sep 2026 13:55,"Hi team, my settlement for the last few days has not reached my bank account yet. Please check. Merchant ID M1027.",settlement_query,False,,cache,cache,,"Hi Mosaic Crafts team,
+As per our system, your last settlement of Rs 2,90,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,Merchant M1027 reports that settlements for the last few days have not reached their bank account and asks support to check.,,
+T-0107,Settlement,auto_resolve,,Medium,"Hi Jaya Studio team,
+We know waiting on a payout affects your business.
+Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.
+
+Razorpay Support",,settlement_delayed,KB-02,English,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 02 Oct 2026 exactly as in the system. Tone frustrated + urgent: risk raised Low -> Medium.,M1028,Email,21 Sep 2026 14:34,"Settlement of around Rs 54,000 is still pending and my supplier payments are stuck. Need this today. M1028",settlement_query,True,,cache,cache,,"Hi Jaya Studio team,
+We know waiting on a payout affects your business. Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is 02 Oct 2026. You can track it under Dashboard > Settlements.
+
+Razorpay Support",,"Merchant M1028 reports a pending settlement of around Rs 54,000 that is holding up supplier payments and asks for it to be resolved today.",,54000
+T-0108,Chargeback,auto_resolve,,Medium,"Hi Jade Traders team,
+Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence such as the invoice, proof of delivery and your communication with the customer within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,dispute_with_open_chargeback,KB-08,English,calm,none,,auto_send,PASS,False,Rule 7 (KB-08): 1 open chargeback(s) in the system; point to Dashboard > Disputes and the 7-day evidence window.,M1045,Email,21 Sep 2026 16:08,Customer disputed a payment with the bank and funds were debited from my account. How do I fight this? M1045,dispute_deduction,False,,cache,cache,,"Hi Jade Traders team,
+Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,"Merchant (M1045) says a customer disputed a payment with the bank, funds were debited from their account, and asks how to contest the dispute.",,
+T-0109,Payment Failure,ask_info,,Medium,"Hi Madhur Enterprises team,
+We know failed payments mean lost sales for you.
+When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,deducted_ask_payment_id,"KB-06, KB-16",English,frustrated,none,payment_id,agent_review,PASS,False,"Rule 5 (KB-06, KB-16): success rate 91.1% is healthy. 'Money deducted, order failed' with no payment ID: ask for it (decision D2); mention auto-reversal.",M1052,Email,21 Sep 2026 19:23,A customer said money was deducted but order shows failed. This is happening again and again. M1052,deducted_order_failed,False,,cache,cache,,"Hi Madhur Enterprises team,
+We know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,"Merchant M1052 reports that a customer's money was deducted but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0110,Chargeback,auto_resolve,,Medium,"Hi Pixel Crafts team,
+When a customer disputes a payment, you receive a notice on the Dashboard under Disputes. Please upload your evidence (invoice, proof of delivery and communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,chargeback_notice,KB-08,English,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1037,Chat,22 Sep 2026 08:01,I got a chargeback notice for one of my orders. What should I do and by when? M1037,chargeback_notice,False,,cache,cache,,"Hi Pixel Crafts team,
+When a customer disputes a payment, you get a notice on the Dashboard under Disputes. Please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,Merchant received a chargeback notice for an order and asks what steps to take and the deadline for responding.,,
+T-0111,Fees & Invoices,escalate,Account Manager,High,"Hi Cedar Studio team,
+We know that fees have a real impact on your business.
+Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,fee_commercial_escalate,KB-09,English,frustrated,none,,agent_review,PASS,True,"Rule 9 (KB-09): fee rate negotiation is handled only by the Account Manager. No promise of waiver, refund or rate change. Competitor or leaving language: churn signal set. Tone frustrated + urgent: risk raised Medium -> High.",M1049,Chat,22 Sep 2026 10:16,Your MDR is too high compared to what a competitor offered me. Reduce my rates to 1.5% immediately or I will move. M1049,fee_rate_negotiation,True,,cache,cache,,"Hi Cedar Studio team,
+We understand fees matter a lot to your business. Thank you for sharing this. Pricing and fee requests are handled by your Account Manager, so we have passed your request to them for review.
+
+Razorpay Support",,"Merchant says the MDR is higher than a competitor's offer and asks for rates to be reduced to 1.5% immediately, otherwise they will switch providers.",,
+T-0112,Chargeback,auto_resolve,,Medium,"Namaste Oasis Labs team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Aap se request hai ki 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Agar deadline miss ho jaati hai, toh dispute automatically lost ho jaata hai.
+
+Razorpay Support",,chargeback_notice,KB-08,Hinglish,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1031,Chat,22 Sep 2026 14:28,"Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1031",chargeback_notice,False,,cache,cache,,"Namaste Oasis Labs team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,Merchant says a customer has raised a chargeback and asks what to do and how much time they have to respond.,,
+T-0113,API & Integration,auto_resolve,,Low,"Hi Prime Stores team,
+An 'Authentication failed' error on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.
+
+Razorpay Support",,api_auth_failed,KB-14,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-14): known API issue; share the exact KB fix (test keys on a live site). Not a payment failure, so success rate is not used.",M1021,Chat,22 Sep 2026 21:39,Authentication failed error on my live site. Works fine on my laptop. M1021,api_auth_failed,False,,cache,cache,,"Hi Prime Stores team,
+'Authentication failed' on a live site usually means test keys are being used in production. Please use the live key ID and secret generated after activation.
+
+Razorpay Support",,Merchant (M1021) reports an 'Authentication failed' error on their live site while the integration works on their laptop.,,
+T-0114,Settlement,auto_resolve,,Low,"Namaste Yatra Naturals team,
+Payout me delay aapke business ke liye mushkil hota hai, yeh hum samajhte hain.
+Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,settlement_delayed,KB-02,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 01 Oct 2026 exactly as in the system.,M1057,Chat,23 Sep 2026 13:53,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1057,settlement_query,False,,cache,cache,,"Namaste Yatra Naturals team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,"Merchant M1057 asks when their settlement will arrive, saying nothing has been credited to their bank account.",,
+T-0115,Legal / Security,escalate,Legal,Critical,"Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,angry,media_threat,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (media_threat, keywords ['Twitter', 'LinkedIn', 'press']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1009,WhatsApp,23 Sep 2026 14:57,I will post this on Twitter and LinkedIn tagging your CEO and the press if this is not fixed in 24 hours. M1009,,False,"Twitter, LinkedIn, press",cache,template,,"Hi Sunrise Mart team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,Merchant M1009 threatens to post on Twitter and LinkedIn and tag the CEO and press if an unspecified issue is not fixed within 24 hours.,,
+T-0116,Settlement,auto_resolve,,Medium,"Hi Pearl Pharma team,
+Your settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.
+
+Razorpay Support",,settlement_kyc_pending,"KB-04, KB-10",English,calm,none,,auto_send,PASS,False,Rule 4 (KB-04): on hold for pending KYC; guide to Dashboard > Account > KYC.,M1023,Chat,23 Sep 2026 19:19,My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1023,settlement_query,False,,cache,cache,,"Hi Pearl Pharma team,
+Your settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.
+
+Razorpay Support",,Merchant says payouts have been stopped for a few days with a hold shown on the dashboard and asks for the hold to be released.,,
+T-0117,Refund,escalate,Refund Ops,High,"Hi Panchi Studio team,
+Thank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 1,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1040,Email,23 Sep 2026 21:37,"Please tell me the status of refund for pay_GWLJ94XTVB4URX, amount Rs 150,000, started 2 days back. M1040",refund_status,False,,cache,cache,,"Hi Panchi Studio team,
+Thank you for the details on the refund for pay_GWLJ94XTVB4URX. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant asks for the status of a Rs 150,000 refund for payment pay_GWLJ94XTVB4URX that was initiated 2 days ago.",pay_GWLJ94XTVB4URX,150000
+T-0118,API & Integration,escalate,Tech Support,Medium,"Hi Blue Lotus Electronics team,
+Thank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,api_no_kb_escalate,,English,calm,none,,agent_review,PASS,False,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess.",M1008,WhatsApp,24 Sep 2026 08:42,Our checkout intermittently shows a blank popup for some users on Android only. No error code anywhere. M1008,api_unknown,False,,cache,cache,,"Hi Blue Lotus Electronics team,
+Thank you for the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,"Merchant M1008 reports that the checkout popup intermittently appears blank for some Android users, with no error code shown.",,
+T-0119,Refund,auto_resolve,,Low,"Hi Nila Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. For pay_E9TA2K7T4Q7PEW, an ARN (reference number) becomes available after 3 days. The customer can share this ARN with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 8 calendar days = 6 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1004,WhatsApp,24 Sep 2026 09:08,"Please tell me the status of refund for pay_E9TA2K7T4Q7PEW, amount Rs 1,299, started 8 days back. M1004",refund_status,False,,cache,cache,,"Hi Nila Naturals team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_E9TA2K7T4Q7PEW becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 1,299 for payment pay_E9TA2K7T4Q7PEW that was started 8 days ago.",pay_E9TA2K7T4Q7PEW,1299
+T-0120,Settlement,auto_resolve,,Medium,"Namaste Blue Lotus Electronics team,
+Payout rukne se aapke business par asar padta hai, yeh hum samajhte hain.
+Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.
+
+Razorpay Support",,settlement_kyc_pending,"KB-04, KB-10",Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-04): on hold for pending KYC; guide to Dashboard > Account > KYC.,M1008,Chat,24 Sep 2026 09:57,"Payout hold kyun kiya hai? Mera business ruk gaya hai, please release karo. M1008",settlement_query,False,,cache,cache,,"Namaste Blue Lotus Electronics team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain.
+
+Razorpay Support",,"Merchant asks why their payout was put on hold, says business is stalled, and requests release of the funds (reference M1008).",,
+T-0121,Refund,auto_resolve,,Low,"Namaste Nila Naturals team,
+Aapke customer ko is refund ka intezaar hai, yeh hum samajhte hain.
+Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai. Customer ise apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,refund_in_window,KB-07,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): 6 calendar days = 4 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1004,Email,24 Sep 2026 11:41,"Customer ka refund Rs 45,000 abhi tak nahi mila, 6 din ho gaye. pay_Z4K5XE9WXVZ3ST. M1004",refund_status,False,,cache,cache,,"Namaste Nila Naturals team,
+Samajh sakte hain ki aapka customer is refund ka intezaar kar raha hai. Refunds customer ke original payment source me 5-7 business days me credit hote hain. pay_Z4K5XE9WXVZ3ST ka ARN (reference number) 3 days ke baad available hota hai, jise customer apne bank ke saath share karke credit track kar sakte hain.
+
+Razorpay Support",,"Merchant says a customer's refund of Rs 45,000 for payment pay_Z4K5XE9WXVZ3ST has not been received after 6 days.",pay_Z4K5XE9WXVZ3ST,45000
+T-0122,Settlement,auto_resolve,,Low,"Namaste Quill Enterprises team,
+Payout me deri se aapke business par asar padta hai, yeh hum samajhte hain.
+Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,settlement_settled,KB-01,Hinglish,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 44,000 on 28 Sep 2026 from the system.",M1059,Email,24 Sep 2026 14:45,"Mera settlement abhi tak nahi aaya hai, kaafi din ho gaye. Please batao kya problem hai. MID M1059",settlement_query,False,,cache,cache,,"Namaste Quill Enterprises team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Hamare system ke hisaab se aapka last settlement Rs 44,000 28 Sep 2026 ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain.
+
+Razorpay Support",,Merchant says their settlement has not been received for several days and asks what the problem is (MID M1059).,,
+T-0123,Settlement,auto_resolve,,Low,"Namaste Yatra Organics team,
+Payout ke intezaar se aapke business par asar padta hai, yeh hum samajhte hain.
+Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,settlement_delayed,KB-02,Hinglish,frustrated,none,,agent_review,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 01 Oct 2026 exactly as in the system.,M1053,WhatsApp,24 Sep 2026 20:09,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1053,settlement_query,False,,cache,cache,,"Namaste Yatra Organics team,
+Samajh sakte hain ki payout ka intezaar aapke business ko affect karta hai. Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 01 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,"Merchant M1053 asks when the settlement will arrive, saying nothing has been credited to their bank account.",,
+T-0124,Payment Failure,escalate,Payments Ops,High,"Namaste Trident Electronics team,
+Yeh jaankari share karne ke liye dhanyavaad. Humne ise apni Payments team ko pass kar diya hai, jo aapke payment success ko affect kar rahe kisi possible issue ki jaanch kar rahi hai.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,Hinglish,calm,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1058,WhatsApp,25 Sep 2026 09:20,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1058,payment_failing,False,,cache,cache,,"Namaste Trident Electronics team,
+Yeh batane ke liye dhanyavaad. Humne ise hamari Payments team ko bhej diya hai, jo aapke payment success par asar daal rahe kisi possible issue ki jaanch kar rahi hai.
+
+Razorpay Support",,Merchant M1058 reports payments failing at checkout and asks whether there is an issue on Razorpay's side.,,
+T-0125,API & Integration,auto_resolve,,Low,"Hi Blue Lotus Electronics team,
+We know integration errors can hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).
+
+Razorpay Support",,api_signature,KB-12,English,frustrated,none,,agent_review,PASS,False,"Rule 10 (KB-12): known API issue; share the exact KB fix (SIGNATURE_MISMATCH fix). Not a payment failure, so success rate is not used.",M1008,Email,25 Sep 2026 12:26,Signature verification keeps failing on my server after payment succeeds. SIGNATURE_MISMATCH. M1008,api_signature,False,,cache,cache,,"Hi Blue Lotus Electronics team,
+We know integration errors hold up your work. SIGNATURE_MISMATCH means the signature check is not matching. Please verify the signature using your key secret on the string 'order_id|payment_id' (order ID, a pipe, then payment ID).
+
+Razorpay Support",,Merchant M1008 reports that signature verification repeatedly fails on their server with a SIGNATURE_MISMATCH error after successful payments.,,
+T-0126,Chargeback,auto_resolve,,Medium,"Hi Cedar Studio team,
+Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence such as an invoice, proof of delivery and your communication with the customer, within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,dispute_with_open_chargeback,KB-08,English,calm,none,,auto_send,PASS,False,Rule 7 (KB-08): 1 open chargeback(s) in the system; point to Dashboard > Disputes and the 7-day evidence window.,M1049,WhatsApp,25 Sep 2026 15:27,Customer disputed a payment with the bank and funds were debited from my account. How do I fight this? M1049,dispute_deduction,False,,cache,cache,,"Hi Cedar Studio team,
+Our system shows an open dispute on your account under Dashboard > Disputes. To contest it, please upload evidence (invoice, proof of delivery, communication with the customer) within 7 calendar days of the notice. If the deadline is missed, the dispute is lost automatically.
+
+Razorpay Support",,"Merchant says a customer disputed a payment with the bank, funds were debited from their account, and asks how to contest the dispute.",,
+T-0127,Account Management,auto_resolve,,Medium,"Hi Yatra Electronics team,
+You can change your registered email and mobile number under Settings. The change is verified using an OTP.
+
+Razorpay Support",,account_change_contact,KB-11,English,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): email and mobile change in Settings with OTP verification.,M1060,Chat,25 Sep 2026 16:51,I want to change my registered email and mobile number on the account. How? M1060,change_contact,False,,cache,cache,,"Hi Yatra Electronics team,
+You can change your registered email and mobile number under Settings, using OTP verification.
+
+Razorpay Support",,Merchant asks how to change the registered email and mobile number on their account (merchant reference M1060).,,
+T-0128,Settlement,auto_resolve,,Low,"Namaste Jade Naturals team,
+Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,settlement_delayed,KB-02,Hinglish,calm,none,,auto_send,PASS,False,Rule 4 (KB-02): status Delayed (bank-side); share expected date 02 Oct 2026 exactly as in the system.,M1035,WhatsApp,25 Sep 2026 17:25,Bhai settlement kab milega? Bank me kuch credit nahi hua. M1035,settlement_query,False,,cache,cache,,"Namaste Jade Naturals team,
+Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date 02 Oct 2026 hai. Aap ise Dashboard > Settlements me track kar sakte hain.
+
+Razorpay Support",,"Merchant M1035 asks when the settlement will arrive, saying nothing has been credited to their bank account.",,
+T-0129,Unclear,ask_info,,Medium,"Hi,
+To look into this, please share your Merchant ID (it starts with M) and a few details of the issue, such as what is failing and since when. Once we have these, we can check your account.
+
+Razorpay Support",,missing_merchant_id,KB-16,English,calm,none,"merchant_id, details",auto_send,PASS,False,Rule 2 (KB-16): no merchant ID in the ticket or message; ask for it before anything else. Message is also too vague; ask what the issue is.,,Chat,25 Sep 2026 21:17,"Issue with my account, call me.",,False,,cache,cache,,"Hi,
+Thanks for reaching out. To look into this, please share your Merchant ID (it starts with M) and a few details of the issue (what is failing and since when). Once we have these, we can check your account.
+
+Razorpay Support",,Merchant reports an unspecified issue with their account and asks for a call back.,,
+T-0130,Fees & Invoices,escalate,Account Manager,Medium,"Namaste Yatra Naturals team,
+Batane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ke liye kaha hai.
+
+Razorpay Support",,invoice_unavailable_escalate,KB-09,Hinglish,calm,none,,agent_review,PASS,False,"Rule 9 (KB-09, decision D7): the system shows no GST invoice available for this merchant, so pointing to the Dashboard would be wrong. Escalate to the Account Manager.",M1057,Email,26 Sep 2026 10:36,"GST invoice dashboard me nahi dikh raha, kaha milega? M1057",invoice_request,False,,cache,cache,,"Namaste Yatra Naturals team,
+Batane ke liye dhanyavaad. Humne aapke Account Manager ko aapke account ke GST invoice ki jaanch karne ko kaha hai.
+
+Razorpay Support",,Merchant M1057 cannot find their GST invoice on the dashboard and asks where to get it.,,
+T-0131,Settlement,auto_resolve,,Low,"Hi Sunrise Mart team,
+We know waiting on a payout affects your business.
+As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 5,40,000 on 30 Sep 2026 from the system.",M1009,WhatsApp,26 Sep 2026 16:13,Why has my payout not come? No one has told me anything. Merchant M1009,settlement_query,False,,cache,cache,,"Hi Sunrise Mart team,
+We know waiting on a payout affects your business. As per our system, your last settlement of Rs 5,40,000 was credited on 30 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,Merchant M1009 says their payout has not arrived and that no one has given them any update.,,
+T-0132,Settlement,auto_resolve,,Medium,"Hi Gulmohar Academy team,
+Your settlements are currently on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.
+
+Razorpay Support",,settlement_kyc_pending,"KB-04, KB-10",English,calm,none,,auto_send,PASS,False,Rule 4 (KB-04): on hold for pending KYC; guide to Dashboard > Account > KYC.,M1038,Chat,26 Sep 2026 18:51,My payouts have been stopped since a few days. Dashboard shows something about a hold. Please release it. M1038,settlement_query,False,,cache,cache,,"Hi Gulmohar Academy team,
+Your settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified.
+
+Razorpay Support",,"Merchant M1038 says payouts have been stopped for a few days, the dashboard mentions a hold, and asks for it to be released.",,
+T-0133,Refund,auto_resolve,,Low,"Hi Blue Lotus Organics team,
+Refunds are credited to the customer's original payment source in 5-7 business days. For pay_FY78TDVSVKDPD9, an ARN (reference number) becomes available after 3 days. The customer can share it with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,calm,none,,auto_send,PASS,False,"Rule 6 (KB-07, decision D1): 3 calendar days = 1 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1024,Chat,27 Sep 2026 09:40,Refund of Rs 499 to my customer was initiated 3 days ago. Customer is asking where the money is. Payment ID pay_FY78TDVSVKDPD9. M1024,refund_status,False,,cache,cache,,"Hi Blue Lotus Organics team,
+Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_FY78TDVSVKDPD9 becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant says a Rs 499 refund to their customer was initiated 3 days ago and the customer has not received the money, and asks for its status (payment ID pay_FY78TDVSVKDPD9).",pay_FY78TDVSVKDPD9,499
+T-0134,Payment Failure,auto_resolve,,Low,"Namaste Cedar Studio team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Aap customer ko retry karne ya doosra payment method use karne ke liye keh sakte hain. Agar paisa kat gaya hai par order fail hua, toh woh amount 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,payment_failing_auto,KB-06,Hinglish,calm,none,,auto_send,PASS,False,"Rule 5 (KB-06): success rate 95.5% is at or above 85%; share KB-06 advice (retry, other method, auto-reversal).",M1049,Chat,27 Sep 2026 11:23,Checkout pe payment fail aa raha hai. Kya aapki taraf se koi issue hai? M1049,payment_failing,False,,cache,cache,,"Namaste Cedar Studio team,
+Payments aam taur par bank decline, insufficient funds, UPI app time-out ya galat card details ki wajah se fail hote hain. Kripya customer ko retry karne ya doosra payment method use karne ko kahein. Agar paisa kat gaya par order fail hua, toh woh 5-7 business days me customer ko auto-reverse ho jaata hai.
+
+Razorpay Support",,Merchant M1049 reports payments failing at checkout and asks whether there is an issue on Razorpay's side.,,
+T-0135,Payment Failure,escalate,Payments Ops,High,"Hi Trident Electronics team,
+We know failed payments mean lost sales for your business.
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,frustrated,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 70.6% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1058,Email,27 Sep 2026 13:06,Many of my customers are saying UPI payments are failing at checkout since this morning. Please look into it. M1058,payment_failing,False,,cache,cache,,"Hi Trident Electronics team,
+We know failed payments mean lost sales for you. Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,Merchant M1058 reports that customers' UPI payments have been failing at checkout since this morning and asks support to investigate.,,
+T-0136,Refund,auto_resolve,,Low,"Hi Zenith Exports team,
+We know it is difficult when your customer is still waiting on this refund. Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days. The customer can share it with their bank to trace the credit.
+
+Razorpay Support",,refund_in_window,KB-07,English,frustrated,none,,agent_review,PASS,False,"Rule 6 (KB-07, decision D1): 9 calendar days = 5 business days, within the 5-7 business day window. Share 5-7 business days and ARN after 3 days. Never invent an ARN.",M1001,Email,27 Sep 2026 14:24,"Refund of Rs 7,500 to my customer was initiated 9 days ago. Customer is asking where the money is. Payment ID pay_MQV5K93DLJK5YA. M1001",refund_status,False,,cache,cache,,"Hi Zenith Exports team,
+We understand your customer is waiting on this refund. Refunds are credited to the customer's original payment source in 5-7 business days. An ARN (reference number) for pay_MQV5K93DLJK5YA becomes available after 3 days, which the customer can share with their bank to trace the credit.
+
+Razorpay Support",,"Merchant says a Rs 7,500 refund for payment pay_MQV5K93DLJK5YA was initiated 9 days ago and the customer has not received the money.",pay_MQV5K93DLJK5YA,7500
+T-0137,Refund,escalate,Refund Ops,High,"Hi Kiran Furnishings team,
+Thank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 9,00,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1034,WhatsApp,27 Sep 2026 17:27,"Refund of Rs 900,000 to my customer was initiated 4 days ago. Customer is asking where the money is. Payment ID pay_33BT5HJWBKJN39. M1034",refund_status,False,,cache,cache,,"Hi Kiran Furnishings team,
+Thank you for the details on the refund for pay_33BT5HJWBKJN39. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant says a Rs 900,000 refund to their customer was initiated 4 days ago and has not reached the customer, and asks for its status for payment pay_33BT5HJWBKJN39.",pay_33BT5HJWBKJN39,900000
+T-0138,Legal / Security,escalate,Legal,Critical,"Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support",,threat,KB-15,English,angry,bribery,,do_not_send,PASS,False,"Rule 1 (KB-15): threat detected (bribery, keywords ['commission', 'recording']). Escalate immediately to Legal. Never auto-replied: holding draft only, for the escalation team to approve.",M1056,Email,27 Sep 2026 19:29,One of your employees asked me for a commission to release my settlement. I have a recording. Explain. M1056,settlement_query,False,"commission, recording",cache,template,,"Hi Cedar Labs team,
+Thank you for writing to us. We have recorded your message and shared it with the right specialist team for review.
+
+Razorpay Support","Category disagreement: patterns=Settlement, LLM=Legal / Security; patterns kept","Merchant alleges a Razorpay employee asked for a commission to release their settlement, says they have a recording, and demands an explanation.",,
+T-0139,Chargeback,auto_resolve,,Medium,"Namaste Quill Enterprises team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,chargeback_notice,KB-08,Hinglish,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1059,Email,28 Sep 2026 12:13,"Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1059",chargeback_notice,False,,cache,cache,,"Namaste Quill Enterprises team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,Merchant received a chargeback from a customer and asks what to do and how much time they have to respond.,,
+T-0140,Payment Failure,escalate,Payments Ops,High,"Hi Saffron Traders team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,payment_degradation_escalate,KB-06,English,calm,none,,agent_review,PASS,False,Rule 5 (KB-06): 7-day success rate 78.5% is below 85%; possible degradation. Escalate to Payments Ops; do not blame customers.,M1042,WhatsApp,28 Sep 2026 13:55,Payment success seems very low this week compared to last month. Is something wrong at your end? M1042,payment_failing,False,,cache,cache,,"Hi Saffron Traders team,
+Thank you for flagging this. We have passed it to our Payments team, who are checking for a possible issue affecting your payment success.
+
+Razorpay Support",,Merchant M1042 reports that payment success rates have been noticeably lower this week than last month and asks whether there is an issue on Razorpay's side.,,
+T-0141,API & Integration,auto_resolve,,Low,"Namaste Mosaic Crafts team,
+Agar aapko webhooks nahi mil rahe hain, toh kripya check karein ki aapka URL publicly reachable hai, 5 seconds ke andar HTTP 200 return karta hai, aur aapne us event ko subscribe kiya hua hai. Failed webhooks 24 hours tak retry hote hain.
+
+Razorpay Support",,api_webhook,KB-13,Hinglish,calm,none,,auto_send,PASS,False,"Rule 10 (KB-13): known API issue; share the exact KB fix (webhook checklist). Not a payment failure, so success rate is not used.",M1027,Email,28 Sep 2026 15:49,"Webhook nahi aa raha payment.captured ka, server pe kuch nahi dikh raha. M1027",api_webhook,False,,cache,cache,,"Namaste Mosaic Crafts team,
+Agar webhooks nahi aa rahe, toh kripya check karein ki URL publicly reachable hai, 5 seconds ke andar HTTP 200 return karta hai, aur event subscribed hai. Failed webhooks 24 hours tak retry hote hain.
+
+Razorpay Support",,Merchant (M1027) says the payment.captured webhook is not being received and nothing is showing on their server.,,
+T-0142,Chargeback,auto_resolve,,Medium,"Namaste Amber Services team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence upload karein, jaise invoice, proof of delivery aur customer ke saath communication. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,chargeback_notice,KB-08,Hinglish,calm,none,,auto_send,PASS,False,"Rule 7 (KB-08): explain Disputes notice, 7 calendar days for evidence, missed deadline loses the dispute.",M1030,WhatsApp,28 Sep 2026 20:18,"Chargeback aaya hai ek customer ka. Kya karna hai, kitna time hai? M1030",chargeback_notice,False,,cache,cache,,"Namaste Amber Services team,
+Jab customer kisi payment ko dispute karta hai, toh aapko Dashboard me Disputes ke andar notice milta hai. Kripya 7 calendar days ke andar evidence (invoice, proof of delivery, customer ke saath communication) upload karein. Deadline miss hone par dispute automatically lost ho jaata hai.
+
+Razorpay Support",,Merchant says a customer has raised a chargeback and asks what to do and how much time they have to respond.,,
+T-0143,Account Management,auto_resolve,,Medium,"Namaste Panchi Studio team,
+Legal entity ka naam ya business type edit karke change nahi kiya ja sakta. Iske liye aapko nayi (fresh) application deni hogi.
+
+Razorpay Support",,account_change_legal_name,KB-11,Hinglish,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): a legal entity name or business type change needs a fresh application; it cannot be edited.,M1040,Email,29 Sep 2026 10:29,"Humne company ka naam change kiya hai, account me kaise update karein? M1040",change_legal_name,False,,cache,cache,,"Namaste Panchi Studio team,
+Legal entity ka naam ya business type edit karke change nahi ho sakta. Iske liye nayi (fresh) application deni hogi.
+
+Razorpay Support",,Merchant (M1040) asks how to update the company name in their account after changing it.,,
+T-0144,Chargeback,ask_info,,Medium,"Hi Indus Services team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,dispute_ask_reference,"KB-08, KB-16",English,calm,none,debit_reference,auto_send,PASS,False,"Rule 7 (KB-08, decision D6): merchant reports a dispute debit but the system shows 0 open chargebacks. Confirm neither side; ask for the debit reference.",M1047,Chat,29 Sep 2026 11:29,"Money got deducted from my account for a dispute, I don't see any notice. Please explain. M1047",dispute_deduction,False,,cache,cache,,"Hi Indus Services team,
+Dispute notices appear on the Dashboard under Disputes. We could not match this deduction to a dispute on your account yet. Please share the debit reference or transaction reference shown in your bank statement so we can trace it.
+
+Razorpay Support",,Merchant M1047 says money was deducted from their account for a dispute without any notice and asks for an explanation.,,
+T-0145,API & Integration,escalate,Tech Support,Medium,"Hi Dhruva Academy team,
+Thank you for sharing the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,api_no_kb_escalate,,English,calm,none,,agent_review,PASS,False,"Rule 10: no KB article covers this API issue; escalate to Tech Support, never guess.",M1046,Chat,29 Sep 2026 15:26,"Orders created successfully but payments page times out for ~5% of users. Logs attached, request IDs available on call. M1046",api_unknown,False,,cache,cache,,"Hi Dhruva Academy team,
+Thank you for the details. We have passed this to our Tech Support team, who are investigating it.
+
+Razorpay Support",,"Merchant reports that orders are created successfully but the payments page times out for about 5% of users, and says logs are attached and request IDs are available on a call.",,
+T-0146,API & Integration,auto_resolve,,Low,"Hi Willow Naturals team,
+This BAD_REQUEST_ERROR occurs when the amount is not sent in paise. Amounts must always be sent in paise, so Rs 499 should be sent as 49900.
+
+Razorpay Support",,api_amount_mismatch,KB-12,English,calm,none,,auto_send,PASS,False,"Rule 10 (KB-12): known API issue; share the exact KB fix (amounts in paise). Not a payment failure, so success rate is not used.",M1006,Chat,29 Sep 2026 15:28,Getting BAD_REQUEST_ERROR: order amount mismatch when I create a payment. Amount is 499. M1006,api_amount_mismatch,False,,cache,cache,,"Hi Willow Naturals team,
+This BAD_REQUEST_ERROR happens when the amount is not in paise. Amounts must be sent in paise, so Rs 499 should be sent as 49900.
+
+Razorpay Support",,Merchant M1006 receives a BAD_REQUEST_ERROR for order amount mismatch when creating a payment with an amount of 499.,,
+T-0147,Payment Failure,ask_info,,Medium,"Hi Aarav Retail team,
+We know failed payments mean lost sales for your business.
+When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,deducted_ask_payment_id,"KB-06, KB-16",English,frustrated,none,payment_id,agent_review,PASS,False,"Rule 5 (KB-06, KB-16): success rate 97.7% is healthy. 'Money deducted, order failed' with no payment ID: ask for it (decision D2); mention auto-reversal.",M1018,Chat,29 Sep 2026 18:08,A customer said money was deducted but order shows failed. This is happening again and again. M1018,deducted_order_failed,False,,cache,cache,,"Hi Aarav Retail team,
+We know failed payments mean lost sales for you. When money is deducted but the order fails, the amount is auto-reversed to the customer in 5-7 business days. To check this specific case, please share the Payment ID (starts with pay_).
+
+Razorpay Support",,"Merchant M1018 reports that a customer was debited but the order shows as failed, and says this keeps happening repeatedly.",,
+T-0148,Account Management,auto_resolve,,Medium,"Hi Mosaic Stores team,
+You can change your registered email and mobile number under Settings. The change is confirmed using OTP verification.
+
+Razorpay Support",,account_change_contact,KB-11,English,calm,none,,auto_send,PASS,False,Rule 11 (KB-11): email and mobile change in Settings with OTP verification.,M1050,Email,29 Sep 2026 18:44,I want to change my registered email and mobile number on the account. How? M1050,change_contact,False,,cache,cache,,"Hi Mosaic Stores team,
+You can change your registered email and mobile number under Settings, using OTP verification.
+
+Razorpay Support",,Merchant (ID M1050) asks how to change the registered email and mobile number on their account.,,
+T-0149,Refund,escalate,Refund Ops,High,"Hi Tulsi Learning team,
+Thank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team, and we have passed your request to them for review.
+
+Razorpay Support",,refund_large_escalate,KB-07,English,calm,none,,agent_review,PASS,False,"Rule 6 (KB-07): refund Rs 1,50,000 is at or above Rs 1,00,000; Refund Ops approves manually. No timeline may be promised.",M1013,Email,30 Sep 2026 15:25,"Please tell me the status of refund for pay_5RD758JHHG9QXD, amount Rs 150,000, started 9 days back. M1013",refund_status,False,,cache,cache,,"Hi Tulsi Learning team,
+Thank you for the details on the refund for pay_5RD758JHHG9QXD. Refunds of this size are reviewed and approved manually by our Refund team. We have passed your request to them for review.
+
+Razorpay Support",,"Merchant asks for the status of a refund of Rs 150,000 for payment pay_5RD758JHHG9QXD, initiated 9 days ago.",pay_5RD758JHHG9QXD,150000
+T-0150,Settlement,auto_resolve,,Medium,"Hi Lagoon Crafts team,
+We know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,settlement_settled,KB-01,English,frustrated,none,,agent_review,PASS,False,"Rule 4 (KB-01): merchant status Settled; share last settlement Rs 63,000 on 28 Sep 2026 from the system. Tone frustrated + urgent: risk raised Low -> Medium.",M1002,Chat,30 Sep 2026 20:54,"Settlement of around Rs 63,000 is still pending and my supplier payments are stuck. Need this today. M1002",settlement_query,True,,cache,cache,,"Hi Lagoon Crafts team,
+We know waiting on a payout affects your business. As per our system, your last settlement of Rs 63,000 was credited on 28 Sep 2026. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements.
+
+Razorpay Support",,"Merchant M1002 says a settlement of around Rs 63,000 is still pending, is blocking supplier payments, and asks for it to be resolved today.",,63000

@@ -1,0 +1,25 @@
+templates:
+  settlement_settled:
+    action: auto_resolve
+    en: "As per our system, your last settlement of {last_settlement_amount} was credited on {last_settlement_date}. Settlements are credited T+2 business days after payment capture, excluding weekends and bank holidays. You can track every settlement under Dashboard > Settlements."
+    hi: "Hamare system ke hisaab se aapka last settlement {last_settlement_amount} {last_settlement_date} ko credit hua tha. Settlements payment capture ke T+2 business days baad credit hote hain (weekends aur bank holidays chhod kar). Aap Dashboard > Settlements me har settlement track kar sakte hain."
+
+  settlement_delayed:
+    action: auto_resolve
+    en: "Your settlement is delayed due to bank-side processing. As per our system, the expected settlement date is {expected_settlement_date}. You can track it under Dashboard > Settlements."
+    hi: "Aapka settlement bank-side processing ki wajah se delay hua hai. Hamare system ke hisaab se expected settlement date {expected_settlement_date} hai. Aap ise Dashboard > Settlements me track kar sakte hain."
+
+  settlement_hold_escalate:
+    action: escalate
+    en: "We can see that settlements on your account are currently on hold. We have passed your case to the specialist team that manages holds, who are looking into it."
+    hi: "Hum dekh sakte hain ki aapke account par settlements abhi hold par hain. Aapka case us specialist team ko bhej diya gaya hai jo holds handle karti hai, aur woh is par kaam kar rahi hai."
+
+  settlement_kyc_pending:
+    action: auto_resolve
+    en: "Your settlements are on hold because your KYC is pending. Please complete the pending documents under Dashboard > Account > KYC. Settlements are released within 1 business day of KYC being verified."
+    hi: "Aapke settlements hold par hain kyunki aapka KYC pending hai. Kripya Dashboard > Account > KYC me pending documents complete karein. KYC verify hone ke 1 business day ke andar settlements release ho jaate hain."
+
+  settlement_bank_mismatch:
+    action: auto_resolve
+    en: "Your settlements are on hold because the name on your bank account does not match your registered business or PAN name. Please re-add the correct account under Dashboard > Settings > Bank Account. Re-verification (penny-drop) completes within 24 hours."
+    hi: "Aapke settlements hold par hain kyunki bank account ka naam aapke registered business ya PAN naam se match nahi kar raha. Kripya Dashboard > Settings > Bank Account me sahi account dobara add karein. Re-verification (penny-drop) 24 hours me complete ho jaata hai."
